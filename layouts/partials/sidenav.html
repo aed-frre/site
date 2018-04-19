@@ -1,0 +1,33 @@
+ 
+ <ul id="slide-out" class="sidenav sidenav-fixed collapsible">
+ 		
+      
+      <li class="no-padding">
+         <ul class="collapsible collapsible-accordion">
+             {{ $currentPage := . }}
+             {{ range .Site.Menus.main }}
+                 {{ if .HasChildren }}
+                     </li>
+                     <li class="{{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">{{ .Title }}</a>
+                        <div class="collapsible-body">
+                          <ul>
+                              {{ range .Children }}
+                                  <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+                              {{ end }}
+                          </ul>
+                        </div>
+                    </li>
+                 {{ else }}                 
+                     <li>
+                         <a href="{{ .URL }}">{{ .Title }}</a>
+                     </li>
+                 {{ end }}
+             {{ end }}
+             
+         </ul>
+        </li>
+
+    </ul>
+<a href="#" data-target="slide-out" class="top-nav sidenav-trigger full hide-on-large-only"><i class="medium material-icons">menu</i></a>
+
