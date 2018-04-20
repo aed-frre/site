@@ -1,11 +1,11 @@
 ---
 
-title: "Guia de Trabajos Prácticos"
-description: "Guia de trabajos practicos"
+title: "Trabajos Prácticos"
+desc: "Guia de trabajos prácticos"
 menu:
   main:
     identifier: tps
-    weight: 20
+    weight: 5
 
 ---
 
