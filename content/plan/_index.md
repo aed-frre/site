@@ -1,7 +1,8 @@
 ---
 
 title: "Planificación"
-desc: "Contenido e información de la cátedra, condiciones de aprobación y regularización, bibliografía."
+Description: "Contenido e información de la cátedra, condiciones de aprobación y regularización, bibliografía."
+icon: "group"
 menu:
   main:
     identifier: plan

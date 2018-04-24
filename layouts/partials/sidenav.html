@@ -1,7 +1,5 @@
  
- <ul id="slide-out" class="sidenav sidenav-fixed collapsible">
- 		
-      
+ <ul id="slide-out" class="sidenav sidenav-fixed collapsible">      
       <li class="no-padding">
          <ul class="collapsible collapsible-accordion">
              {{ $currentPage := . }}
@@ -23,11 +21,9 @@
                          <a href="{{ .URL }}">{{ .Title }}</a>
                      </li>
                  {{ end }}
-             {{ end }}
-             
+             {{ end }}             
          </ul>
         </li>
-
     </ul>
-<a href="#" data-target="slide-out" class="top-nav sidenav-trigger full hide-on-large-only"><i class="medium material-icons">menu</i></a>
+<a href="#" data-target="slide-out" class="top-nav sidenav-trigger full hide-on-large-only btn-floating pulse"><i class="material-icons">menu</i></a>
 

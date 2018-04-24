@@ -1,10 +1,12 @@
 ---
 
 title: "Cronograma"
-desc: "Calendario de fechas de parciales, cuestionarios, laboratorios, entrega de trabajos prácticos, etc."
+Description: "Calendario de fechas de parciales, cuestionarios, laboratorios, entrega de trabajos prácticos, etc."
+icon: "group"
 menu:
   main:
     identifier: cron
     weight: 3
+
 
 ---

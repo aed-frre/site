@@ -1,7 +1,8 @@
 ---
 
 title: "Trabajos Prácticos"
-desc: "Guia de trabajos prácticos"
+Description: "Guia de trabajos prácticos"
+icon: "report"
 menu:
   main:
     identifier: tps

@@ -1,3 +1,9 @@
+.btn-floating {
+	margin-left: 10px;
+    margin-top: 10px;
+    background-color: #03a9f4;
+}
+
 .figure {
 	max-width: 100%;
 	overflow-x: auto;

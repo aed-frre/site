@@ -7,9 +7,22 @@
 	</div>
 	<div class="section">
 		<div class="row">
-			{{ .Content}}  
+			{{ range .Site.Menus.main }}
+				{{if ne .Title "Inicio"}}
+					{{ with .Page }}
+						<div class="col s12 m4">
+						  <div class="icon-block">
+						    <h2 class="center light-blue-text"><i class="material-icons">{{ .Params.icon }} </i></h2>
+						    <h5 class="center">{{ .Title }}</h5>
+						    <p class="light">{{ .Description }}</p>
+						  </div>
+						</div>
+					{{ end }}
+				{{ end }}
+			{{ end }}
 	    </div>
 	</div>
 </div>
 
 {{ partial "footer.html" . }}
+
