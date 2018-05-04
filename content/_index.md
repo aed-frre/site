@@ -6,7 +6,7 @@ menu:
   main:
     identifier: inicio
     title: Inicio
-    weight: 1
+    weight: 100
     
 ---
 

@@ -2,7 +2,7 @@
 
 <div class="container">
 	<div class="header">
-	  <h1>{{ .Title }}</h1>
+	  <h1 class="title">{{ .Title }}</h1>
 	  <p class="light">{{ .Description }}</p>
 	</div>
 	<div class="section">
@@ -12,7 +12,7 @@
 					{{ with .Page }}
 						<div class="col s12 m4">
 						  <div class="icon-block">
-						    <h2 class="center light-blue-text"><i class="material-icons">{{ .Params.icon }} </i></h2>
+						    <h2 class="center light-blue-text"><i class="medium material-icons">{{ .Params.icon }}</i></h2>
 						    <h5 class="center">{{ .Title }}</h5>
 						    <p class="light">{{ .Description }}</p>
 						  </div>

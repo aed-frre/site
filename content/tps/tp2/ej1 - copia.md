@@ -1,8 +1,8 @@
 ---
 
-Title: "Ejercicio 1.1"
-Unit: "1"
-Exercise: "1.1"
+tp: "2"
+sect: "1"
+ej: "1"
 
 ---
 
@@ -10,8 +10,9 @@ Una Fábrica que posee 4 plantas de producción en nuestro país y compra materi
 Para ello dispone de un archivo con los datos de las facturas correspondientes.	
 (Aclaración: el **archivo** no está ordenado por ningún criterio)
 
-{{<figure>}}
---------------------------------------------------------------------------------------<br>
-|**Nro_Factura| Proveedor (A,B,C) | Fecha (dd/mm/aaaa) | Nro_Planta (1..4) | Importe |<br>
---------------------------------------------------------------------------------------<br>
-{{</figure>}}
+
+|**Nro**Factura| **Proveedor** (A,B,C) | Fecha (dd/mm/aaaa) | Nro_Planta (1..4) | Importe |
+|---|---|---|---|---|
+
+
+

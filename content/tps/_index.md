@@ -1,12 +1,12 @@
 ---
 
 title: "Trabajos Prácticos"
-Description: "Guia de trabajos prácticos"
-icon: "report"
+Description: "Ejercicios por unidad para las clases prácticas de las cátedra"
+icon: "description"
 menu:
   main:
     identifier: tps
-    weight: 5
+    weight: 530
 
 ---
 
