@@ -2,105 +2,203 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algoritmos y Estructuras de Datos on Guia de Trabajos Practicos</title>
-    <link>http://tp.aed/</link>
+    <link>https://nelsonyaccuzzi.github.io/aed.io/</link>
     <description>Recent content in Algoritmos y Estructuras de Datos on Guia de Trabajos Practicos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://tp.aed/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nelsonyaccuzzi.github.io/aed.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Ejercicio 1.1</title>
-      <link>http://tp.aed/tps/tp2/ej1/</link>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1---copia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://tp.aed/tps/tp2/ej1/</guid>
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1---copia/</guid>
+      <description>Una Fábrica que posee 4 plantas de producción en nuestro país y compra materia prima a 3 proveedores distintos, desea realizar un control de los montos totales correspondientes a compras realizadas en cada planta durante el último año, discriminados por proveedor y por mes. Para ello dispone de un archivo con los datos de las facturas correspondientes. (Aclaración: el archivo no está ordenado por ningún criterio)
+   NroFactura Proveedor (A,B,C) Fecha (dd/mm/aaaa) Nro_Planta (1.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-01/</guid>
+      <description>Dada una secuencia de letras del alfabeto que finaliza con una marca &amp;lsquo;*&amp;lsquo;, contar cuantas letras &amp;ldquo;A&amp;rdquo; hay en la secuencia.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-02/</guid>
+      <description>Dada una secuencia de letras del alfabeto que finaliza con la letra &amp;ldquo;Z&amp;rdquo;, contar cuantas consonantes hay en la secuencia.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-03/</guid>
+      <description>Se dispone de una secuencia de caracteres y se desea obtener una secuencia de salida que resulte de copiar la secuencia de entrada, descartando el caracter &amp;ldquo;$&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-04/</guid>
+      <description>Se dispone de una secuencia de números de socios, y se desea saber la cantidad de socios que están registrados.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-05/</guid>
+      <description>La secuencia de socios del problema anterior tiene el inconveniente de que los números están ordenados pero no son correlativos. Se desea generar una secuencia que contenga los números de socios que no figuran en la secuencia de socios.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-06/</guid>
+      <description>Dada una secuencia de enteros que almacena la cantidad de habitantes de las ciudades capitales de las 23 provincias de la República Argentina, discriminados 4 categorías: menores de 18 años (varones y mujeres) y mayores de 18 años (varones y mujeres). Se pide determinar la población total y los siguientes porcentajes: masculinos, femeninos, mayores de 18 y menores de 18.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-07/</guid>
+      <description>Se tiene una secuencia de enteros que contiene todos los CUIT de los empleados de una empresa, la misma termina con el CUIT 0. Para evitar largas esperas en los días de pago, la empresa necesita organizarlos de acuerdo al último dígito de su documento, generar una secuencia con los CUIT de las personas que su número de documento termine con 0, 1, 2 o 3.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-08/</guid>
+      <description>Teniendo en cuenta el ejercicio anterior, se solicita que la secuencia de salida sea una secuencia de caracteres y los CUIT se separen unos de otros con el caracter &amp;ldquo;-&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-09/</guid>
+      <description>Se dispone de una secuencia de caracteres. Se desea determinar la cantidad de palabras que comienzan con la letra “I”.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-10/</guid>
+      <description>Se dispone de una secuencia de caracteres. Se desea permita contar la cantidad de palabras que comienzan con una letra dada.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-11/</guid>
+      <description>Dada una secuencia de caracteres, determinar la cantidad de palabras de 4 caracteres (letras)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-12/</guid>
+      <description>Se dispone de una secuencia de caracteres. Se desea listar las palabras que comiencen con &amp;ldquo;ALG&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-13/</guid>
+      <description>Se dispone de una secuencia de caracteres. Se desea listar las palabras que comiencen con &amp;ldquo;ALG&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-14/</guid>
+      <description>Se dispone de una secuencia de caracteres y se desea saber la cantidad de caracteres (incluidos los espacios) que existen entre una coma y la siguiente. Se debe considerar que puede haber más de un par de comas, y que las subsecuencias inicial y final deben descartarse por no cumplir la condición enunciada. Supóngase que las comas son siempre contiguas al último caracter de la palabra.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-15/</guid>
+      <description>Se desea saber la cantidad promedio de palabras que contienen las oraciones de una secuencia de caracteres. Supóngase que los puntos son siempre contiguos al último caracter de la palabra. La secuencia finaliza con una marca.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej1/</guid>
       <description>Una Fábrica que posee 4 plantas de producción en nuestro país y compra materia prima a 3 proveedores distintos, desea realizar un control de los montos totales correspondientes a compras realizadas en cada planta durante el último año, discriminados por proveedor y por mes. Para ello dispone de un archivo con los datos de las facturas correspondientes. (Aclaración: el archivo no está ordenado por ningún criterio)
 --------------------------------------------------------------------------------------
 |**Nro_Factura| Proveedor (A,B,C) | Fecha (dd/mm/aaaa) | Nro_Planta (1.</description>
     </item>
     
     <item>
-      <title>Ejercicio 1.1</title>
-      <link>http://tp.aed/tps/tp2/ej3/</link>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://tp.aed/tps/tp2/ej3/</guid>
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej2/</guid>
       <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
     </item>
     
     <item>
-      <title>Ejercicio 1.1</title>
-      <link>http://tp.aed/tps/tp2/ej4/</link>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://tp.aed/tps/tp2/ej4/</guid>
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej3/</guid>
       <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
     </item>
     
     <item>
-      <title>Ejercicio 1.1</title>
-      <link>http://tp.aed/tps/tp2/ej5/</link>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://tp.aed/tps/tp2/ej5/</guid>
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej4/</guid>
       <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
     </item>
     
     <item>
-      <title>Ejercicio 1.1</title>
-      <link>http://tp.aed/tps/tp3/ej1/</link>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://tp.aed/tps/tp3/ej1/</guid>
-      <description>Una Fábrica que posee 4 plantas de producción en nuestro país y compra materia prima a 3 proveedores distintos, desea realizar un control de los montos totales correspondientes a compras realizadas en cada planta durante el último año, discriminados por proveedor y por mes. Para ello dispone de un archivo con los datos de las facturas correspondientes. (Aclaración: el archivo no está ordenado por ningún criterio)
---------------------------------------------------------------------------------------
-|**Nro_Factura| Proveedor (A,B,C) | Fecha (dd/mm/aaaa) | Nro_Planta (1.</description>
-    </item>
-    
-    <item>
-      <title>Ejercicio 1.1</title>
-      <link>http://tp.aed/tps/tp3/ej3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://tp.aed/tps/tp3/ej3/</guid>
-      <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
-    </item>
-    
-    <item>
-      <title>Ejercicio 1.1</title>
-      <link>http://tp.aed/tps/tp3/ej4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://tp.aed/tps/tp3/ej4/</guid>
-      <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
-    </item>
-    
-    <item>
-      <title>Ejercicio 1.1</title>
-      <link>http://tp.aed/tps/tp3/ej5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://tp.aed/tps/tp3/ej5/</guid>
-      <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
-    </item>
-    
-    <item>
-      <title>Ejercicio 1.2</title>
-      <link>http://tp.aed/tps/tp2/ej2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://tp.aed/tps/tp2/ej2/</guid>
-      <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
-    </item>
-    
-    <item>
-      <title>Ejercicio 1.2</title>
-      <link>http://tp.aed/tps/tp3/ej2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://tp.aed/tps/tp3/ej2/</guid>
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej5/</guid>
       <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
     </item>
     

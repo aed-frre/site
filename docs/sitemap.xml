@@ -3,69 +3,129 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://tp.aed/</loc>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1---copia/</loc>
   </url>
   
   <url>
-    <loc>http://tp.aed/categories/</loc>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-01/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-02/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-03/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-04/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-05/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-06/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-07/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-08/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-09/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-10/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-11/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-12/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-13/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-14/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-15/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej4/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej5/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/acerca/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tp.aed/tps/tp2/ej1/</loc>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/cron/</loc>
   </url>
   
   <url>
-    <loc>http://tp.aed/tps/tp2/ej3/</loc>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/plan/</loc>
   </url>
   
   <url>
-    <loc>http://tp.aed/tps/tp2/ej4/</loc>
-  </url>
-  
-  <url>
-    <loc>http://tp.aed/tps/tp2/ej5/</loc>
-  </url>
-  
-  <url>
-    <loc>http://tp.aed/tps/tp3/ej1/</loc>
-  </url>
-  
-  <url>
-    <loc>http://tp.aed/tps/tp3/ej3/</loc>
-  </url>
-  
-  <url>
-    <loc>http://tp.aed/tps/tp3/ej4/</loc>
-  </url>
-  
-  <url>
-    <loc>http://tp.aed/tps/tp3/ej5/</loc>
-  </url>
-  
-  <url>
-    <loc>http://tp.aed/tps/tp2/ej2/</loc>
-  </url>
-  
-  <url>
-    <loc>http://tp.aed/tps/tp3/ej2/</loc>
-  </url>
-  
-  <url>
-    <loc>http://tp.aed/tps/</loc>
-  </url>
-  
-  <url>
-    <loc>http://tp.aed/tags/</loc>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://tp.aed/tps/tp2/</loc>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/teoria/</loc>
   </url>
   
   <url>
-    <loc>http://tp.aed/tps/tp3/</loc>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nelsonyaccuzzi.github.io/aed.io/tps/</loc>
   </url>
   
 </urlset>

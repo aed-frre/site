@@ -1,3 +1,59 @@
+table th {
+    border: 2px solid rgba(0,0,0,0.14);
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: normal;
+   
+}
+
+table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+.title {
+    color: #444;
+}
+
+li.logo {
+	 border-bottom: 1px solid rgba(0,0,0,0.14);
+}
+
+ul.sidenav.sidenav-fixed li.logo {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    margin-bottom: 10px;
+}
+
+#logo-container {
+    height: 120px;
+    margin-bottom: 32px;
+}
+
+#front-page-logo {
+    display: inline-block;
+    height: 100%;
+    pointer-events: none;
+}
+
+.sidenav .collapsible-header, .sidenav.fixed .collapsible-header {
+	padding: 0 32px;
+}
+
+.sidenav .collapsible-body li a, .sidenav.fixed .collapsible-body li a {
+    padding: 0 23.5px 0 46px;
+}
+
+
+
+.btn-floating {
+	margin-left: 10px;
+    margin-top: 10px;
+    background-color: #03a9f4;
+}
+
 .figure {
 	max-width: 100%;
 	overflow-x: auto;
