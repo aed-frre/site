@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-	<meta name="generator" content="Hugo 0.36" />
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-    <title>Algoritmos y Estructuras de Datos</title>
+    <title></title>
   
     
 
@@ -93,74 +92,21 @@
 
 <div class="container">
 	<div class="header">
-	  <h1 class="title">Algoritmos y Estructuras de Datos</h1>
-	  <p class="light">En este sitio podrá encontrar contenido de utilidad de la Cátedra Algortimos y Estructura de Datos dictada en la Facultad Regional Resistencia - Universidad Tecnologica Nacional.</p>
+	  <h1></h1>	  
 	</div>
 	<div class="section">
 		<div class="row">
-			
-				
-			
-				
-					
-						<div class="col s12 m4">
-						  <div class="icon-block">
-						    <h2 class="center light-blue-text"><i class="medium material-icons">assignment</i></h2>
-						    <h5 class="center">Planificación</h5>
-						    <p class="light">Contenido e información de la cátedra, condiciones de aprobación y regularización, bibliografía, etc.</p>
-						  </div>
-						</div>
-					
-				
-			
-				
-					
-						<div class="col s12 m4">
-						  <div class="icon-block">
-						    <h2 class="center light-blue-text"><i class="medium material-icons">event</i></h2>
-						    <h5 class="center">Cronograma</h5>
-						    <p class="light">Calendario de fechas de parciales, cuestionarios, laboratorios, entrega de trabajos prácticos, etc.</p>
-						  </div>
-						</div>
-					
-				
-			
-				
-					
-						<div class="col s12 m4">
-						  <div class="icon-block">
-						    <h2 class="center light-blue-text"><i class="medium material-icons">school</i></h2>
-						    <h5 class="center">Teoría</h5>
-						    <p class="light">Contenido oficial teórico de la cátedra realizado por los docentes</p>
-						  </div>
-						</div>
-					
-				
-			
-				
-					
-						<div class="col s12 m4">
-						  <div class="icon-block">
-						    <h2 class="center light-blue-text"><i class="medium material-icons">description</i></h2>
-						    <h5 class="center">Trabajos Prácticos</h5>
-						    <p class="light">Ejercicios por unidad para las clases prácticas de las cátedra</p>
-						  </div>
-						</div>
-					
-				
-			
-				
-					
-						<div class="col s12 m4">
-						  <div class="icon-block">
-						    <h2 class="center light-blue-text"><i class="medium material-icons">group</i></h2>
-						    <h5 class="center">Acerca de</h5>
-						    <p class="light">Te contamos como realizamos esta página y las tecnologías que usamos</p>
-						  </div>
-						</div>
-					
-				
-			
+			<p>Elaborar un procedimiento que dada una secuencia de caracteres como entrada genere otra del mismo tipo como salida.<br />
+La secuencia de caracteres que se recibe incluye números de tarjetas de crédito, donde cada número  tiene 16 dígitos. Se desea obtener como resultado una nueva secuencia de salida con los números de tarjetas válidos.<br />
+El algoritmo para la validación de números de tarjetas de crédito es el siguiente:
+Para entender mejor el método usaremos un número correcto: 4013-7001-0977-4812, al que nos referiremos en el texto. Nos centramos en los caracteres que ocupan posiciones impares.</p>
+
+<p>4 <strong>0</strong> 1 <strong>3</strong> 7 <strong>0</strong> 0 <strong>1</strong> 0 <strong>9</strong> 7 <strong>7</strong> 4 <strong>8</strong> 1 <strong>2</strong></p>
+
+<p>Por cada uno de ellos obtenemos el doble del valor que representan. Si el número resultante es menor que 9, se deja tal cual, en caso contrario, se le resta 9. En nuestro ejemplo: 4 * 2 = 8; 1 * 2 = 2; 7 * 2 = 14, mayor que nueve, se le resta 9. 14 - 9 = 5; y así sucesivamente. Si el número resultante de la suma de las multiplicaciones y de los dígitos en posición par, es múltiplo de 10, y a la vez menor o igual a 150, es un número de tarjeta válido.</p>
+
+<p>Para nuestro ejemplo: 8+0+2+3+5+0+0+1+0+9+5+7+8+8+2+2 = 60; por lo tanto el número es válido.</p>
+  
 	    </div>
 	</div>
 </div>
@@ -180,5 +126,3 @@
 </body>
 
 </html>
-
-

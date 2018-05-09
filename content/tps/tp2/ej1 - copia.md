@@ -11,8 +11,9 @@ Para ello dispone de un archivo con los datos de las facturas correspondientes.
 (Aclaración: el **archivo** no está ordenado por ningún criterio)
 
 
-|**Nro**Factura| **Proveedor** (A,B,C) | Fecha (dd/mm/aaaa) | Nro_Planta (1..4) | Importe |
-|---|---|---|---|---|
-
-
+{{< file >}}
+------------------------------------------------------------------------------------- </br>
+| NroFactura | Proveedor (A,B,C) | Fecha (dd/mm/aaaa) | Nro_Planta (1..4) | Importe | </br>
+------------------------------------------------------------------------------------- </br>
+{{</ file >}}
 

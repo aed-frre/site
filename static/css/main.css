@@ -1,19 +1,11 @@
-table th {
-    border: 2px solid rgba(0,0,0,0.14);
-    padding-left: 10px;
-    padding-right: 10px;
-    font-weight: normal;
-   
-}
-
-table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
 .title {
     color: #444;
+}
+
+.file {
+    overflow-x: auto;
+    white-space: nowrap;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 li.logo {
@@ -45,8 +37,6 @@ ul.sidenav.sidenav-fixed li.logo {
 .sidenav .collapsible-body li a, .sidenav.fixed .collapsible-body li a {
     padding: 0 23.5px 0 46px;
 }
-
-
 
 .btn-floating {
 	margin-left: 10px;
