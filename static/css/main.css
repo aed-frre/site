@@ -1,3 +1,15 @@
+@font-face {
+    font-family: IBM Plex Mono;
+    src: local(IBM Plex Mono), url('fonts/IBMPlexMono.ttf') format('opentype');
+}
+
+h4 {
+     border-bottom: 1px solid rgba(0,0,0,0.14);
+     margin-bottom: 5px;
+     margin-top: 5px;
+     padding-bottom: 15px;
+}
+
 .title {
     color: #444;
 }
@@ -25,8 +37,9 @@ ul.sidenav.sidenav-fixed li.logo {
 }
 
 #front-page-logo {
+    height: 120px;
     display: inline-block;
-    height: 100%;
+    
     pointer-events: none;
 }
 

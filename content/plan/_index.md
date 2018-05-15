@@ -12,7 +12,7 @@ menu:
 
 #### Equipo Docente
 
-<br/>
+---
 
 ##### _Profesores_
 
@@ -39,18 +39,20 @@ Mauro Rojas				| Auxiliar 2<sup>da<sup>| 1 DS 			| Viernes 8.30 hs a 10.55 hs <b
 <br/>
 
 #### Fundamentación de la asignatura
+---
 
 Los contenidos de la materia apuntan  a brindar el conocimiento para la solución de problemas de la Ingeniería teniendo como fundamento las herramientas de la programación
 Esta asignatura junto a otras pertenecientes  al área Programación, son las que permiten dar respuesta a la siguiente incumbencia profesional: *Evaluar y seleccionar los sistemas de programación disponibles con miras a su utilización en sistemas de información.*
 
 #### Objetivos
+---
 
 * Identificar problemas algorítmicos.
 * Conocer el proceso de diseño e implementación de software.
 * Aplicar las herramientas fundamentales representativas de los procesos, integrando la sintaxis elemental de un lenguaje de programación en el laboratorio asociado.
 
 #### Contenidos
-
+---
 ##### _Unidad I: Introducción a la Algoritmia_
 
 ###### **Objetivos**
@@ -223,14 +225,14 @@ Importancia de la eficiencia. Estimación de la complejidad en algoritmos no rec
 1. Rosa Guerequeta y Antonio Vallecillo. Técnicas de Diseño de Algoritmos. (libro digital ISBN: 84-7496-666-3)
 
 #### Consultas
-
+---
 Se establecen un horario fijo de consulta por la mañana los martes de 9 a 10 hs  y los jueves de 17 a 18 hs durante todo el año. Dicho horario será cubierto por la responsable de cátedra. Esto totaliza dos horas reloj semanal durante todo el año.  Ademàs, en función de los temas que se desarrollan y la necesidad de los alumnos, los auxiliares docentes establecerán horarios temporales de consulta, los que serán informados a los alumnos a través de carteles y aviso en el aula virtual.
 
 La cátedra hace uso de un aula virtual en el campus global; en la misma se informa sobre cronograma de clase, horarios de consulta, fechas de los exámenes, es además un repositorio de contenidos y de cuestionarios y actividades obligatorias. La dirección es http://frre.cvg.utn.edu.ar.
 Las acciones en el campus se encuentran segmentadas por semanas coincidentes con el cronograma de la planificación. 
 
 #### Evaluación del alumno
-
+---
 ##### Instrumentos
 
 Se determinan 4 instancias de evaluación constituidas por:  
@@ -264,7 +266,7 @@ Podrá hacer uso de recuperatorio en:
 4. Podrá presentar nuevamente el Trabajo Practico Integrador corregido, en los recuperatorios que se consignan en el calendario.
 
 #### Bibliografía
-
+---
 ##### Obligatoria
 
 1. Lucas M., Peyrin J., Scholl P. Algorítmica y Representación de datos. Tomo I. Secuencias, autómatas de estados finitos. Masson, 1985.
