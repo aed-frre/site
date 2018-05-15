@@ -12,16 +12,6 @@
     
     <item>
       <title></title>
-      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1---copia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1---copia/</guid>
-      <description>Una Fábrica que posee 4 plantas de producción en nuestro país y compra materia prima a 3 proveedores distintos, desea realizar un control de los montos totales correspondientes a compras realizadas en cada planta durante el último año, discriminados por proveedor y por mes. Para ello dispone de un archivo con los datos de las facturas correspondientes. (Aclaración: el archivo no está ordenado por ningún criterio)
-------------------------------------------------------------------------------------- | NroFactura | Proveedor (A,B,C) | Fecha (dd/mm/aaaa) | Nro_Planta (1.</description>
-    </item>
-    
-    <item>
-      <title></title>
       <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -290,49 +280,96 @@ A fin de año la Comisión Directiva de la Galería solicita que, a partir de to
     
     <item>
       <title></title>
-      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej1/</link>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej1/</guid>
-      <description>Una Fábrica que posee 4 plantas de producción en nuestro país y compra materia prima a 3 proveedores distintos, desea realizar un control de los montos totales correspondientes a compras realizadas en cada planta durante el último año, discriminados por proveedor y por mes. Para ello dispone de un archivo con los datos de las facturas correspondientes. (Aclaración: el archivo no está ordenado por ningún criterio)
---------------------------------------------------------------------------------------
-|**Nro_Factura| Proveedor (A,B,C) | Fecha (dd/mm/aaaa) | Nro_Planta (1.</description>
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-01/</guid>
+      <description>Se dispone de una secuencia con los datos de los alumnos de la facultad:
+ - Apellido y Nombre - Carrera (ISI - IEM - IQ) - Nº de Legajo - Fecha de Nacimiento - Fecha de Ingreso - D.N.I. - Sexo (M o F) - Fecha de último examen aprobado - Nota  Se desea un listado de los mismos, con el siguiente formato:
+------------------------------------------------------- | NroLegajo | Apellido y Nombre | Documento | Carrera |-------------------------------------------------------  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej2/</link>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej2/</guid>
-      <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-02/</guid>
+      <description>Se dispone de una secuencia de facturas con los siguientes datos:
+ - Nº de Factura - Fecha - Total  Se desea un listado de las facturas cuyas fechas sean posteriores a una fecha dada, y cuyos importes totales no alcancen los $1000, con el siguiente formato:
+------------------------------------- | NroLegajo | Fecha | Importe_Total |-------------------------------------  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej3/</link>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej3/</guid>
-      <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-03/</guid>
+      <description>Dada la siguiente secuencia de datos con el siguiente formato:
+ - Nº de socio - Nº de teléfono - Apellido y Nombre - Carrera (ISI - IEM - IQ - LAR) - Domicilio - Cantidad de unidades prestadas  Correspondiente a los alumnos socios de la Biblioteca, generar la secuencia de los alumnos de “ISI” que tengan prestadas más de 4 unidades bibliográficas.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej4/</link>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej4/</guid>
-      <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-04/</guid>
+      <description>A partir de la secuencia del ejercicio 2.01 se desea generar otra secuencia con los alumnos de una carrera dada que aprobaron alguna materia este año, con nota mayor a 7 (siete).</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej5/</link>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp3/ej5/</guid>
-      <description>Repita el ejercicio anterior de modo que sea posible estudiar varias funciones, indicando que se desea terminar al ingresar 9999 para el término cuadrático.</description>
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-05/</guid>
+      <description>A partir de la secuencia del ejercicio 2.01 se desea generar un listado con los alumnos que aprobaron la última materia rendida con nota superior a 7, e ingresaron el año pasado, con el siguiente formato:
+------------------------------------------- | NroLegajo | Apellido y Nombre | Carrera |-------------------------------------------  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-06/</guid>
+      <description>Se cuenta con una secuencia que contiene el Apellido y Nombre y Promedio General de los Graduados de una Facultad, y se solicita generar un listado con diversas recomendaciones para cubrir vacantes en una importante Empresa. Las mencionadas recomendaciones serán establecidas del siguiente modo: si el promedio es menor que 7, la recomendación será negativa (&amp;ldquo;NO&amp;rdquo;); por el contrario, si el promedio es menor que 8, la recomendación será positiva (&amp;ldquo;SI&amp;rdquo;); de lo contrario, si el promedio es menor que 9, la recomendación será favorable (&amp;ldquo;F&amp;rdquo;); por último, si el promedio supera los 9 puntos, la recomendación será muy favorable(&amp;ldquo;MF&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-07/</guid>
+      <description>Se dispone de un archivo con los datos de un padrón electoral con la siguiente información:
+ - Nombre y apellido - Clase - DNI - Dirección - Nº de Mesa - Observaciones - Nº de Circuito - Partido (0= independiente, 1=‘A’, 2=‘B’, 3=‘C’)  Generar:
+a) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las personas afiliadas al partido “C”.
+b) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las personas no afiliadas a ningún partido y de clase posterior a 1940.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-08/</guid>
+      <description>De los datos del siguiente ejercicio:
+Archivo COMPRAS ------------------------------------------ | NroCliente | FechaUltimaCompra | Monto |------------------------------------------ 
+Archivo CLIENTES ------------------------------------------------------------ | NroCliente | NombreApellido | Domicilio | Teléfono | DNI |------------------------------------------------------------ 
+Ambos archivos están ordenados por Nro. de Cliente en forma ascendente. Listar los nombres fecha y monto de última compra, de todos aquellos clientes cuya última compra sea posterior a una fecha dada y el monto supere un monto dado.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej2-09/</guid>
+      <description>Una casa deportiva dispone de un archivo de productos, ordenado por código de producto, que contiene los siguientes datos:
+------------------------------------------------------------------------------------------ | CodProd | Tipo (1,2,3) | Marca | Modelo | Descripcion | CantExistente | PrecioUnitario |------------------------------------------------------------------------------------------  Se ha registrado en el mercado un aumento de precios, el cual no es uniforme para todos los artículos, sino que varía según el tipo de los mismos de la siguiente manera: tipo 1- Calzados: 10%, tipo 2 – Indumentaria: 25%, tipo 3 - Accesorios (pelotas, raquetas, etc.</description>
     </item>
     
   </channel>

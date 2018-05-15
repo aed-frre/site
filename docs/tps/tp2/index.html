@@ -10,14 +10,8 @@
 
     <link rel="stylesheet" href="https://nelsonyaccuzzi.github.io/aed.io/css/materialize.css">
     <link rel="stylesheet" href="https://nelsonyaccuzzi.github.io/aed.io/css/main.css">
+    <link rel="stylesheet" href="https://nelsonyaccuzzi.github.io/aed.io/icons/material-icons.css">
   
-  
-    
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  
-    
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
   
     <link rel="shortcut icon" href="https://nelsonyaccuzzi.github.io/aed.io/img/favicon.ico" type="image/x-icon" />
   
@@ -72,8 +66,6 @@
                               
                                   <li><a href="/aed.io/tps/tp2/">Trabajo Práctico N° 2</a></li>
                               
-                                  <li><a href="/aed.io/tps/tp3/">Trabajo Práctico N° 3</a></li>
-                              
                           </ul>
                         </div>
                     </li>
@@ -92,30 +84,11 @@
 
 <div class="container">
 	<div class="header">
-	  <h1>Trabajo Práctico N° 2</h1>
+	  <h3>Trabajo Práctico N° 2</h3>
 	  <p class="light">En esta unidad se unidad se tratarán Secuencias de Datos Elementales, Secuencias de Registros, Corte de Control, Mezcla, Actualización, Archivos Indexados</p>
+	</br></br>
 	</div>
 	
-		<div class="header">
-		  <h4>Ejercicio .1.1</h4>	  
-		</div>
-		<div class="section">
-			<div class="row">
-				<p>Una Fábrica que posee 4 plantas de producción en nuestro país y compra materia prima a 3 proveedores distintos, desea realizar un control de los montos totales correspondientes a compras realizadas en cada planta durante el último año, discriminados por proveedor y por mes.
-Para ello dispone de un archivo con los datos de las facturas correspondientes.
-(Aclaración: el <strong>archivo</strong> no está ordenado por ningún criterio)</p>
-
-<div class="file">
-	
-------------------------------------------------------------------------------------- </br>
-| NroFactura | Proveedor (A,B,C) | Fecha (dd/mm/aaaa) | Nro_Planta (1..4) | Importe | </br>
-------------------------------------------------------------------------------------- </br>
-
-</div>
-  
-		    </div>
-		</div>
-    
 		<div class="header">
 		  <h4>Ejercicio .1.1</h4>	  
 		</div>
@@ -446,6 +419,212 @@ SOL Y PARANA,1997,$913,V/GRITO DE ESPERANZA,2003,$235,R/PENAS,1997,$781,V/……
 		<div class="section">
 			<div class="row">
 				<p>Dado el ejercicio anterior, pensar: cómo cambia el algoritmo solución en caso de que el “estilo de arte” se indique al principio de los datos de cada artista en la secuencia de artistas? Por qué? Hacer el algoritmo.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.1</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Se dispone de una secuencia con los datos de los alumnos de la facultad:</p>
+
+<ul>
+<li>- Apellido y Nombre</li>
+<li>- Carrera (ISI - IEM - IQ)</li>
+<li>- Nº de Legajo</li>
+<li>- Fecha de Nacimiento</li>
+<li>- Fecha de Ingreso</li>
+<li>- D.N.I.</li>
+<li>- Sexo (M o F)</li>
+<li>- Fecha de último examen aprobado</li>
+<li>- Nota</li>
+</ul>
+
+<p>Se desea un listado de los mismos, con el siguiente formato:</p>
+
+<div class="file">
+	
+------------------------------------------------------- </br>
+| NroLegajo | Apellido y Nombre | Documento | Carrera |</br>
+------------------------------------------------------- </br>
+
+</div>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.2</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Se dispone de una secuencia de facturas con los siguientes datos:</p>
+
+<ul>
+<li>- Nº de Factura</li>
+<li>- Fecha</li>
+<li>- Total</li>
+</ul>
+
+<p>Se desea un listado de las facturas cuyas fechas sean posteriores a una fecha dada, y cuyos importes totales no alcancen los $1000, con el siguiente formato:</p>
+
+<div class="file">
+	
+------------------------------------- </br>
+| NroLegajo | Fecha | Importe_Total |</br>
+------------------------------------- </br>
+
+</div>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.3</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Dada la siguiente secuencia de datos con el siguiente formato:</p>
+
+<ul>
+<li>- Nº de socio</li>
+<li>- Nº de teléfono</li>
+<li>- Apellido y Nombre</li>
+<li>- Carrera (ISI - IEM - IQ - LAR)</li>
+<li>- Domicilio</li>
+<li>- Cantidad de unidades prestadas</li>
+</ul>
+
+<p>Correspondiente a los alumnos socios de la Biblioteca, generar la secuencia de los alumnos de “ISI” que tengan prestadas más de 4 unidades bibliográficas.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.4</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>A partir de la secuencia del ejercicio 2.01 se desea generar otra  secuencia con los alumnos de una carrera dada que aprobaron alguna materia este año, con nota mayor a 7 (siete).</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.5</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>A partir de la secuencia del ejercicio 2.01 se desea generar un listado con los alumnos que aprobaron la última materia rendida con nota superior a 7, e ingresaron el año pasado, con el siguiente formato:</p>
+
+<div class="file">
+	
+------------------------------------------- </br>
+| NroLegajo | Apellido y Nombre | Carrera |</br>
+------------------------------------------- </br>
+
+</div>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.6</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Se cuenta con una secuencia que contiene el Apellido y Nombre  y Promedio General de los Graduados de una Facultad,  y se solicita generar un listado con diversas  recomendaciones para cubrir vacantes en una importante Empresa. Las mencionadas recomendaciones serán establecidas del siguiente modo: si el promedio es menor que 7, la recomendación será  negativa (&ldquo;NO&rdquo;); por el contrario, si el promedio es menor que 8, la recomendación será  positiva (&ldquo;SI&rdquo;); de lo contrario, si el promedio es menor que 9, la recomendación será  favorable (&ldquo;F&rdquo;);  por último, si el promedio supera los 9 puntos, la recomendación será  muy favorable(&ldquo;MF&rdquo;).
+El listado deber  respetar el siguiente formato:</p>
+
+<div class="file">
+	
+------------------------------------------------ </br>
+| Apellido y Nombre | Promedio | Recomendación |</br>
+------------------------------------------------ </br>
+
+</div>
+
+<p>Además, se solicita la impresión del total de graduados que recibieron cada una de las recomendaciones, y el promedio global de los mismos.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.7</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Se dispone de un archivo con los datos de un padrón electoral con la siguiente información:</p>
+
+<ul>
+<li>- Nombre y apellido</li>
+<li>- Clase</li>
+<li>- DNI</li>
+<li>- Dirección</li>
+<li>- Nº de Mesa</li>
+<li>- Observaciones</li>
+<li>- Nº de Circuito</li>
+<li>- Partido (0= independiente, 1=‘A’, 2=‘B’, 3=‘C’)</li>
+</ul>
+
+<p>Generar:<br />
+a) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las personas afiliadas al partido “C”.<br />
+b) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las personas no  afiliadas a ningún partido y de clase posterior a 1940.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.8</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>De los datos del siguiente ejercicio:</p>
+
+<p><strong>Archivo COMPRAS</strong>
+<div class="file">
+	
+------------------------------------------ </br>
+| NroCliente | FechaUltimaCompra | Monto |</br>
+------------------------------------------ </br>
+
+</div></p>
+
+<p><strong>Archivo CLIENTES</strong>
+<div class="file">
+	
+------------------------------------------------------------ </br>
+| NroCliente | NombreApellido | Domicilio | Teléfono | DNI |</br>
+------------------------------------------------------------ </br>
+
+</div></p>
+
+<p>Ambos archivos están ordenados por Nro. de Cliente en forma ascendente.
+Listar los nombres fecha y monto de última compra, de todos aquellos clientes cuya última compra sea posterior a una fecha dada y el monto supere un monto dado.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.9</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Una casa deportiva dispone de un archivo de productos, ordenado por código de producto, que  contiene los siguientes datos:</p>
+
+<div class="file">
+	
+------------------------------------------------------------------------------------------ </br>
+| CodProd | Tipo (1,2,3) | Marca | Modelo | Descripcion | CantExistente | PrecioUnitario |</br>
+------------------------------------------------------------------------------------------ </br>
+
+</div>
+
+<p>Se ha registrado en el mercado un aumento de precios, el cual no es uniforme para todos los artículos, sino que varía según el tipo de los mismos de la siguiente manera: tipo 1- Calzados: 10%, tipo 2 – Indumentaria: 25%, tipo 3 - Accesorios (pelotas, raquetas, etc.): 50%. Por este motivo el gerente de la empresa solicitó al Departamento de Informática que modifique los precios de acuerdo a los porcentajes antes mencionados.<br />
+Generar un nuevo fichero de productos para cumplir con la solicitud del gerente.<br />
+Al terminar el proceso informar cantidad total de artículos de cada tipo hay y total general.</p>
   
 		    </div>
 		</div>
