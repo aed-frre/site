@@ -94,7 +94,7 @@
 		</div>
 		<div class="section">
 			<div class="row">
-				<p>Dada una secuencia de letras del alfabeto que finaliza con una marca &lsquo;*&lsquo;, contar cuantas letras &ldquo;A&rdquo; hay en la secuencia.</p>
+				<p>Dada una secuencia de letras del alfabeto que finaliza con una marca &lsquo;<em>&rsquo;, contar cuantas letras &ldquo;A&rdquo; hay en la secuencia.</em></p>
   
 		    </div>
 		</div>
@@ -419,6 +419,59 @@ SOL Y PARANA,1997,$913,V/GRITO DE ESPERANZA,2003,$235,R/PENAS,1997,$781,V/……
 		<div class="section">
 			<div class="row">
 				<p>Dado el ejercicio anterior, pensar: cómo cambia el algoritmo solución en caso de que el “estilo de arte” se indique al principio de los datos de cada artista en la secuencia de artistas? Por qué? Hacer el algoritmo.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .1.30</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>El siguiente es un ejercicio del primer recuperatorio del primer parcial del año 2017:</p>
+
+<p>La AFIP dispone de dos secuencias de caracteres:
+- <strong>PERSONAS</strong>: contiene los siguientes datos de personas físicas o Empresas: nombre completo y fecha (de nacimiento o de creación, respectivamente), agrupadas por provincias. No existe carácter separador entre personas, el fin de cada provincia se indica con el carácter &amp;.
+Ejemplo:
+María Góm-14021977Carlos Alberto Rodriguez-20061990&hellip;.&amp;Lionel Messi-24061987&hellip;.&amp;&hellip;.{fin}
+nombre-ddmmaaaanombre-ddmmaa&hellip;.&amp;</p>
+
+<ul>
+<li><strong>CUIT</strong>: contiene la Clave Unica de Identificación Tributaria de las personas de la secuencia PERSONAS (existiendo una correspondencia una a una, es decir la primer persona con el primer cuit, la segunda con el segundo y asi sucesivamente)
+Cada número de CUIT se almacena por medio de 11 caracteres: los 2 primeros indican el tipo, los 6 siguientes el número de DNI (en caso de personas físicas) o de sociedad (en caso de Empresas) y el último es un digito verificador.
+Ejemplo
+<strong>20123456786</strong>23134567823<strong>30712434445</strong></li>
+</ul>
+
+<p>Los tipos pueden ser:20, 23, 24 y 27 para Personas Físicas y 30, 33 y 34 para Empresas.</p>
+
+<p>Se solicita.
+1) Generar una secuencia de salida que contenga DNI, y el nombre completo de todas las personas físicas cuyo nombre comience con vocal.
+2) Para cada Provincia calcular el total de personas físicas y el porcentaje sobre el total de la provincia.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .1.31</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>El siguiente es un ejercicio del primer parcial del año 2017:
+La empresa TICKET-TEC ha generado una secuencia de caracteres con información de sus ventas para los eventos de los últimos 3 meses, cuya estructura se describe a continuación.
+Inicialmente existe el nombre del local de los eventos, cuya longitud se desconoce, termina con un #; a continuación se tiene la información de todos los tickets vendidos para ese local, separado cada ticket del siguiente con el caracter !, y al final de todas las ventas para ese local, el caracter &amp;. Por último la marca de fin de secuencia. También en el caso de butaca se desconoce la longitud del número, termina con un guión.</p>
+
+<p><strong>Ejemplo:</strong>
+Teatro Opera#270520171A45-2030!270520173D120-2230!280520172C233-2030!&amp;Galpon de las
+Luces#070720171C5-2030!301020172A233-2230!&amp;{fin}</p>
+
+<p>local de eventos#Fecha del evento[ddmmaaaa] codigo del evento[1..3]  butaca [sector [A,C o D], número] - horario evento [hhmm]!</p>
+
+<p>Solo hay dos horarios 20:30 y 22:30.</p>
+
+<p>La empresa solicita un algoritmo que cumpla con las siguientes consignas:
+1. Generar una nueva secuencia de salida con el mismo formato, que contenga los tickets correspondientes a un mes ingresado por el usuario.
+2. Informar total general de tickets vendidos, total de tickets por evento y porcentaje de cada uno sobre el total general.</p>
   
 		    </div>
 		</div>

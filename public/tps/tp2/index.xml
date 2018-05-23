@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Algoritmos y Estructuras de Datos on Guia de Trabajos Practicos</title>
-    <link>https://nelsonyaccuzzi.github.io/aed.io/</link>
-    <description>Recent content in Algoritmos y Estructuras de Datos on Guia de Trabajos Practicos</description>
+    <title>Trabajo Práctico N° 2 on Guia de Trabajos Practicos</title>
+    <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/</link>
+    <description>Recent content in Trabajo Práctico N° 2 on Guia de Trabajos Practicos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://nelsonyaccuzzi.github.io/aed.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-01/</guid>
-      <description>Dada una secuencia de letras del alfabeto que finaliza con una marca &amp;lsquo;*&amp;lsquo;, contar cuantas letras &amp;ldquo;A&amp;rdquo; hay en la secuencia.</description>
+      <description>Dada una secuencia de letras del alfabeto que finaliza con una marca &amp;lsquo;&amp;rsquo;, contar cuantas letras &amp;ldquo;A&amp;rdquo; hay en la secuencia.</description>
     </item>
     
     <item>
@@ -276,6 +276,25 @@ A fin de año la Comisión Directiva de la Galería solicita que, a partir de to
       
       <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-29/</guid>
       <description>Dado el ejercicio anterior, pensar: cómo cambia el algoritmo solución en caso de que el “estilo de arte” se indique al principio de los datos de cada artista en la secuencia de artistas? Por qué? Hacer el algoritmo.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-30/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-30/</guid>
+      <description>El siguiente es un ejercicio del primer recuperatorio del primer parcial del año 2017:
+La AFIP dispone de dos secuencias de caracteres: - PERSONAS: contiene los siguientes datos de personas físicas o Empresas: nombre completo y fecha (de nacimiento o de creación, respectivamente), agrupadas por provincias. No existe carácter separador entre personas, el fin de cada provincia se indica con el carácter &amp;amp;. Ejemplo: María Góm-14021977Carlos Alberto Rodriguez-20061990&amp;hellip;.&amp;amp;Lionel Messi-24061987&amp;hellip;.&amp;amp;&amp;hellip;.{fin} nombre-ddmmaaaanombre-ddmmaa&amp;hellip;.&amp;amp;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-31/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nelsonyaccuzzi.github.io/aed.io/tps/tp2/ej1-31/</guid>
+      <description>El siguiente es un ejercicio del primer parcial del año 2017: La empresa TICKET-TEC ha generado una secuencia de caracteres con información de sus ventas para los eventos de los últimos 3 meses, cuya estructura se describe a continuación. Inicialmente existe el nombre del local de los eventos, cuya longitud se desconoce, termina con un #; a continuación se tiene la información de todos los tickets vendidos para ese local, separado cada ticket del siguiente con el caracter !</description>
     </item>
     
     <item>
