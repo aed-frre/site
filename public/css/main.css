@@ -1,3 +1,29 @@
+.fileul {
+    white-space: nowrap; 
+    list-style: none;
+    overflow: auto;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.fileul a {
+    font-size: 10px;
+    color:inherit;
+}
+
+.fileul .clave {
+    background-color: grey;
+    font-weight: bold;
+    color: white;
+}
+
+.fileul li{    
+    border: 1px solid rgba(0,0,0,0.14);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display:inline-block;
+}
+
 @font-face {
     font-family: IBM Plex Mono;
     src: local(IBM Plex Mono), url('fonts/IBMPlexMono.ttf') format('opentype');

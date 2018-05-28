@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Acerca de on Guia de Trabajos Practicos</title>
-    <link>https://nelsonyaccuzzi.github.io/aed.io/acerca/</link>
+    <link>http://osmc/acerca/</link>
     <description>Recent content in Acerca de on Guia de Trabajos Practicos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://nelsonyaccuzzi.github.io/aed.io/acerca/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://osmc/acerca/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

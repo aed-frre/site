@@ -1,3 +1,35 @@
+table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+}
+
+.fileul {
+    white-space: nowrap; 
+    list-style: none;
+    overflow: auto;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.fileul a {
+    font-size: 10px;
+    color:inherit;
+}
+
+.fileul .clave {
+    background-color: grey;
+    font-weight: bold;
+    color: white;
+}
+
+.fileul li{    
+    border: 1px solid rgba(0,0,0,0.14);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display:inline-block;
+}
+
 @font-face {
     font-family: IBM Plex Mono;
     src: local(IBM Plex Mono), url('fonts/IBMPlexMono.ttf') format('opentype');
@@ -12,12 +44,6 @@ h4 {
 
 .title {
     color: #444;
-}
-
-.file {
-    overflow-x: auto;
-    white-space: nowrap;
-    font-family: 'IBM Plex Mono', monospace;
 }
 
 li.logo {
@@ -55,13 +81,6 @@ ul.sidenav.sidenav-fixed li.logo {
 	margin-left: 10px;
     margin-top: 10px;
     background-color: #03a9f4;
-}
-
-.figure {
-	max-width: 100%;
-	overflow-x: auto;
-	white-space: nowrap;
-	font-family: 'IBM Plex Mono', monospace;
 }
 
 header, main, footer {
