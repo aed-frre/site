@@ -4,6 +4,17 @@ table {
         white-space: nowrap;
 }
 
+#cron .day {
+    border: none;
+}
+
+#cron td,th {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
 .fileul {
     white-space: nowrap; 
     list-style: none;
