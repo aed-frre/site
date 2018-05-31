@@ -105,7 +105,7 @@ menu:
     <td>TP2-3</td>
     <td>C10</td>
   </tr>
-  <tr>
+  <tr class="parcial">
     <td>13</td>
     <td>11/06 al 16/06</td>
     <td>U3-a</td>
@@ -118,7 +118,7 @@ menu:
     <td>TP3</td>
     <td>...</td>
   </tr>
-  <tr>
+  <tr class="parcial">
     <td>15</td>
     <td>25/06 al 30/06</td>
     <td>U3-b</td>
@@ -137,7 +137,7 @@ menu:
     <td colspan="3">1° Lab de Lenguaje</td>
     <td>2° llamado</td>
   </tr>
-  <tr>
+  <tr class="receso">
     <td>...</td>
     <td>16/07 al 28/07</td>
     <td colspan="3">Receso de Invierno</td>
@@ -203,7 +203,7 @@ menu:
     <td>TP4</td>
     <td>C17</td>
   </tr>
-  <tr>
+  <tr class="parcial">
     <td>24</td>
     <td>01/10 al 06/10</td>
     <td colspan="3">2° Parcial</td>
@@ -213,7 +213,7 @@ menu:
     <td>08/10 al 13/10</td>
     <td colspan="3">Presentación trabajo 2° Lab de Lenguaje</td>
   </tr>
-  <tr>
+  <tr class="parcial">
     <td>26</td>
     <td>15/10 al 20/10</td>
     <td>U4</td>
@@ -253,7 +253,7 @@ menu:
     <td>TP6</td>
     <td>C21</td>
   </tr>
-  <tr>
+  <tr class="parcial">
     <td>...</td>
     <td>26/11 al 01/12</td>
  	<td colspan="3">3° Parcial</td>
@@ -263,7 +263,7 @@ menu:
     <td>03/12 al 08/12</td>
  	<td colspan="3">Recuperatorio CV y TPI</td>
   </tr>
-  <tr>
+  <tr class="parcial">
     <td>...</td>
     <td>10/12 al 15/12</td>
  	<td colspan="3">Recuperatorio 3° Parcial y Firma de Libretas</td>
@@ -275,7 +275,7 @@ menu:
  	<td colspan="3">Firma de Libretas</td>
  	<td>7° llamado</td>
   </tr>
-  <tr>
+  <tr class="receso">
     <td>...</td>
     <td>24/12 al 16/02/19</td>
  	<td colspan="3">Receso de Verano</td>

@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>TP 2.2</title>
+  
+    
+
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/materialize.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/main.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/icons/material-icons.css">
+  
+  
+    <link rel="shortcut icon" href="http://aed.wfrre3.local/img/favicon.ico" type="image/x-icon" />
+  
+  </head>
+
+
+  <body>
+    <main>
+
+        
+ <ul id="slide-out" class="sidenav sidenav-fixed collapsible">
+      <li class="logo">
+        <a id="logo-container" href="/" class="brand-logo">
+          <object id="front-page-logo" type="image/svg+xml" data="http://aed.wfrre3.local/img/mobile.svg">Your browser does not support SVG</object>
+        </a>
+        <h5>aed.io</h5>
+      </li>      
+      <li class="no-padding">
+         <ul class="collapsible collapsible-accordion">
+             
+             
+                                  
+                     <li>
+                         <a href="/">Inicio</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/plan/">Planificación</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/cron/">Cronograma</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/teoria/">Teoría</a>
+                     </li>
+                 
+             
+                 
+                     </li>
+                     <li class="active">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Trabajos Prácticos</a>
+                        <div class="collapsible-body">
+                          <ul>
+                              
+                                  <li><a href="/tps/tp2.1/">TP 2.1</a></li>
+                              
+                                  <li><a href="/tps/tp2.2/">TP 2.2</a></li>
+                              
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/acerca/">Acerca de</a>
+                     </li>
+                 
+                          
+         </ul>
+        </li>
+    </ul>
+<a href="#" data-target="slide-out" class="top-nav sidenav-trigger full hide-on-large-only btn-floating pulse"><i class="material-icons">menu</i></a>
+
+<div class="container">
+	<div class="header">
+	  <h3>Trabajo Práctico N° 2.2</h3>
+	  <p class="light">En esta unidad se unidad se tratarán Secuencias de Registros</p>
+	</br></br>
+	</div>
+	
+		<div class="header">
+		  <h4>Ejercicio .2.1</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Se dispone de una secuencia con los datos de los alumnos de la facultad:</p>
+
+<ul>
+<li>- Apellido y Nombre</li>
+<li>- Carrera (ISI - IEM - IQ)</li>
+<li>- Nº de Legajo</li>
+<li>- Fecha de Nacimiento</li>
+<li>- Fecha de Ingreso</li>
+<li>- D.N.I.</li>
+<li>- Sexo (M o F)</li>
+<li>- Fecha de último examen aprobado</li>
+<li>- Nota</li>
+</ul>
+
+<p>Se desea un listado de los mismos, con el siguiente formato:</p>
+
+<ul class='fileul'>
+    <li class='clave'>Nro_Legajo
+    <li>Apellido_Nombre
+    <li>Documento
+    <li>Carrera
+</ul>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.2</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Se dispone de una secuencia de facturas con los siguientes datos:</p>
+
+<ul>
+<li>- Nº de Factura</li>
+<li>- Fecha</li>
+<li>- Total</li>
+</ul>
+
+<p>Se desea un listado de las facturas cuyas fechas sean posteriores a una fecha dada, y cuyos importes totales no alcancen los $1000, con el siguiente formato:</p>
+
+<ul class='fileul'>
+    <li class='clave'>NroLegajo
+    <li>Fecha
+    <li>Importe_Total
+</ul>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.3</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Dada la siguiente secuencia de datos con el siguiente formato:</p>
+
+<ul>
+<li>- Nº de socio</li>
+<li>- Nº de teléfono</li>
+<li>- Apellido y Nombre</li>
+<li>- Carrera (ISI - IEM - IQ - LAR)</li>
+<li>- Domicilio</li>
+<li>- Cantidad de unidades prestadas</li>
+</ul>
+
+<p>Correspondiente a los alumnos socios de la Biblioteca, generar la secuencia de los alumnos de “ISI” que tengan prestadas más de 4 unidades bibliográficas.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.4</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>A partir de la secuencia del ejercicio 2.01 se desea generar otra  secuencia con los alumnos de una carrera dada que aprobaron alguna materia este año, con nota mayor a 7 (siete).</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.5</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>A partir de la secuencia del ejercicio 2.01 se desea generar un listado con los alumnos que aprobaron la última materia rendida con nota superior a 7, e ingresaron el año pasado, con el siguiente formato:</p>
+
+<ul class='fileul'>
+    <li class='clave'>Nro_Legajo
+    <li>Apellido_Nombre
+    <li>Carrera
+</ul>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.6</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Se cuenta con una secuencia que contiene el Apellido y Nombre  y Promedio General de los Graduados de una Facultad,  y se solicita generar un listado con diversas  recomendaciones para cubrir vacantes en una importante Empresa. Las mencionadas recomendaciones serán establecidas del siguiente modo: si el promedio es menor que 7, la recomendación será  negativa (&ldquo;NO&rdquo;); por el contrario, si el promedio es menor que 8, la recomendación será  positiva (&ldquo;SI&rdquo;); de lo contrario, si el promedio es menor que 9, la recomendación será  favorable (&ldquo;F&rdquo;);  por último, si el promedio supera los 9 puntos, la recomendación será  muy favorable(&ldquo;MF&rdquo;).
+El listado deber  respetar el siguiente formato:</p>
+
+<ul class='fileul'>
+    <li>Apellido_Nombre
+    <li>Promedio
+    <li>Recomendación
+</ul>
+
+<p>Además, se solicita la impresión del total de graduados que recibieron cada una de las recomendaciones, y el promedio global de los mismos.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.7</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Se dispone de un archivo con los datos de un padrón electoral con la siguiente información:</p>
+
+<ul>
+<li>- Nombre y apellido</li>
+<li>- Clase</li>
+<li>- DNI</li>
+<li>- Dirección</li>
+<li>- Nº de Mesa</li>
+<li>- Observaciones</li>
+<li>- Nº de Circuito</li>
+<li>- Partido (0= independiente, 1=‘A’, 2=‘B’, 3=‘C’)</li>
+</ul>
+
+<p>Generar:<br />
+a) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las personas afiliadas al partido “C”.<br />
+b) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las personas no  afiliadas a ningún partido y de clase posterior a 1940.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.8</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>De los datos del siguiente ejercicio:</p>
+
+<p><strong>Archivo COMPRAS</strong></p>
+
+<ul class='fileul'>
+    <li class='clave'>Nro_Cliente
+    <li>Fecha_Ultima_Compra
+    <li>Monto
+</ul>
+
+<p><strong>Archivo CLIENTES</strong></p>
+
+<ul class='fileul'>
+    <li class='clave'>Nro_Cliente
+    <li>Apellido_Nombre
+    <li>Domicilio
+    <li>Teléfono
+    <li>DNI 
+</ul>
+
+<p>Ambos archivos están ordenados por Nro. de Cliente en forma ascendente.
+Listar los nombres fecha y monto de última compra, de todos aquellos clientes cuya última compra sea posterior a una fecha dada y el monto supere un monto dado.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.9</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Una casa deportiva dispone de un archivo de productos, ordenado por código de producto, que  contiene los siguientes datos:</p>
+
+<ul class='fileul'>
+    <li class='clave'>Cod_Producto
+    <li>Tipo <a>(1,2,3)</a>
+    <li>Marca
+    <li>Modelo
+    <li>Descripción
+    <li>Cantidad_Existente
+    <li>Precio_Unitario
+</ul>
+
+<p>Se ha registrado en el mercado un aumento de precios, el cual no es uniforme para todos los artículos, sino que varía según el tipo de los mismos de la siguiente manera: tipo 1- Calzados: 10%, tipo 2 – Indumentaria: 25%, tipo 3 - Accesorios (pelotas, raquetas, etc.): 50%. Por este motivo el gerente de la empresa solicitó al Departamento de Informática que modifique los precios de acuerdo a los porcentajes antes mencionados.<br />
+Generar un nuevo fichero de productos para cumplir con la solicitud del gerente.<br />
+Al terminar el proceso informar cantidad total de artículos de cada tipo hay y total general.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.10</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Del archivo general de alumnos de la U.T.N. - Facultad Regional Resistencia, ordenado por carrera, se desea emitir la cantidad de alumnos correspondientes a cada carrera y el total general.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.11</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Se dispone de un archivo con datos de los alumnos de la U.T.N. con la siguiente información para cada alumno:</p>
+
+<ul class='fileul'>
+    <li class='clave'>Sexo
+    <li class='clave'>Carrera
+    <li class='clave'>Nro_Legajo
+    <li>Fecha_Ingreso
+    <li>Total_Materias_Aprobadas
+</ul>
+
+<p>Se desea un listado con el siguiente detalle por sexo, carrera y total general<br />
+a) Total de alumnos que ingresaron en el año 2009 con más de 20 materias aprobadas.<br />
+b) Total de alumnos que ingresaron en el año 2009 con menos de 20 materias aprobadas</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.12</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Dada una secuencia con información de población de UNA PROVINCIA:</p>
+
+<ul class='fileul'>
+    <li class='clave'>Departamento
+    <li class='clave'>Ciudad
+    <li>Cantidad_Habitantes
+</ul>
+
+<p>Generar una secuencia con información de los departamentos de esa provincia, cuyo registro tenga el siguiente formato:</p>
+
+<ul class='fileul'>
+    <li>Departamento
+    <li>Cantidad_Habitantes
+</ul>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.13</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Un Casino de la región ha notado un incremento en los costos de las reparaciones de  tragamonedas en sus sucursales. Por ello solicitó un informe con la cantidad de reparaciones y sus costos, discriminados según tragamonedas, modelo, marca, sucursal y total general.</p>
+
+<p>Se dispone de un archivo REPARACIONES, con el siguiente formato. Cada registro representa la reparación de un tragamonedas, tener en cuenta que puede existir más de una reparación por tragamonedas.</p>
+
+<ul class='fileul'>
+    <li class='clave'>Cod_Sucursal
+    <li class='clave'>Marca
+    <li class='clave'>Modelo
+    <li class='clave'>Cod_Tragamonedas
+    <li>Fecha_Reparacion
+    <li>Costo_Reparacion
+</ul>
+ 
+
+<p>Realice el algoritmo para emitir el informe con los totales solicitados</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.14</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Dados el siguiente fichero con datos de un censo de la ciudad de Resistencia:</p>
+
+<ul class='fileul'>
+    <li class='clave'>Radio
+    <li class='clave'>Manzana
+    <li class='clave'>Nro_Vivienda
+    <li>Condicion_Vivienda
+    <li>Cantidad_Habitantes
+</ul>
+                        
+
+<p>Condición puede ser : Muy Buena, Buena o Mala.
+Obtener los siguientes totales de personas que habitan en viviendas cuya condición es muy buena: total en la ciudad y totales por Radio y Manzana).</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.15</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>El organismo del cual dependen las escuelas de un distrito lleva un archivo con los registros para todos los alumnos de nivel secundario de ese distrito:</p>
+
+<ul class='fileul'>
+    <li class='clave'>Escuela
+    <li class='clave'>Año
+    <li class='clave'>División
+    <li>Nombre
+    <li>Cant_Inasistencias
+</ul>
+
+<p>Se introduce como dato el número de distrito y la cantidad de días de clase dictados en el año.
+El archivo está ordenado por número de escuela, año y división.
+Los alumnos que superan el 20% de las inasistencias están en situación de LIBRES, de lo contrario son REGULARES.</p>
+
+<p>Se desea conocer:<br />
+<strong>Para cada división:</strong><br />
+- Cantidad de alumnos<br />
+<strong>Para cada año:</strong><br />
+- Cantidad total de alumnos libres<br />
+- Cantidad de alumnos regulares<br />
+- Cantidad total de alumnos<br />
+<strong>Todas las escuelas:</strong><br />
+- Cantidad total de alumnos<br />
+- Porcentaje de alumnos libres.
+- Promedio de inasistencias por alumnos.</p>
+
+<p>Modelo de listado a emitir:</p>
+
+<table>
+  <tr>
+    <th colspan="3">Lista de Alumnos Regulares</th>
+ </tr>
+  <tr>
+    <th>Nombre</th>
+    <th>% Inasistencias</th>
+    <th>Situación</th>
+  </tr>
+  <tr>
+    <td>Perez</td>
+    <td>28%</td>
+    <td>Libre</td>
+  </tr>
+  <tr>
+    <td>Solá</td>
+    <td>16%</td>
+    <td>Regular</td>
+  </tr>
+  <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Total alumnos Div. A</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td>Total alumnos Div. B</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td>Total alumnos libres 1° Año</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td>Total alumnos regulares 1° Año</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td>Total alumnos 1° Año</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td>...</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td>Total alumnos libres 2° Año</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td>Total alumnos regulares 2° Año</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td>Total alumnos 2° Año</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td>...</td>
+    <td>...</td>
+    <td>...</td>
+  </tr>
+  <tr>
+    <td colspan="3">Totales Escuela</td>
+  </tr>
+  <tr>
+    <td>Total alumnos</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td>% de alumnos libres</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td>Promedio de inasistencias por alumnos</td>
+    <td colspan="2">...</td>
+  </tr>
+  <tr>
+    <td colspan="3">Idem para las demás escuelas</td>
+  </tr>
+</table>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.16</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Construir un algoritmo que a partir de un fichero de películas nuevas conteniendo:</p>
+
+<p>P_nuevas
+<ul class='fileul'>
+    <li class='clave'>Nro_Pelicula
+    <li>Titulo
+    <li>Genero
+    <li>Cant_Copias
+    <li>Fecha_Estreno
+</ul></p>
+
+<p>y otro fichero de peliculas existentes, ambos ordenados por película,</p>
+
+<p>Peliculas
+<ul class='fileul'>
+    <li class='clave'>Nro_Pelicula
+    <li>Titulo
+    <li>Genero
+    <li>Cant_Copias
+    <li>Fecha_Estreno
+</ul></p>
+
+<p>Genere un único archivo (con el mismo formato de los ficheros de entrada) que contenga todas las peliculas. Considerar que hay un solo registro por película y no se repiten entre ficheros.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.17</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>La Secretaria Academica de la Facultad lanza un proyecto para incentivar a aquellos alumnos que realizaron el Cursillo de Ingreso a la Universidad y no lograron aprobarlo en los turnos de Agosto y Febrero, de manera de brindarles apoyo Academico con el fin de que, en el Cursillo del año siguiente puedan aprobar los examenes necesarios e ingresar a la Universidad.</p>
+
+<p>Para esto, dicha Secretaria­necesita crear un archivo donde se encuentren todos los aspirantes que realizaron el Cursillo de Ingreso en ambos turnos, y no lograron aprobarlo.</p>
+
+<p>Los datos correspondientes a cada uno de los turnos del Cursillo dictado están almacenados en dos archivos (uno para cada turno), los cuales presentan el siguiente formato:</p>
+
+<p>Aspirantes (ordenado por Nro. de DNI)
+<ul class='fileul'>
+    <li class='clave'>Nro. de DNI
+    <li>ApeyNom
+    <li>Carrera
+    <li>F_Nac
+    <li>Email
+    <li>ColegioSec
+    <li>FechaInscripcion
+    <li>Aprobado (Si/No)
+</ul></p>
+
+<p>UD debe realizar un algoritmo que permita mezclar los archivos Aspirantes (de Agosto y Febrero) y generar un archivo SEGUIMIENTO con el siguiente formato:</p>
+
+<p>SEGUIMIENTO (ordenado por Nro. de DNI)
+<ul class='fileul'>
+    <li class='clave'>Nro. de DNI
+    <li>ApeyNom
+    <li>Email
+    <li>ColegioSec
+</ul></p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h4>Ejercicio .2.18</h4>	  
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Un supermercado desea conocer la totalidad de unidades existentes de cada artículo a fin de hacer un control de stock y decidir si se deben comprar nuevas unidades o redistribuir la mercadería existente.</p>
+
+<p>El supermercado posee dos sucursales, cada una de las cuales envió su información en un fichero con el siguiente formato:</p>
+
+<ul class='fileul'>
+    <li>Cod_Prod
+    <li>Tipo
+    <li>Marca
+    <li>Descripción
+    <li>Cant_Unidades
+</ul>
+
+<p>Escribir un algortimo que permita obtener un único fichero de salida, con el mismo formato, que contenga la información solicitada y además, emita un listado con los siguientes datos:</p>
+
+<table>
+<thead>
+<tr>
+<th>Cod_Prod</th>
+<th>Tipo</th>
+<th>Marca</th>
+<th>Descripción</th>
+<th>Cant_Suc_1</th>
+<th>Cant_Suc_2</th>
+<th>Total_Unidades</th>
+</tr>
+</thead>
+
+<tbody>
+</tbody>
+</table>
+  
+		    </div>
+		</div>
+    
+</div>
+
+	</main>
+	<script src="http://aed.wfrre3.local/js/jquery-3.3.1.min.js"></script>
+	<script src="http://aed.wfrre3.local/js/main.js"></script>
+	<script src="http://aed.wfrre3.local/js/materialize.js"></script>
+	<footer class="page-footer blue">
+		<div class="footer-copyright">
+	    	<div class="container">
+	        	Universidad Tecnologíca Nacional - Facultad Regional Resistencia	            
+	        </div>
+	    </div>
+	</footer>
+
+</body>
+
+</html>
+
+
+

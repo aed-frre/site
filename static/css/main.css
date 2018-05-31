@@ -1,3 +1,11 @@
+.parcial {
+    background: #BBDEFB;
+}
+
+.receso {
+    background: #FFF9C4;;
+}
+
 table {
         display: block;
         overflow-x: auto;

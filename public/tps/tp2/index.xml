@@ -2,191 +2,191 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Trabajo Práctico N° 2 on Guia de Trabajos Practicos</title>
-    <link>http://osmc/tps/tp2/</link>
+    <link>http://aed.wfrre3.local/tps/tp2/</link>
     <description>Recent content in Trabajo Práctico N° 2 on Guia de Trabajos Practicos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="http://osmc/tps/tp2/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://aed.wfrre3.local/tps/tp2/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-01/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-01/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-01/</guid>
       <description>Dada una secuencia de letras del alfabeto que finaliza con una marca &amp;lsquo;&amp;rsquo;, contar cuantas letras &amp;ldquo;A&amp;rdquo; hay en la secuencia.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-02/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-02/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-02/</guid>
       <description>Dada una secuencia de letras del alfabeto que finaliza con la letra &amp;ldquo;Z&amp;rdquo;, contar cuantas consonantes hay en la secuencia.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-03/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-03/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-03/</guid>
       <description>Se dispone de una secuencia de caracteres y se desea obtener una secuencia de salida que resulte de copiar la secuencia de entrada, descartando el caracter &amp;ldquo;$&amp;rdquo;.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-04/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-04/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-04/</guid>
       <description>Se dispone de una secuencia de números de socios, y se desea saber la cantidad de socios que están registrados.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-05/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-05/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-05/</guid>
       <description>La secuencia de socios del problema anterior tiene el inconveniente de que los números están ordenados pero no son correlativos. Se desea generar una secuencia que contenga los números de socios que no figuran en la secuencia de socios.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-06/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-06/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-06/</guid>
       <description>Dada una secuencia de enteros que almacena la cantidad de habitantes de las ciudades capitales de las 23 provincias de la República Argentina, discriminados 4 categorías: menores de 18 años (varones y mujeres) y mayores de 18 años (varones y mujeres). Se pide determinar la población total y los siguientes porcentajes: masculinos, femeninos, mayores de 18 y menores de 18.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-07/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-07/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-07/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-07/</guid>
       <description>Se tiene una secuencia de enteros que contiene todos los CUIT de los empleados de una empresa, la misma termina con el CUIT 0. Para evitar largas esperas en los días de pago, la empresa necesita organizarlos de acuerdo al último dígito de su documento, generar una secuencia con los CUIT de las personas que su número de documento termine con 0, 1, 2 o 3.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-08/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-08/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-08/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-08/</guid>
       <description>Teniendo en cuenta el ejercicio anterior, se solicita que la secuencia de salida sea una secuencia de caracteres y los CUIT se separen unos de otros con el caracter &amp;ldquo;-&amp;rdquo;.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-09/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-09/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-09/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-09/</guid>
       <description>Se dispone de una secuencia de caracteres. Se desea determinar la cantidad de palabras que comienzan con la letra “I”.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-10/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-10/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-10/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-10/</guid>
       <description>Se dispone de una secuencia de caracteres. Se desea permita contar la cantidad de palabras que comienzan con una letra dada.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-11/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-11/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-11/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-11/</guid>
       <description>Dada una secuencia de caracteres, determinar la cantidad de palabras de 4 caracteres (letras)</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-12/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-12/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-12/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-12/</guid>
       <description>Se dispone de una secuencia de caracteres. Se desea listar las palabras que comiencen con &amp;ldquo;ALG&amp;rdquo;.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-13/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-13/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-13/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-13/</guid>
       <description>Se dispone de una secuencia de caracteres. Se desea listar las palabras que comiencen con &amp;ldquo;ALG&amp;rdquo;.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-14/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-14/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-14/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-14/</guid>
       <description>Se dispone de una secuencia de caracteres y se desea saber la cantidad de caracteres (incluidos los espacios) que existen entre una coma y la siguiente. Se debe considerar que puede haber más de un par de comas, y que las subsecuencias inicial y final deben descartarse por no cumplir la condición enunciada. Supóngase que las comas son siempre contiguas al último caracter de la palabra.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-15/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-15/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-15/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-15/</guid>
       <description>Se desea saber la cantidad promedio de palabras que contienen las oraciones de una secuencia de caracteres. Supóngase que los puntos son siempre contiguos al último caracter de la palabra. La secuencia finaliza con una marca.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-16/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-16/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-16/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-16/</guid>
       <description>Se dispone de una secuencia de números de DNI asignados a un circuito electoral, generar otra secuencia de números que contenga los DNI múltiplos de 3.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-17/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-17/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-17/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-17/</guid>
       <description>Se desea calcular el costo de un telegrama, que se determina en función del número de palabras (que vale V1 cada una), salvo que el promedio de letras por palabra supere las cinco letras, caso en que cada palabra vale V2.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-18/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-18/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-18/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-18/</guid>
       <description>Escribir un algoritmo que produzca una secuencia de salida que contenga una oración formada por por las palabras en posición par de cada oración de una secuencia texto de entrada, que además comienzan con la letra “M”.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-19/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-19/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-19/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-19/</guid>
       <description>Dada una secuencia de caracteres, generar otra secuencia con todas las palabras de tres caracteres. Informar el porcentaje de las mismas, sobre el total de palabras de la secuencia de entrada. Considerar que puede haber más de un blanco entre palabras.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-20/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-20/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-20/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-20/</guid>
       <description>Se dispone de dos secuencias texto formadas por oraciones bimembres (sujeto y predicado, separados por comas ‘,’). Se desea una secuencia texto de salida formada por oraciones bimembres, de la siguiente forma:
 El sujeto, de la secuencia 1, y el predicado, de la secuencia 2.
 Al finalizar informar cuantas oraciones tiene cada secuencia.</description>
@@ -194,10 +194,10 @@ Al finalizar informar cuantas oraciones tiene cada secuencia.</description>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-21/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-21/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-21/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-21/</guid>
       <description>Se dispone de dos secuencias texto formadas por oraciones bimembres (sujeto y predicado, separados por comas ‘,’). Se desea una secuencia texto de salida formada por oraciones bimembres, de la siguiente forma:
 El sujeto, de la secuencia 2, y el predicado, de la secuencia 1
 Al finalizar informar cuantas oraciones tiene cada secuencia.</description>
@@ -205,55 +205,55 @@ Al finalizar informar cuantas oraciones tiene cada secuencia.</description>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-22/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-22/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-22/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-22/</guid>
       <description>La empresa Ideas Argentinas S.A. posee datos de sus empleados en dos secuencias de caracteres; la primera secuencia (Sec1) formada por los nombres (uno por persona) de los empleados separados por blancos y la segunda secuencia (Sec2) posee los números de documento de cada uno de los empleados (palabras de 8 dígitos numéricos). Ambas secuencias poseen la misma cantidad de datos, es decir al primer nombre de la primera secuencia le corresponde el primer número de documento de la segunda secuencia y así sucesivamente.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-23/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-23/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-23/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-23/</guid>
       <description>Realice un algoritmo para el enunciado del ejercicio 1.22, pero considerando que los datos que se deben copiar en la Sec3 son los de aquellas personas que cumplan la condición de que: el número de documento comienza con un número impar.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-24/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-24/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-24/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-24/</guid>
       <description>Realice un algoritmo para el enunciado del ejercicio 1.22, pero considerando que los datos que se deben copiar en la Sec3 son los de aquellas personas que cumplan la condición de que: el nombre no comienza con una vocal.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-25/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-25/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-25/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-25/</guid>
       <description>Dada una secuencia texto de entrada que contiene palabras alfanuméricas, escribir un algoritmo que genere dos secuencias de salida. Una de ellas contendrá solo las palabras de la secuencia original que comienzan con vocal, en las cuales se reemplazarán todas las vocales por ‘#’, por ejemplo: entrada “avión1”, salida “#v##n1” y la otra será una secuencia numérica en la que se almacenarán las cantidades de vocales que se encontraron en cada una de las palabras que cumplieron la condición.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-26/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-26/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-26/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-26/</guid>
       <description>Se posee 2 secuencias (S1 y S2) con las cuales se desea generar una nueva secuencia (SAL) donde se intercalen las palabras de las secuencias de entrada, de la siguiente manera: copiar de S1 aquellas palabras que empiezan y terminan con la misma letra y de S2 aquellas palabras que posean al menos un digito numérico y además estén en posición par.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-27/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-27/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-27/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-27/</guid>
       <description>Elaborar un procedimiento que dada una secuencia de caracteres como entrada genere otra del mismo tipo como salida.
 La secuencia de caracteres que se recibe incluye números de tarjetas de crédito, donde cada número tiene 16 dígitos. Se desea obtener como resultado una nueva secuencia de salida con los números de tarjetas válidos.
 El algoritmo para la validación de números de tarjetas de crédito es el siguiente: Para entender mejor el método usaremos un número correcto: 4013-7001-0977-4812, al que nos referiremos en el texto.</description>
@@ -261,48 +261,48 @@ El algoritmo para la validación de números de tarjetas de crédito es el sigui
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-28/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-28/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-28/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-28/</guid>
       <description>La galería de pintura y arte nacional, PINTA DE ARGENTINA, almacena información sobre los artistas y sus obras de arte en secuencias de caracteres. Durante todo el año, las obras de arte son expuestas en eventos de subasta y exposición, en los cuales se comercializan al público en general.
 A fin de año la Comisión Directiva de la Galería solicita que, a partir de toda esa información, se generen algunos informes.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-29/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-29/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-29/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-29/</guid>
       <description>Dado el ejercicio anterior, pensar: cómo cambia el algoritmo solución en caso de que el “estilo de arte” se indique al principio de los datos de cada artista en la secuencia de artistas? Por qué? Hacer el algoritmo.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-30/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-30/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-30/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-30/</guid>
       <description>El siguiente es un ejercicio del primer recuperatorio del primer parcial del año 2017:
 La AFIP dispone de dos secuencias de caracteres: - PERSONAS: contiene los siguientes datos de personas físicas o Empresas: nombre completo y fecha (de nacimiento o de creación, respectivamente), agrupadas por provincias. No existe carácter separador entre personas, el fin de cada provincia se indica con el carácter &amp;amp;. Ejemplo: María Góm-14021977Carlos Alberto Rodriguez-20061990&amp;hellip;.&amp;amp;Lionel Messi-24061987&amp;hellip;.&amp;amp;&amp;hellip;.{fin} nombre-ddmmaaaanombre-ddmmaa&amp;hellip;.&amp;amp;</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej1-31/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej1-31/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej1-31/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej1-31/</guid>
       <description>El siguiente es un ejercicio del primer parcial del año 2017: La empresa TICKET-TEC ha generado una secuencia de caracteres con información de sus ventas para los eventos de los últimos 3 meses, cuya estructura se describe a continuación. Inicialmente existe el nombre del local de los eventos, cuya longitud se desconoce, termina con un #; a continuación se tiene la información de todos los tickets vendidos para ese local, separado cada ticket del siguiente con el caracter !</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej2-01/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej2-01/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-01/</guid>
       <description>Se dispone de una secuencia con los datos de los alumnos de la facultad:
  - Apellido y Nombre - Carrera (ISI - IEM - IQ) - Nº de Legajo - Fecha de Nacimiento - Fecha de Ingreso - D.N.I. - Sexo (M o F) - Fecha de último examen aprobado - Nota  Se desea un listado de los mismos, con el siguiente formato:
 Nro_Legajo Apellido_Nombre Documento Carrera  </description>
@@ -310,10 +310,10 @@ Nro_Legajo Apellido_Nombre Documento Carrera  </description>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej2-02/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-02/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej2-02/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-02/</guid>
       <description>Se dispone de una secuencia de facturas con los siguientes datos:
  - Nº de Factura - Fecha - Total  Se desea un listado de las facturas cuyas fechas sean posteriores a una fecha dada, y cuyos importes totales no alcancen los $1000, con el siguiente formato:
 NroLegajo Fecha Importe_Total  </description>
@@ -321,48 +321,48 @@ NroLegajo Fecha Importe_Total  </description>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej2-03/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-03/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej2-03/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-03/</guid>
       <description>Dada la siguiente secuencia de datos con el siguiente formato:
  - Nº de socio - Nº de teléfono - Apellido y Nombre - Carrera (ISI - IEM - IQ - LAR) - Domicilio - Cantidad de unidades prestadas  Correspondiente a los alumnos socios de la Biblioteca, generar la secuencia de los alumnos de “ISI” que tengan prestadas más de 4 unidades bibliográficas.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej2-04/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-04/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej2-04/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-04/</guid>
       <description>A partir de la secuencia del ejercicio 2.01 se desea generar otra secuencia con los alumnos de una carrera dada que aprobaron alguna materia este año, con nota mayor a 7 (siete).</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej2-05/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-05/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej2-05/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-05/</guid>
       <description>A partir de la secuencia del ejercicio 2.01 se desea generar un listado con los alumnos que aprobaron la última materia rendida con nota superior a 7, e ingresaron el año pasado, con el siguiente formato:
 Nro_Legajo Apellido_Nombre Carrera  </description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej2-06/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-06/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej2-06/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-06/</guid>
       <description>Se cuenta con una secuencia que contiene el Apellido y Nombre y Promedio General de los Graduados de una Facultad, y se solicita generar un listado con diversas recomendaciones para cubrir vacantes en una importante Empresa. Las mencionadas recomendaciones serán establecidas del siguiente modo: si el promedio es menor que 7, la recomendación será negativa (&amp;ldquo;NO&amp;rdquo;); por el contrario, si el promedio es menor que 8, la recomendación será positiva (&amp;ldquo;SI&amp;rdquo;); de lo contrario, si el promedio es menor que 9, la recomendación será favorable (&amp;ldquo;F&amp;rdquo;); por último, si el promedio supera los 9 puntos, la recomendación será muy favorable(&amp;ldquo;MF&amp;rdquo;).</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej2-07/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-07/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej2-07/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-07/</guid>
       <description>Se dispone de un archivo con los datos de un padrón electoral con la siguiente información:
  - Nombre y apellido - Clase - DNI - Dirección - Nº de Mesa - Observaciones - Nº de Circuito - Partido (0= independiente, 1=‘A’, 2=‘B’, 3=‘C’)  Generar:
 a) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las personas afiliadas al partido “C”.
@@ -371,10 +371,10 @@ b) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej2-08/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-08/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej2-08/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-08/</guid>
       <description>De los datos del siguiente ejercicio:
 Archivo COMPRAS
 Nro_Cliente Fecha_Ultima_Compra Monto  Archivo CLIENTES
@@ -383,12 +383,108 @@ Nro_Cliente Apellido_Nombre Domicilio Teléfono DNI  Ambos archivos están orden
     
     <item>
       <title></title>
-      <link>http://osmc/tps/tp2/ej2-09/</link>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-09/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://osmc/tps/tp2/ej2-09/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-09/</guid>
       <description>Una casa deportiva dispone de un archivo de productos, ordenado por código de producto, que contiene los siguientes datos:
 Cod_Producto Tipo (1,2,3) Marca Modelo Descripción Cantidad_Existente Precio_Unitario  Se ha registrado en el mercado un aumento de precios, el cual no es uniforme para todos los artículos, sino que varía según el tipo de los mismos de la siguiente manera: tipo 1- Calzados: 10%, tipo 2 – Indumentaria: 25%, tipo 3 - Accesorios (pelotas, raquetas, etc.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-10/</guid>
+      <description>Del archivo general de alumnos de la U.T.N. - Facultad Regional Resistencia, ordenado por carrera, se desea emitir la cantidad de alumnos correspondientes a cada carrera y el total general.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-11/</guid>
+      <description>Se dispone de un archivo con datos de los alumnos de la U.T.N. con la siguiente información para cada alumno:
+Sexo Carrera Nro_Legajo Fecha_Ingreso Total_Materias_Aprobadas  Se desea un listado con el siguiente detalle por sexo, carrera y total general
+a) Total de alumnos que ingresaron en el año 2009 con más de 20 materias aprobadas.
+b) Total de alumnos que ingresaron en el año 2009 con menos de 20 materias aprobadas</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-12/</guid>
+      <description>Dada una secuencia con información de población de UNA PROVINCIA:
+Departamento Ciudad Cantidad_Habitantes  Generar una secuencia con información de los departamentos de esa provincia, cuyo registro tenga el siguiente formato:
+Departamento Cantidad_Habitantes  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-13/</guid>
+      <description>Un Casino de la región ha notado un incremento en los costos de las reparaciones de tragamonedas en sus sucursales. Por ello solicitó un informe con la cantidad de reparaciones y sus costos, discriminados según tragamonedas, modelo, marca, sucursal y total general.
+Se dispone de un archivo REPARACIONES, con el siguiente formato. Cada registro representa la reparación de un tragamonedas, tener en cuenta que puede existir más de una reparación por tragamonedas.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-14/</guid>
+      <description>Dados el siguiente fichero con datos de un censo de la ciudad de Resistencia:
+Radio Manzana Nro_Vivienda Condicion_Vivienda Cantidad_Habitantes  Condición puede ser : Muy Buena, Buena o Mala. Obtener los siguientes totales de personas que habitan en viviendas cuya condición es muy buena: total en la ciudad y totales por Radio y Manzana).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-15/</guid>
+      <description>El organismo del cual dependen las escuelas de un distrito lleva un archivo con los registros para todos los alumnos de nivel secundario de ese distrito:
+Escuela Año División Nombre Cant_Inasistencias  Se introduce como dato el número de distrito y la cantidad de días de clase dictados en el año. El archivo está ordenado por número de escuela, año y división. Los alumnos que superan el 20% de las inasistencias están en situación de LIBRES, de lo contrario son REGULARES.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-16/</guid>
+      <description>Construir un algoritmo que a partir de un fichero de películas nuevas conteniendo:
+P_nuevas Nro_Pelicula Titulo Genero Cant_Copias Fecha_Estreno 
+y otro fichero de peliculas existentes, ambos ordenados por película,
+Peliculas Nro_Pelicula Titulo Genero Cant_Copias Fecha_Estreno 
+Genere un único archivo (con el mismo formato de los ficheros de entrada) que contenga todas las peliculas. Considerar que hay un solo registro por película y no se repiten entre ficheros.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-17/</guid>
+      <description>La Secretaria Academica de la Facultad lanza un proyecto para incentivar a aquellos alumnos que realizaron el Cursillo de Ingreso a la Universidad y no lograron aprobarlo en los turnos de Agosto y Febrero, de manera de brindarles apoyo Academico con el fin de que, en el Cursillo del año siguiente puedan aprobar los examenes necesarios e ingresar a la Universidad.
+Para esto, dicha Secretaria­necesita crear un archivo donde se encuentren todos los aspirantes que realizaron el Cursillo de Ingreso en ambos turnos, y no lograron aprobarlo.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2/ej2-18/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2/ej2-18/</guid>
+      <description>Un supermercado desea conocer la totalidad de unidades existentes de cada artículo a fin de hacer un control de stock y decidir si se deben comprar nuevas unidades o redistribuir la mercadería existente.
+El supermercado posee dos sucursales, cada una de las cuales envió su información en un fichero con el siguiente formato:
+Cod_Prod Tipo Marca Descripción Cant_Unidades  Escribir un algortimo que permita obtener un único fichero de salida, con el mismo formato, que contenga la información solicitada y además, emita un listado con los siguientes datos:</description>
     </item>
     
   </channel>

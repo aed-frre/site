@@ -1,6 +1,7 @@
 ---
 
 title: "Trabajos Prácticos"
+pageTitle: "Trabajos Prácticos"
 Description: "Ejercicios por unidad para las clases prácticas de las cátedra"
 icon: "description"
 menu:

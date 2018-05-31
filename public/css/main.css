@@ -1,3 +1,28 @@
+.parcial {
+    background: #BBDEFB;
+}
+
+.receso {
+    background: #FFF9C4;;
+}
+
+table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+}
+
+#cron .day {
+    border: none;
+}
+
+#cron td,th {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
 .fileul {
     white-space: nowrap; 
     list-style: none;
@@ -40,12 +65,6 @@ h4 {
     color: #444;
 }
 
-.file {
-    overflow-x: auto;
-    white-space: nowrap;
-    font-family: 'IBM Plex Mono', monospace;
-}
-
 li.logo {
 	 border-bottom: 1px solid rgba(0,0,0,0.14);
 }
@@ -81,13 +100,6 @@ ul.sidenav.sidenav-fixed li.logo {
 	margin-left: 10px;
     margin-top: 10px;
     background-color: #03a9f4;
-}
-
-.figure {
-	max-width: 100%;
-	overflow-x: auto;
-	white-space: nowrap;
-	font-family: 'IBM Plex Mono', monospace;
 }
 
 header, main, footer {

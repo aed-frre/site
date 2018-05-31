@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TP 2.2 on Guia de Trabajos Practicos</title>
+    <link>http://aed.wfrre3.local/tps/tp2.2/</link>
+    <description>Recent content in TP 2.2 on Guia de Trabajos Practicos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://aed.wfrre3.local/tps/tp2.2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-01/</guid>
+      <description>Se dispone de una secuencia con los datos de los alumnos de la facultad:
+ - Apellido y Nombre - Carrera (ISI - IEM - IQ) - Nº de Legajo - Fecha de Nacimiento - Fecha de Ingreso - D.N.I. - Sexo (M o F) - Fecha de último examen aprobado - Nota  Se desea un listado de los mismos, con el siguiente formato:
+Nro_Legajo Apellido_Nombre Documento Carrera  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-02/</guid>
+      <description>Se dispone de una secuencia de facturas con los siguientes datos:
+ - Nº de Factura - Fecha - Total  Se desea un listado de las facturas cuyas fechas sean posteriores a una fecha dada, y cuyos importes totales no alcancen los $1000, con el siguiente formato:
+NroLegajo Fecha Importe_Total  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-03/</guid>
+      <description>Dada la siguiente secuencia de datos con el siguiente formato:
+ - Nº de socio - Nº de teléfono - Apellido y Nombre - Carrera (ISI - IEM - IQ - LAR) - Domicilio - Cantidad de unidades prestadas  Correspondiente a los alumnos socios de la Biblioteca, generar la secuencia de los alumnos de “ISI” que tengan prestadas más de 4 unidades bibliográficas.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-04/</guid>
+      <description>A partir de la secuencia del ejercicio 2.01 se desea generar otra secuencia con los alumnos de una carrera dada que aprobaron alguna materia este año, con nota mayor a 7 (siete).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-05/</guid>
+      <description>A partir de la secuencia del ejercicio 2.01 se desea generar un listado con los alumnos que aprobaron la última materia rendida con nota superior a 7, e ingresaron el año pasado, con el siguiente formato:
+Nro_Legajo Apellido_Nombre Carrera  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-06/</guid>
+      <description>Se cuenta con una secuencia que contiene el Apellido y Nombre y Promedio General de los Graduados de una Facultad, y se solicita generar un listado con diversas recomendaciones para cubrir vacantes en una importante Empresa. Las mencionadas recomendaciones serán establecidas del siguiente modo: si el promedio es menor que 7, la recomendación será negativa (&amp;ldquo;NO&amp;rdquo;); por el contrario, si el promedio es menor que 8, la recomendación será positiva (&amp;ldquo;SI&amp;rdquo;); de lo contrario, si el promedio es menor que 9, la recomendación será favorable (&amp;ldquo;F&amp;rdquo;); por último, si el promedio supera los 9 puntos, la recomendación será muy favorable(&amp;ldquo;MF&amp;rdquo;).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-07/</guid>
+      <description>Se dispone de un archivo con los datos de un padrón electoral con la siguiente información:
+ - Nombre y apellido - Clase - DNI - Dirección - Nº de Mesa - Observaciones - Nº de Circuito - Partido (0= independiente, 1=‘A’, 2=‘B’, 3=‘C’)  Generar:
+a) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las personas afiliadas al partido “C”.
+b) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las personas no afiliadas a ningún partido y de clase posterior a 1940.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-08/</guid>
+      <description>De los datos del siguiente ejercicio:
+Archivo COMPRAS
+Nro_Cliente Fecha_Ultima_Compra Monto  Archivo CLIENTES
+Nro_Cliente Apellido_Nombre Domicilio Teléfono DNI  Ambos archivos están ordenados por Nro. de Cliente en forma ascendente. Listar los nombres fecha y monto de última compra, de todos aquellos clientes cuya última compra sea posterior a una fecha dada y el monto supere un monto dado.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-09/</guid>
+      <description>Una casa deportiva dispone de un archivo de productos, ordenado por código de producto, que contiene los siguientes datos:
+Cod_Producto Tipo (1,2,3) Marca Modelo Descripción Cantidad_Existente Precio_Unitario  Se ha registrado en el mercado un aumento de precios, el cual no es uniforme para todos los artículos, sino que varía según el tipo de los mismos de la siguiente manera: tipo 1- Calzados: 10%, tipo 2 – Indumentaria: 25%, tipo 3 - Accesorios (pelotas, raquetas, etc.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-10/</guid>
+      <description>Del archivo general de alumnos de la U.T.N. - Facultad Regional Resistencia, ordenado por carrera, se desea emitir la cantidad de alumnos correspondientes a cada carrera y el total general.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-11/</guid>
+      <description>Se dispone de un archivo con datos de los alumnos de la U.T.N. con la siguiente información para cada alumno:
+Sexo Carrera Nro_Legajo Fecha_Ingreso Total_Materias_Aprobadas  Se desea un listado con el siguiente detalle por sexo, carrera y total general
+a) Total de alumnos que ingresaron en el año 2009 con más de 20 materias aprobadas.
+b) Total de alumnos que ingresaron en el año 2009 con menos de 20 materias aprobadas</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-12/</guid>
+      <description>Dada una secuencia con información de población de UNA PROVINCIA:
+Departamento Ciudad Cantidad_Habitantes  Generar una secuencia con información de los departamentos de esa provincia, cuyo registro tenga el siguiente formato:
+Departamento Cantidad_Habitantes  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-13/</guid>
+      <description>Un Casino de la región ha notado un incremento en los costos de las reparaciones de tragamonedas en sus sucursales. Por ello solicitó un informe con la cantidad de reparaciones y sus costos, discriminados según tragamonedas, modelo, marca, sucursal y total general.
+Se dispone de un archivo REPARACIONES, con el siguiente formato. Cada registro representa la reparación de un tragamonedas, tener en cuenta que puede existir más de una reparación por tragamonedas.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-14/</guid>
+      <description>Dados el siguiente fichero con datos de un censo de la ciudad de Resistencia:
+Radio Manzana Nro_Vivienda Condicion_Vivienda Cantidad_Habitantes  Condición puede ser : Muy Buena, Buena o Mala. Obtener los siguientes totales de personas que habitan en viviendas cuya condición es muy buena: total en la ciudad y totales por Radio y Manzana).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-15/</guid>
+      <description>El organismo del cual dependen las escuelas de un distrito lleva un archivo con los registros para todos los alumnos de nivel secundario de ese distrito:
+Escuela Año División Nombre Cant_Inasistencias  Se introduce como dato el número de distrito y la cantidad de días de clase dictados en el año. El archivo está ordenado por número de escuela, año y división. Los alumnos que superan el 20% de las inasistencias están en situación de LIBRES, de lo contrario son REGULARES.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-16/</guid>
+      <description>Construir un algoritmo que a partir de un fichero de películas nuevas conteniendo:
+P_nuevas Nro_Pelicula Titulo Genero Cant_Copias Fecha_Estreno 
+y otro fichero de peliculas existentes, ambos ordenados por película,
+Peliculas Nro_Pelicula Titulo Genero Cant_Copias Fecha_Estreno 
+Genere un único archivo (con el mismo formato de los ficheros de entrada) que contenga todas las peliculas. Considerar que hay un solo registro por película y no se repiten entre ficheros.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-17/</guid>
+      <description>La Secretaria Academica de la Facultad lanza un proyecto para incentivar a aquellos alumnos que realizaron el Cursillo de Ingreso a la Universidad y no lograron aprobarlo en los turnos de Agosto y Febrero, de manera de brindarles apoyo Academico con el fin de que, en el Cursillo del año siguiente puedan aprobar los examenes necesarios e ingresar a la Universidad.
+Para esto, dicha Secretaria­necesita crear un archivo donde se encuentren todos los aspirantes que realizaron el Cursillo de Ingreso en ambos turnos, y no lograron aprobarlo.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-18/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-18/</guid>
+      <description>Un supermercado desea conocer la totalidad de unidades existentes de cada artículo a fin de hacer un control de stock y decidir si se deben comprar nuevas unidades o redistribuir la mercadería existente.
+El supermercado posee dos sucursales, cada una de las cuales envió su información en un fichero con el siguiente formato:
+Cod_Prod Tipo Marca Descripción Cant_Unidades  Escribir un algortimo que permita obtener un único fichero de salida, con el mismo formato, que contenga la información solicitada y además, emita un listado con los siguientes datos:</description>
+    </item>
+    
+  </channel>
+</rss>
