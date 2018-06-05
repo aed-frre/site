@@ -2,6 +2,17 @@
     background: #BBDEFB;
 }
 
+.subdiv {
+         margin-bottom: 5px;
+     margin-top: 5px;
+     padding-bottom: 15px;
+     padding-top: 50px;
+     padding-left: 12px;
+     border-bottom: 1px solid rgba(0,0,0,0.14);
+     text-align: right;
+     
+}
+
 .receso {
     background: #FFF9C4;;
 }
@@ -54,11 +65,14 @@ table {
     src: local(IBM Plex Mono), url('fonts/IBMPlexMono.ttf') format('opentype');
 }
 
-h4 {
-     border-bottom: 1px solid rgba(0,0,0,0.14);
+.titej {
      margin-bottom: 5px;
      margin-top: 5px;
      padding-bottom: 15px;
+     padding-top: 12px;
+     padding-left: 12px;
+     border-bottom: 1px solid rgba(0,0,0,0.14);
+     font-weight: bold;
 }
 
 .title {
