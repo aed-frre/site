@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Corte de Control</title>
+  
+    
+
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/materialize.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/main.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/icons/material-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  
+  
+    <link rel="shortcut icon" href="http://aed.wfrre3.local/img/favicon.ico" type="image/x-icon" />
+  
+  </head>
+
+
+  <body>
+    <main>
+
+        
+ <ul id="slide-out" class="sidenav sidenav-fixed collapsible">
+      <li class="logo">
+        <a id="logo-container" href="/" class="brand-logo">
+          <object id="front-page-logo" type="image/svg+xml" data="http://aed.wfrre3.local/img/mobile.svg">Your browser does not support SVG</object>
+        </a>
+        <h5>aed.io</h5>
+      </li>      
+      <li class="no-padding">
+         <ul class="collapsible collapsible-accordion">
+             
+             
+                                  
+                     <li>
+                         <a href="/">Inicio</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/plan/">Planificación</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/cron/">Cronograma</a>
+                     </li>
+                 
+             
+                 
+                     </li>
+                     <li class="active">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Teoría</a>
+                        <div class="collapsible-body">
+                          <ul>
+                              
+                                  <li><a href="/teoria/cortedecontrol/">Corte de Control</a></li>
+                              
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                 
+                     </li>
+                     <li class="">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Trabajos Prácticos</a>
+                        <div class="collapsible-body">
+                          <ul>
+                              
+                                  <li><a href="/tps/tp2.1/">TP 2.1</a></li>
+                              
+                                  <li><a href="/tps/tp2.2/">TP 2.2</a></li>
+                              
+                                  <li><a href="/tps/tp2.3/">TP 2.3</a></li>
+                              
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/acerca/">Acerca de</a>
+                     </li>
+                 
+                          
+         </ul>
+        </li>
+    </ul>
+
+<div class="fixed-action-btn">
+<a href="#" data-target="slide-out" class="top-nav sidenav-trigger full hide-on-large-only btn-floating pulse"><i class="material-icons">menu</i></a></div>
+
+<div class="container">
+	<div class="header">
+	  <h1 class="title">Corte de Control</h1>
+	  <p class="light">Vamos a ver un poco de teoria sobre los cortes de control</p>
+	</div>
+	<div class="section">
+		<div class="row">
+			
+
+<h4 id="estructura-del-corte-de-control">Estructura del Corte de Control</h4>
+
+<p>Primero vamos a ver la estructura generica del algoritmo (o el esqueleto):</p>
+
+<p>Definimos un registro que tiene 3 claves:</p>
+
+<pre><code>reg = Registro  
+   clave3: N(8)  
+   clave2: N(4)  
+   clave1: N(2)  
+   clave0: N(2)  
+   campo1: (&quot;Si&quot;, &quot;No&quot;)  
+   campo2: N(2)  
+   campo3: AN(50)  
+fin Registro
+</code></pre>
+
+<p><em>Nota: de esta forma la clave3 es la de mayor peso, seguido por la clave2, y luego por la clave1.</em></p>
+
+<p>Ahora el archivo y la variable para recorrer:</p>
+
+<pre><code>Arch: Archivo de reg ordenado por clave3, clave2, clave1 y clave0
+r: reg
+</code></pre>
+
+<p>Las variables que se van a ocupar son:
+ - Resguardo de clave (Reg1, Reg2, Reg3)
+ - Contadores y Acumuladores</p>
+
+<p><br/></p>
+
+<p>La subaccion corte_n va a tener las siguientes acciones:</p>
+
+<pre><code>subaccion corte_n es
+  llamada al corte_n-1
+  Emitir resultados del nivel
+  Acumular totales al nivel superior
+  Reiniciar totales de este nivel
+  Resguardar la nueva clave
+fin subaccion
+</code></pre>
+
+<p><em>Nota: la primera accion no se va a realizar si estamos en el corte de menor peso.</em></p>
+
+<p><br/></p>
+
+<p>Esqueleto del algoritmo:</p>
+
+<pre><code>Algoritmo
+  Inicializar_archivos
+  Inicializar_totalizadores
+  Inicializar_resguardos
+  
+  Mientras NFDA(Arch) Hacer
+    Tratar_corte
+    Tratar_registro
+    Leer_registro
+  Fin Mientras
+  
+  Corte_3
+  Emitir_totales
+  cerrar_archivo
+Fin accion
+</code></pre>
+
+<p><br/></p>
+
+<p>Ahora la subaccion Tratar_corte:</p>
+
+<pre><code>Subaccion Tratar_Corte es
+  Si r.clave3 &lt;&gt; Reg3 entonces
+    Corte_3
+  sino
+    Si r.clave2 &lt;&gt; Reg2 entonces
+       Corte_2
+    sino
+       Si r.clave1 &lt;&gt; Reg1 entonces
+         Corte_1
+       fin si
+    fin si
+  fin si
+fin subaccion
+</code></pre>
+
+<p><em>Nota: las subacciones: Inicializar, tratar_registro y Emitir_totales, no se escribieron dado a que dependen del enunciado.</em></p>
+
+<h4 id="un-ejemplo">Un ejemplo</h4>
+
+<p>Ahora un ejemplo con el mismo archivo, con el siguiente enunciado:</p>
+
+<p>&ldquo;Se pide mostrar cuantas entradas existen en el archivo, discriminando por la clave1, clave2, clave3 y total general.&rdquo;</p>
+
+<pre><code>Accion ejemplo es
+  Ambiente
+    reg = Registro
+      clave3: N(8)
+      clave2: N(4)
+      clave1: N(2)
+      clave0: N(2)
+      campo1: (&quot;Si&quot;, &quot;No&quot;)
+      campo2: N(2)
+      campo3: AN(50)
+    fin Registro
+    Arch : archivo de reg ordenado por clave3, clave2, clave1 y clave0
+    r : reg
+    Reg3: N(8)
+    Reg2: N(4)
+    Reg1: N(2)
+    contt, cont3, cont2, cont1: entero
+
+  subaccion inicializar es
+    Abrir E/(Arch)
+    leer(Arch, r)
+    contt := 0
+    cont3 := 0
+    cont2 := 0
+    cont1 := 0
+    Reg3 := r.clave3
+    Reg2 := r.clave2
+    Reg1 := r.clave1
+  Fin subaccion
+
+  subaccion corte_1 es
+    Esc(&quot;Para el &quot;, Reg1, &quot; existen: &quot;, cont1)
+    cont2 := cont2 + cont1
+    cont1 := 0
+    Reg1 := r.clave1
+  fin subaccion
+
+  subaccion corte_2 es
+    corte_1
+    Esc(&quot;Para el &quot;, Reg2, &quot; existen: &quot;, cont2)
+    cont3 := cont3 + cont2
+    cont2 := 0
+    Reg2 := r.clave2
+  fin subaccion
+
+  subaccion corte_3 es
+    corte_2
+    Esc(&quot;Para el &quot;, Reg3, &quot; existen: &quot;, cont3)
+    contt := contt + cont3
+    cont3 := 0
+    Reg3 := r.clave3
+  fin subaccion
+
+  Subaccion tratar_corte es
+    Si r.clave3 &lt;&gt; Reg3 entonces
+      corte_3
+    sino
+      si r.clave2 &lt;&gt; Reg2 entonces
+        corte_2
+      sino
+        si r.clave1 &lt;&gt; Reg1 entonces
+          corte_1
+        fin si
+      fin si
+    fin si
+  fin subaccion
+
+  subaccion tratar_registro es
+    cont1 := cont1 + 1
+  Fin subaccion
+
+  subaccion emitir_totales es
+    Esc(&quot;El total general de entradas es: &quot;, contt)
+  fin subaccion
+
+  Algoritmo
+    Inicializar
+
+    Mientras NFDA(Arch) hacer
+      tratar_corte
+      tratar_registro
+      leer(Arch, r)
+    Fin Mientras
+    
+    corte_3
+    emitir_totales
+    cerrar(arch)
+fin accion
+</code></pre>
+
+<p><br/></p>
+
+<h5 id="otro-ejercicios">Otro ejercicios</h5>
+
+<p>Manteniendo el mismo archivo pero cambiando un poco el enunciado:</p>
+
+<ol>
+<li>Se pide mostrar cuantas entradas que tengan el campo1 = &ldquo;Si&rdquo; existen en el archivo, discriminando por la clave1, clave2, clave3 y total general.</li>
+<li>Se pide mostrar cuantas entradas que tengan existen en el archivo, discriminando por la clave1, clave2 y clave3.</li>
+<li>Se pide mostrar cuantas entradas que tengan existen en el archivo, discriminando por la clave2, clave3 y total general.</li>
+<li>Se pide mostrar cuantas entradas poseen un numero mayores o iguales a 50 en el campo2 y cuantas entradas (en el campo2) se tienen menores a 50 del archivo, discriminando por la clave1, clave2, clave3 y total general.</li>
+<li>Generar un archivo con el siguiente formato: Clave3, clave2, total de Si y total de No, para el archivo anterior explicado.</li>
+</ol>
+
+	    </div>
+	</div>
+</div>
+
+	</main>
+	<script src="http://aed.wfrre3.local/js/jquery-3.3.1.min.js"></script>
+	<script src="http://aed.wfrre3.local/js/main.js"></script>
+	<script src="http://aed.wfrre3.local/js/materialize.js"></script>
+	<footer class="page-footer blue">
+		<div class="footer-copyright">
+	    	<div class="container">
+	        	Universidad Tecnologíca Nacional - Facultad Regional Resistencia	            
+	        </div>
+	    </div>
+	</footer>
+
+</body>
+
+</html>
+
+

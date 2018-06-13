@@ -418,9 +418,9 @@ b) Total de alumnos que ingresaron en el año 2009 con menos de 20 materias apro
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-12/</guid>
-      <description>Dada una secuencia con información de población de UNA PROVINCIA:
-Departamento Ciudad Cantidad_Habitantes  Generar una secuencia con información de los departamentos de esa provincia, cuyo registro tenga el siguiente formato:
-Departamento Cantidad_Habitantes  </description>
+      <description>Dada una secuencia con información de población de un PAIS:
+Provincia Departamento Ciudad Barrio ID_Casa Cantidad_Habitantes  Generar una secuencia con información de los departamentos de esa provincia, cuyo registro tenga el siguiente formato:
+Provincia Departamento Cantidad_Habitantes  </description>
     </item>
     
     <item>
@@ -485,6 +485,57 @@ Para esto, dicha Secretaria­necesita crear un archivo donde se encuentren todos
       <description>Un supermercado desea conocer la totalidad de unidades existentes de cada artículo a fin de hacer un control de stock y decidir si se deben comprar nuevas unidades o redistribuir la mercadería existente.
 El supermercado posee dos sucursales, cada una de las cuales envió su información en un fichero con el siguiente formato:
 Cod_Prod Tipo Marca Descripción Cant_Unidades  Escribir un algortimo que permita obtener un único fichero de salida, con el mismo formato, que contenga la información solicitada y además, emita un listado con los siguientes datos:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-21/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-21/</guid>
+      <description>En un práctico para la Facultad un grupo de alumnos debe implementar una Red Social llamada UTNBook. Para lo cual debe utilizar los siguientes archivos:
+AMIGOS (Ordenado por Cod_Usuario y Cod_Amigo) Cod_Usuario Cod_Amigo Fecha_Amistad Mensaje_Muro 
+Cada registro indica la fecha desde que los usuarios son amigos y el último mensaje que un amigo ha escrito en el muro del usuario.
+NOTIFICACIONES (Ordenado por Cod_Usuario y Cod_Amigo) Cod_Usuario Cod_Amigo Cod_Movimiento Fecha_Amistad Mensaje_Muro</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-22/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-22/</guid>
+      <description>IDEM ejercicio 2.22 pero agregando al enunciado: “Al finalizar el proceso se desea conocer: el usuario que posee más amigos.”</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-23/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-23/</guid>
+      <description>Una empresa de distribución de energía eléctrica posee un archivo maestro con los siguientes datos de sus clientes (la fecha de última lectura son las mediciones realizadas hasta el mes de mayo del 2014):
+Ordenado por ID_Casa ID_Casa Fecha_Ult_Lectura Cant_Lecturas Prom_Lecturas Tipo_Consumidor 
+Cuenta además con el siguiente archivo con datos de las mediciones realizadas en los dos últimos años (desde junio del 2014 hasta junio del 2016).
+Ordenado por ID_Casa y Fecha_Medición ID_Casa Fecha_Medición Consumo</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-24/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-24/</guid>
+      <description>Una obra social lleva el control de los costos que le insume cada afiliado. Considerando como costos, los pagos que la misma debe realizar (en conceptos de honorarios, pagos a farmacias, etc) por los distintos servicios que el afiliado utiliza. Para esto la empresa cuenta con un archivo COSTOS_POR_AFILIADO, en el cual se registran la cantidad de atenciones y/o servicios que solicita el empleado y el costo total (en pesos) que la empresa debe pagar por estos.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-25/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-25/</guid>
+      <description>IDEM 2.22 pero suponiendo que hay mas de un registro de notificaciones por cada registro de amigos.</description>
     </item>
     
   </channel>

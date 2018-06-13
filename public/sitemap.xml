@@ -199,6 +199,26 @@
   </url>
   
   <url>
+    <loc>http://aed.wfrre3.local/tps/tp2.2/ej2-21/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp2.2/ej2-22/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp2.2/ej2-23/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp2.2/ej2-24/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp2.2/ej2-25/</loc>
+  </url>
+  
+  <url>
     <loc>http://aed.wfrre3.local/acerca/</loc>
   </url>
   
@@ -209,6 +229,10 @@
   <url>
     <loc>http://aed.wfrre3.local/categories/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/teoria/cortedecontrol/</loc>
   </url>
   
   <url>
@@ -225,6 +249,10 @@
   
   <url>
     <loc>http://aed.wfrre3.local/tps/tp2.2/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp2.3/</loc>
   </url>
   
   <url>

@@ -18,13 +18,14 @@ Primero vamos a ver la estructura generica del algoritmo (o el esqueleto):
 Definimos un registro que tiene 3 claves:
 
 ```
-reg = Registro
-   clave3: N(8)
-   clave2: N(4)
-   clave1: N(2)
-   campo1: ("Si", "No")
-   campo2: N(2)
-   campo3: AN(50)
+reg = Registro  
+   clave3: N(8)  
+   clave2: N(4)  
+   clave1: N(2)  
+   clave0: N(2)  
+   campo1: ("Si", "No")  
+   campo2: N(2)  
+   campo3: AN(50)  
 fin Registro
 ```
 
@@ -34,7 +35,7 @@ fin Registro
 Ahora el archivo y la variable para recorrer:
 
 ```
-Arch: Archivo de reg ordenado por clave3, clave2 y clave1
+Arch: Archivo de reg ordenado por clave3, clave2, clave1 y clave0
 r: reg
 ```
 
@@ -118,11 +119,12 @@ Accion ejemplo es
       clave3: N(8)
       clave2: N(4)
       clave1: N(2)
+      clave0: N(2)
       campo1: ("Si", "No")
       campo2: N(2)
       campo3: AN(50)
     fin Registro
-    Arch : archivo de reg ordenado por clave3, clave2 y clave1
+    Arch : archivo de reg ordenado por clave3, clave2, clave1 y clave0
     r : reg
     Reg3: N(8)
     Reg2: N(4)

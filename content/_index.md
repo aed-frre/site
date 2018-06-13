@@ -2,6 +2,7 @@
 
 Title: "Algoritmos y Estructuras de Datos"
 Description: "En este sitio podrá encontrar contenido de utilidad de la Cátedra Algortimos y Estructura de Datos dictada en la Facultad Regional Resistencia - Universidad Tecnologica Nacional."
+type: "sectionless"
 menu:
   main:
     identifier: inicio
