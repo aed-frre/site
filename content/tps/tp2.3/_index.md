@@ -1,8 +1,8 @@
 ---
 
-Title: "TP 2.3"
-PageTitle: "Trabajo Práctico N° 2.3"
-Description: "En esta unidad se unidad se tratarán Secuencias de Registros Indexados"
+Title: "Repaso"
+PageTitle: "Repaso para el parcial"
+Description: "Probemos que tal estamos con estos ejercicios"
 menu:
   main:
     parent: tps
