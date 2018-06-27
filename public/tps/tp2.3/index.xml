@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>TP 2.3 on Guia de Trabajos Practicos</title>
+    <title>Repaso on Guia de Trabajos Practicos</title>
     <link>http://aed.wfrre3.local/tps/tp2.3/</link>
-    <description>Recent content in TP 2.3 on Guia de Trabajos Practicos</description>
+    <description>Recent content in Repaso on Guia de Trabajos Practicos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
 	<atom:link href="http://aed.wfrre3.local/tps/tp2.3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.3/ej1-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.3/ej1-1/</guid>
+      <description>La AFA desea automatizar algunos de sus procesos de toma de decisiones en la división D de la Argentina, para ello dispone de la información de los 20 equipos de la misma, la cual se encuentra almacenada en una secuencia de caracteres. La secuencia de los 20 equipos tiene la siguiente estructura: se inicia con el nombre del equipo (una sola vez por cada equipo), seguido de un “-“,luego se encuentran los datos de los jugadores: su número de camiseta (2 caracteres), el nombre y apellido, una“/”,y el código de 3 caracteres de su puesto (POR, DEF, VOL y DEL), cantidad de tarjetas amarillas (1 carácter), terminando con un “+”.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.3/ej1-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.3/ej1-2/</guid>
+      <description>La empresa de lavado de autos Cochelimpio SA posee la información de las operaciones realizadas en sus sucursales en un archivo con el siguiente formato:
+LAVADOS (ordenado por COD_CIUDAD, COD_SUCURSAL, COD_VEHÍCULO y Patente) COD_CIUDAD N(2) COD_SUCURSAL N(2) COD_VEHÍCULO 1..4 Patente AN(10) Cant. de lavados N(3) Importe Unitario N(4,2) 
+COD_VEHÍCULO: 1-Sedán, 2-Camioneta, 3-Pickup, 4-Camión
+Desarrollar un algoritmo que cumpla con los siguientes puntos:
+a) Generar un archivo de salida con el siguiente formato:</description>
+    </item>
     
   </channel>
 </rss>
