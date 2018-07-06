@@ -199,6 +199,14 @@
   </url>
   
   <url>
+    <loc>http://aed.wfrre3.local/tps/tp2.2/ej2-19/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp2.2/ej2-20/</loc>
+  </url>
+  
+  <url>
     <loc>http://aed.wfrre3.local/tps/tp2.2/ej2-21/</loc>
   </url>
   
@@ -231,6 +239,10 @@
   </url>
   
   <url>
+    <loc>http://aed.wfrre3.local/teoria/actualizacion/</loc>
+  </url>
+  
+  <url>
     <loc>http://aed.wfrre3.local/</loc>
   </url>
   
@@ -245,6 +257,10 @@
   
   <url>
     <loc>http://aed.wfrre3.local/cron/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/teoria/mezcla/</loc>
   </url>
   
   <url>

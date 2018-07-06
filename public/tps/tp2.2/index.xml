@@ -202,6 +202,28 @@ Cod_Prod Tipo Marca Descripción Cant_Unidades  Escribir un algortimo que permit
     
     <item>
       <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-19/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-19/</guid>
+      <description>En una Empresa Farmacéutica se posee un archivo Mae_Remedios (ordenado por Clave: Farmacia + Medicamento), el que se actualiza semanalmente, a traves de la información que se encuentra cargada en un archivo de Movimientos (ordenado por Clavem: Farmacia + Medicamento, y Codmov), de la siguiente forma:
+- Si Clave (Mae_Remedios) es menor que Clavem (Movimientos), simplemente se transfieren los datos del Maestro a la salida y se graban.
+- Si Clave (Mae_Remedios) es igual a Clavem (Movimientos) y el Codmov es 1, se considera error y se lista un mensaje indicando el tipo de error; pero si el Codmov es 2, entonces es un remedio que deja de fabricarse y se transfiere el registro al archivo de Remedios vencidos (Rem_Venc) ; pero si el Codmov es 3, se modifica la cantidad actual con la cantidad recibida.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.2/ej2-20/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-20/</guid>
+      <description>Se desea generar una secuencia, a partir de la secuencia del problema 2.01, donde se actualice la fecha de aprobación del último exámen, para ello se cuenta con información del último turno de exámen, según el siguiente detalle:
+FICHERO EXAMENES Nro_Legajo Carrera Cod_Materia Fecha_Examen Nota 
+Se debe considerar que no necesariamente todos los alumnos se presentan en cada turno de exámen, y que un alumno puede presentarse a rendir más de una materia en un mismo turno.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>http://aed.wfrre3.local/tps/tp2.2/ej2-21/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -218,7 +240,7 @@ NOTIFICACIONES (Ordenado por Cod_Usuario y Cod_Amigo) Cod_Usuario Cod_Amigo Cod_
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-22/</guid>
-      <description>IDEM ejercicio 2.22 pero agregando al enunciado: “Al finalizar el proceso se desea conocer: el usuario que posee más amigos.”</description>
+      <description>IDEM ejercicio 2.21 pero agregando al enunciado: “Al finalizar el proceso se desea conocer: el usuario que posee más amigos.”</description>
     </item>
     
     <item>
@@ -229,8 +251,9 @@ NOTIFICACIONES (Ordenado por Cod_Usuario y Cod_Amigo) Cod_Usuario Cod_Amigo Cod_
       <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-23/</guid>
       <description>Una empresa de distribución de energía eléctrica posee un archivo maestro con los siguientes datos de sus clientes (la fecha de última lectura son las mediciones realizadas hasta el mes de mayo del 2014):
 Ordenado por ID_Casa ID_Casa Fecha_Ult_Lectura Cant_Lecturas Prom_Lecturas Tipo_Consumidor 
-Cuenta además con el siguiente archivo con datos de las mediciones realizadas en los dos últimos años (desde junio del 2014 hasta junio del 2016).
-Ordenado por ID_Casa y Fecha_Medición ID_Casa Fecha_Medición Consumo</description>
+El campo tipo de consumidor puede ser:
+A (cuando el promedio de lectura es menor a 20K)
+B (cuando el promedio de lectura es menor a 40K)</description>
     </item>
     
     <item>
@@ -248,7 +271,7 @@ Ordenado por ID_Casa y Fecha_Medición ID_Casa Fecha_Medición Consumo</descript
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://aed.wfrre3.local/tps/tp2.2/ej2-25/</guid>
-      <description>IDEM 2.22 pero suponiendo que hay mas de un registro de notificaciones por cada registro de amigos.</description>
+      <description>IDEM 2.21 pero suponiendo que hay mas de un registro de notificaciones por cada registro de amigos.</description>
     </item>
     
   </channel>

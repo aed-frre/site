@@ -10,7 +10,6 @@ menu:
 
     
 ---
-
 #### Estructura del Corte de Control
 
 Primero vamos a ver la estructura generica del algoritmo (o el esqueleto):

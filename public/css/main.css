@@ -26,6 +26,18 @@ pre code {
     white-space: pre;
 }
 
+
+p {
+    overflow-x: auto;
+}
+
+p img {
+    overflow-wrap: normal;
+    white-space: pre;
+}
+
+
+
 table {
         display: block;
         overflow-x: auto;

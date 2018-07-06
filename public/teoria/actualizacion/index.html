@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Actualización</title>
+  
+    
+
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/materialize.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/main.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/icons/material-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  
+  
+    <link rel="shortcut icon" href="http://aed.wfrre3.local/img/favicon.ico" type="image/x-icon" />
+  
+  </head>
+
+
+  <body>
+    <main>
+
+        
+ <ul id="slide-out" class="sidenav sidenav-fixed collapsible">
+      <li class="logo">
+        <a id="logo-container" href="/" class="brand-logo">
+          <object id="front-page-logo" type="image/svg+xml" data="http://aed.wfrre3.local/img/mobile.svg">Your browser does not support SVG</object>
+        </a>
+        <h5>aed.io</h5>
+      </li>      
+      <li class="no-padding">
+         <ul class="collapsible collapsible-accordion">
+             
+             
+                                  
+                     <li>
+                         <a href="/">Inicio</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/plan/">Planificación</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/cron/">Cronograma</a>
+                     </li>
+                 
+             
+                 
+                     </li>
+                     <li class="active">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Teoría</a>
+                        <div class="collapsible-body">
+                          <ul>
+                                                                
+                                  <li><a href="/teoria/cortedecontrol/">Corte de Control</a></li>
+                                                              
+                                  <li><a href="/teoria/mezcla/">Mezcla</a></li>
+                                                              
+                                  <li><a href="/teoria/actualizacion/">Actualización</a></li>
+                            
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                 
+                     </li>
+                     <li class="">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Trabajos Prácticos</a>
+                        <div class="collapsible-body">
+                          <ul>
+                                                                
+                                  <li><a href="/tps/tp2.1/">TP 2.1</a></li>
+                                                              
+                                  <li><a href="/tps/tp2.2/">TP 2.2</a></li>
+                                                              
+                                  <li><a href="/tps/tp2.3/">Repaso</a></li>
+                            
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/acerca/">Acerca de</a>
+                     </li>
+                 
+                          
+         </ul>
+        </li>
+    </ul>
+
+<div class="fixed-action-btn">
+<a href="#" data-target="slide-out" class="top-nav sidenav-trigger full hide-on-large-only btn-floating pulse"><i class="material-icons">menu</i></a></div>
+
+<div class="container">
+	<div class="header">
+	  <h1 class="title">Actualización</h1>
+	  <p class="light">Vamos a ver un poco de teoria sobre los actualización</p>
+	</div>
+	<div class="section">
+		<div class="row">
+			
+
+<h5 id="tipos-de-actualización"><strong>Tipos de Actualización</strong></h5>
+
+<p><strong>POR LOTES</strong><br />
+Varios registros de movimiento para un registro maestro.</p>
+
+<p><strong>UNITARIA</strong><br />
+Un registro movimiento para un registro maestro.</p>
+
+<h5 id="ficheros"><strong>Ficheros</strong></h5>
+
+<p><strong>Ficheros de entrada:</strong> por lo menos dos: MAESTRO Y MOVIMIENTOS.<br />
+<strong>Ficheros de salida:</strong> como mínimo uno.</p>
+
+<h6 id="tipos-de-ficheros-maestros"><strong>Tipos de Ficheros Maestros</strong></h6>
+
+<ul>
+<li>Histórico</li>
+<li>Común o Normal</li>
+</ul>
+
+<h6 id="tipos-de-ficheros-de-movimientos"><strong>Tipos de Ficheros de Movimientos</strong></h6>
+
+<ul>
+<li>Actualización General o Combinado</li>
+<li>Actualización Parcial o Individual</li>
+</ul>
+
+<h6 id="tipos-de-movimientos"><strong>Tipos de Movimientos</strong></h6>
+
+<ul>
+<li>Alta</li>
+<li>Baja</li>
+<li>Modificación</li>
+</ul>
+
+<h5 id="algoritmo-actualización-unitaria"><strong>Algoritmo Actualización Unitaria</strong></h5>
+
+<p>Utilizando ciclo incluyente</p>
+
+<pre><code>Accion Act_Uni es  
+  Algoritmo  
+    Abrir_Archivos
+    Leer_Maestro
+    Leer_Movimiento
+    Mientras (Clave_Mae &lt;&gt; HV) o (Clave_Mov &lt;&gt; HV) hacer
+      Si (Clave_Mae = Clave_Mov) entonces 
+        Proceso_Iguales
+      sino
+        Si (Clave_Mae &lt; Clave_Mov) entonces
+          Reg_sal:= Reg_mae 
+          Escribir(Arch_sal, Reg_sal)
+          Leer_Maestro
+        sino
+          Proceso_Distintos
+        Fin Si
+      Fin Si
+    Fin Mientras
+    Cerrar_Archivos
+Fin Accion
+  
+Subaccion Leer_Movimiento es
+  Leer(Arch_mov, Reg_mov)
+  Si FDA(Arch_mov) entonces
+    Clave_mov:= HV
+  Fin Si
+Fin Subaccion
+ 
+Subaccion Leer_Maestro es
+  Leer(Arch_mae, Reg_mae)
+  Si FDA(Arch_mae) entonces
+    Clave_mae : = HV
+  Fin Si
+Fin Subaccion
+
+Subacción Proceso_Iguales es
+  Si Reg_mov.Cod_mov = 'ALTA' entonces
+    Escribir('Error alta no existe')
+    Reg_sal:= Reg_mae
+    Escribir(Arch_sal, Reg_sal)
+  Sino 
+    Si (Reg_mov.Cod_Mov = 'MODIF') entonces 
+      Proceso_Mod_Maestro
+      Reg_sal : = Reg_mae
+      Escribir(Arch_sal, Reg_sal)
+    Sino // eliminación lógica
+      Marcar_Registro
+      Reg_sal:= Reg_mae
+      Escribir(Arch_sal, Reg_sal)
+    Fin Si
+  Fin Si
+  Leer_Maestro
+  Leer_Movimiento
+Fin Subacción.
+
+Subaccion Proceso_Distintos es
+  Si (Reg_mov.Cod_Mov = 'BAJA') entonces 
+    Escribir('Error baja no existe')
+  Sino 
+    Si (Reg_mov.Cod_Mov = 'MODIF') entonces  
+      Escribir('Error mofificación no existe')
+    Sino // Asigna campo por campo, porque Reg_sal y Reg_mov tienen distinto formato
+      Reg_sal.clave:= Reg_mov.clave
+      Reg_sal.campo1:= Reg_mov.campo1
+      Reg_sal.campo2:= Reg_mov.campo2
+      ........
+      Reg_sal.campoN:= Reg_mov.campoN
+      Reg_sal.Marca_baja:= ''          
+      Escribir(Arch_sal, Reg_sal)
+    Fin Si
+  Fin Si
+  Leer_Movimiento
+Fin Subaccion
+
+Subaccion Proceso_Modif_Maestro es
+  Si (Reg_Mov.campo1 &lt;&gt; '') entonces  
+    Reg_mae.campo1:= Reg_mov.campo1
+  Fin Si
+  Si (Reg_Mov.campo2 &lt;&gt; '') entonces
+    Reg_mae.campo2 := Reg_mov.campo2
+  Fin Si
+  Si (Reg_Mov.campo3 &lt;&gt; '') entonces
+    Reg_mae.campo3 := Reg_mov.campo3
+  Fin Si
+    // ... y así sucesivamente para todos los campos del registro...
+Fin Subaccion
+
+Subaccion Marcar_Registro es
+  Reg_mae.Marca_baja:= '*'     // en vez de asterisco, se puede asignar la fecha del día,
+                                   o cualquier otro dato, según el problema //
+Fin Subaccion
+
+
+</code></pre>
+
+	    </div>
+	</div>
+</div>
+
+	</main>
+	<script src="http://aed.wfrre3.local/js/jquery-3.3.1.min.js"></script>
+	<script src="http://aed.wfrre3.local/js/main.js"></script>
+	<script src="http://aed.wfrre3.local/js/materialize.js"></script>
+	<footer class="page-footer blue">
+		<div class="footer-copyright">
+	    	<div class="container">
+	        	Universidad Tecnologíca Nacional - Facultad Regional Resistencia	            
+	        </div>
+	    </div>
+	</footer>
+
+</body>
+
+</html>
+
+

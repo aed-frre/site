@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Mezcla</title>
+  
+    
+
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/materialize.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/main.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/icons/material-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  
+  
+    <link rel="shortcut icon" href="http://aed.wfrre3.local/img/favicon.ico" type="image/x-icon" />
+  
+  </head>
+
+
+  <body>
+    <main>
+
+        
+ <ul id="slide-out" class="sidenav sidenav-fixed collapsible">
+      <li class="logo">
+        <a id="logo-container" href="/" class="brand-logo">
+          <object id="front-page-logo" type="image/svg+xml" data="http://aed.wfrre3.local/img/mobile.svg">Your browser does not support SVG</object>
+        </a>
+        <h5>aed.io</h5>
+      </li>      
+      <li class="no-padding">
+         <ul class="collapsible collapsible-accordion">
+             
+             
+                                  
+                     <li>
+                         <a href="/">Inicio</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/plan/">Planificación</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/cron/">Cronograma</a>
+                     </li>
+                 
+             
+                 
+                     </li>
+                     <li class="active">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Teoría</a>
+                        <div class="collapsible-body">
+                          <ul>
+                                                                
+                                  <li><a href="/teoria/cortedecontrol/">Corte de Control</a></li>
+                                                              
+                                  <li><a href="/teoria/mezcla/">Mezcla</a></li>
+                                                              
+                                  <li><a href="/teoria/actualizacion/">Actualización</a></li>
+                            
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                 
+                     </li>
+                     <li class="">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Trabajos Prácticos</a>
+                        <div class="collapsible-body">
+                          <ul>
+                                                                
+                                  <li><a href="/tps/tp2.1/">TP 2.1</a></li>
+                                                              
+                                  <li><a href="/tps/tp2.2/">TP 2.2</a></li>
+                                                              
+                                  <li><a href="/tps/tp2.3/">Repaso</a></li>
+                            
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/acerca/">Acerca de</a>
+                     </li>
+                 
+                          
+         </ul>
+        </li>
+    </ul>
+
+<div class="fixed-action-btn">
+<a href="#" data-target="slide-out" class="top-nav sidenav-trigger full hide-on-large-only btn-floating pulse"><i class="material-icons">menu</i></a></div>
+
+<div class="container">
+	<div class="header">
+	  <h1 class="title">Mezcla</h1>
+	  <p class="light">Vamos a ver un poco de teoria sobre mezcla</p>
+	</div>
+	<div class="section">
+		<div class="row">
+			
+
+<h5 id="procesos-múltiples-con-ficheros-secuenciales">Procesos Múltiples con Ficheros Secuenciales</h5>
+
+<h6 id="1-mezcla"><strong>1. Mezcla</strong></h6>
+
+<p><strong>Ficheros de entrada:</strong> por lo menos dos.<br />
+<strong>Ficheros de salida:</strong> uno (resultado de la combinación de los dos de entrada).</p>
+
+<h6 id="2-actualización-secuencial-por-lotes"><strong>2. Actualización Secuencial Por Lotes</strong></h6>
+
+<p>Cero o más registros del fichero movimiento por cada registro del maestro</p>
+
+<h6 id="3-actualización-secuencial-unitaria"><strong>3. Actualización Secuencial Unitaria</strong></h6>
+
+<p>Cero o un (como máximo) registro del fichero movimiento por cada registro del maestro.</p>
+
+<h6 id="características"><strong>Características</strong></h6>
+
+<ul>
+<li>Se aplica la “técnica de apareo”<br /></li>
+<li>Las estructuras de los ficheros deben tener un elemento común: la “clave de apareo” o “campo clave”<br /></li>
+<li>Los ficheros deben estar ordenados por el “campo clave”<br /></li>
+</ul>
+
+<h5 id="mezcla">Mezcla</h5>
+
+<p><img src="/img/mezcla.PNG" alt="" /></p>
+
+<h6 id="tipos-de-mezcla">Tipos de Mezcla</h6>
+
+<p></br></p>
+
+<table>
+<thead>
+<tr>
+<th>Caracteristicas</th>
+<th>Directa</th>
+<th>Indirecta</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Formato de los registros</br>de los Ficheros de entrada</td>
+<td>Igual</td>
+<td>Distinto</td>
+</tr>
+
+<tr>
+<td>Formato de los registros</br>del Fichero de Salida</td>
+<td>Igual al de los</br>Ficheros de Entrada</td>
+<td>Igual a Alguno</br>de los ficheros de entrada o </br> una combinacion de estos</td>
+</tr>
+
+<tr>
+<td>Cantidad de registros</br>del Fichero de Salida</td>
+<td>Es igual a la sumatoria</br>de las cantidades</br>de los registros de los</br>ficheros de entrada</td>
+<td>No es posible predecir</td>
+</tr>
+</tbody>
+</table>
+
+<p></br>
+</br></p>
+
+<h6 id="ciclos-de-apareo">Ciclos de Apareo:</h6>
+
+<p><strong>Incluyente</strong></p>
+
+<pre><code>
+Mientras (Clave1 &lt;&gt; HV) o (Clave2 &lt;&gt; HV) o .... (ClaveN &lt;&gt; HV) hacer  
+
+        PROCESO
+
+Fin Mientras
+
+</code></pre>
+
+<p><strong>Excluyente</strong></p>
+
+<pre><code>
+Mientras NFDA (Arch_1) y NFDA(Arch_2) hacer  
+
+        PROCESO de registros comunes
+
+Fin Mientras
+
+Mientras NFDA (Arch_1) hacer     ** Uno de estos ciclos por cada fichero interviniente**
+        
+        PROCESO de Registros del Arch_1            
+
+Fin Mientras
+
+Mientras NFDA (Arch_2) hacer
+
+        PROCESO de Registros del Arch_2
+
+Fin Mientras
+
+</code></pre>
+
+<p>Si hay más de 2 ficheros se necesitarán más ciclos, además del ciclo principal. Por ej: para 3 ficheros se necesitarán 7 ciclos:</p>
+
+<p>1 - Condición: NFDA (Arch_1) y NFDA (Arch_2) y NFDA (Arch_3) - Ciclo principal que procesa registros comunes.<br />
+2 - Condición: NFDA (Arch_1) y NFDA (Arch_2)<br />
+3 - Condición: NFDA (Arch_1) y NFDA (Arch_3)<br />
+4 - Condición: NFDA (Arch_2) y NFDA (Arch_3)<br />
+5 - Condición: NFDA (Arch_1)<br />
+6 - Condición: NFDA (Arch_2)<br />
+7 - Condición: NFDA (Arch_3)</p>
+
+	    </div>
+	</div>
+</div>
+
+	</main>
+	<script src="http://aed.wfrre3.local/js/jquery-3.3.1.min.js"></script>
+	<script src="http://aed.wfrre3.local/js/main.js"></script>
+	<script src="http://aed.wfrre3.local/js/materialize.js"></script>
+	<footer class="page-footer blue">
+		<div class="footer-copyright">
+	    	<div class="container">
+	        	Universidad Tecnologíca Nacional - Facultad Regional Resistencia	            
+	        </div>
+	    </div>
+	</footer>
+
+</body>
+
+</html>
+
+

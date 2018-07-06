@@ -60,6 +60,10 @@
                           <ul>
                                                                 
                                   <li><a href="/teoria/cortedecontrol/">Corte de Control</a></li>
+                                                              
+                                  <li><a href="/teoria/mezcla/">Mezcla</a></li>
+                                                              
+                                  <li><a href="/teoria/actualizacion/">Actualización</a></li>
                             
                           </ul>
                         </div>
@@ -650,6 +654,62 @@ Los alumnos que superan el 20% de las inasistencias están en situación de LIBR
 		</div>
     
 		<div class="header">
+		  <h5 class="titej">Ejercicio .2.19</h5>
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>En una Empresa Farmacéutica se posee un archivo Mae_Remedios (ordenado por Clave: Farmacia + Medicamento), el que se actualiza semanalmente, a traves de la información que se encuentra cargada en un archivo de Movimientos (ordenado por Clavem: Farmacia + Medicamento, y Codmov), de la siguiente forma:<br />
+- Si Clave (Mae_Remedios) es menor que Clavem (Movimientos), simplemente se transfieren los datos del Maestro a la salida y se graban.<br />
+- Si Clave (Mae_Remedios) es igual a Clavem (Movimientos) y el Codmov es 1, se considera error y se lista un mensaje indicando el tipo de error; pero si el Codmov es 2, entonces  es un remedio que deja de fabricarse y se transfiere el registro al archivo de Remedios vencidos (Rem_Venc) ; pero si el Codmov es 3, se modifica la cantidad actual con la cantidad recibida.<br />
+- Si Clave (Mae_Remedios) es mayor que Clavem (Movimientos) y el Codmov es 1, se incorpora el remedio a nuestro Vademecum, considerando que la cantidad recibida configura la cantidad actual y la fecha-vence es 30 días posterior a la fecha actual; pero si el Codmov es 2 o 3 se considera error y se deben producir los correspondientes mensajes de error.</p>
+
+<p><strong>MAE_REMEDIOS</strong> (Ordenado por Farmacia y Medicamento)
+<ul class='fileul'>
+    <li class='clave'>Farmacia
+    <li class='clave'>Medicamento
+    <li>Cant_Actual
+    <li>Fecha_Vencimiento
+</ul></p>
+
+<p><strong>MOVIMIENTOS</strong> (Ordenado por Farmacia, Medicamento y Cod_Mov)
+<ul class='fileul'>
+    <li class='clave'>Farmacia
+    <li class='clave'>Medicamento
+    <li class='clave'>Cod_Mov
+    <li>Cant_Recibida
+</ul></p>
+
+<p><strong>REM_VENC</strong> (Ordenado por Farmacia, Medicamento y Cod_Mov)
+<ul class='fileul'>
+    <li class='clave'>Medicamento
+    <li>Cant_Vencida
+</ul></p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
+		  <h5 class="titej">Ejercicio .2.20</h5>
+		</div>
+		<div class="section">
+			<div class="row">
+				<p>Se desea generar una secuencia, a partir de la secuencia del problema 2.01, donde se actualice la fecha de aprobación del último exámen, para ello se cuenta con información del último turno de exámen, según el siguiente detalle:</p>
+
+<p><strong>FICHERO EXAMENES</strong>
+<ul class='fileul'>
+    <li class='clave'>Nro_Legajo
+    <li>Carrera
+    <li>Cod_Materia
+    <li>Fecha_Examen
+    <li>Nota
+</ul></p>
+
+<p>Se debe considerar que no necesariamente todos los alumnos se presentan en cada turno de exámen, y que un alumno puede presentarse a rendir más de una materia en un mismo turno. Supónganse ambas secuencias ordenadas por Número de Legajo.</p>
+  
+		    </div>
+		</div>
+    
+		<div class="header">
 		  <h5 class="titej">Ejercicio .2.21</h5>
 		</div>
 		<div class="section">
@@ -685,7 +745,7 @@ Los alumnos que superan el 20% de las inasistencias están en situación de LIBR
 		</div>
 		<div class="section">
 			<div class="row">
-				<p>IDEM ejercicio 2.22 pero agregando al enunciado: “Al finalizar el proceso se desea conocer: el usuario que posee más amigos.”</p>
+				<p>IDEM ejercicio 2.21 pero agregando al enunciado: “Al finalizar el proceso se desea conocer: el usuario que posee más amigos.”</p>
   
 		    </div>
 		</div>
@@ -706,6 +766,11 @@ Los alumnos que superan el 20% de las inasistencias están en situación de LIBR
     <li>Tipo_Consumidor
 </ul></p>
 
+<p>El campo tipo de consumidor puede ser:<br />
+A (cuando el promedio de lectura es menor a 20K)<br />
+B (cuando el promedio de lectura es menor a 40K)<br />
+C (cuando el promedio de lectura es igual o supera los 40K).</p>
+
 <p>Cuenta además con el siguiente archivo con datos de las mediciones realizadas en los dos últimos años (desde junio del 2014 hasta junio del 2016).</p>
 
 <p>Ordenado por ID_Casa y Fecha_Medición
@@ -715,7 +780,7 @@ Los alumnos que superan el 20% de las inasistencias están en situación de LIBR
     <li>Consumo
 </ul></p>
 
-<p>Se pide actualizar el archivo maestro con la información de las lecturas hasta el mes de enero del año 2015 inclusive. Los campos que se deben actualizar son: la fecha de ultima lectura, cantidad de lecturas, el promedio y modificar (en caso de ser necesario) el tipo de consumidor.
+<p>Se pide actualizar el archivo maestro con la información de las lecturas hasta el mes de enero del año 2015 inclusive. Los campos que se deben actualizar son: la fecha de ultima lectura, cantidad de lecturas, el promedio y modificar (en caso de ser necesario) el tipo de consumidor.<br />
 En caso en que no exista el ID casa (una conexión nueva) se tiene que crear en el maestro y actualizar los otros campos.</p>
   
 		    </div>
@@ -765,7 +830,7 @@ Este archivo está conformado por registros con el siguiente formato, y está or
 		</div>
 		<div class="section">
 			<div class="row">
-				<p>IDEM 2.22 pero suponiendo que hay mas de un registro de notificaciones por cada registro de amigos.</p>
+				<p>IDEM 2.21 pero suponiendo que hay mas de un registro de notificaciones por cada registro de amigos.</p>
   
 		    </div>
 		</div>
