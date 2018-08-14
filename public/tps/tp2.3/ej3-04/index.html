@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title></title>
+  
+    
+
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/materialize.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/main.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/icons/material-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  
+  
+    <link rel="shortcut icon" href="http://aed.wfrre3.local/img/favicon.ico" type="image/x-icon" />
+  
+  </head>
+
+
+  <body>
+    <main>
+
+        
+ <ul id="slide-out" class="sidenav sidenav-fixed collapsible">
+      <li class="logo">
+        <a id="logo-container" href="/" class="brand-logo">
+          <object id="front-page-logo" type="image/svg+xml" data="http://aed.wfrre3.local/img/mobile.svg">Your browser does not support SVG</object>
+        </a>
+        <h5>aed.io</h5>
+      </li>      
+      <li class="no-padding">
+         <ul class="collapsible collapsible-accordion">
+             
+             
+                                  
+                     <li>
+                         <a href="/">Inicio</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/plan/">Planificación</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/cron/">Cronograma</a>
+                     </li>
+                 
+             
+                 
+                     </li>
+                     <li class="">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Teoría</a>
+                        <div class="collapsible-body">
+                          <ul>
+                                                                
+                                  <li><a href="/teoria/cortedecontrol/">Corte de Control</a></li>
+                                                              
+                                  <li><a href="/teoria/mezcla/">Mezcla</a></li>
+                                                              
+                                  <li><a href="/teoria/actualizacion/">Actualización</a></li>
+                            
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                 
+                     </li>
+                     <li class="">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Trabajos Prácticos</a>
+                        <div class="collapsible-body">
+                          <ul>
+                                                                
+                                  <li><a href="/tps/tp2.1/">TP 2.1</a></li>
+                                                              
+                                  <li><a href="/tps/tp2.2/">TP 2.2</a></li>
+                                                              
+                                  <li><a href="/tps/tp2.3/">TP 2.3</a></li>
+                                                              
+                                  <li><a href="/tps/tp3.1/">TP 3</a></li>
+                                                              
+                                  <li><a href="/tps/repaso/">Repaso</a></li>
+                            
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/acerca/">Acerca de</a>
+                     </li>
+                 
+                          
+         </ul>
+        </li>
+    </ul>
+
+<div class="fixed-action-btn">
+<a href="#" data-target="slide-out" class="top-nav sidenav-trigger full hide-on-large-only btn-floating pulse"><i class="material-icons">menu</i></a></div>
+
+<div class="container">
+	<div class="header">
+	  <h1></h1>	  
+	</div>
+	<div class="section">
+		<div class="row">
+			<p>Crear un algoritmo que simule el trabajo de una caja de supermercado. El algoritmo debe permitir imprimir el ticket de compra y realizar el descuento de stock del producto. Al generar el comprobante del ticket debe guardar los datos en los archivos TICKET y DETALLE_TICKET (el cliente es: &ldquo;consumidor final&rdquo; y el NroTicket se genera automáticamente, mediante la función OBTENER_TICKET).
+Archivos:</p>
+
+<p><strong>PRODUCTOS</strong> indexado por Cod_Prod</p>
+
+<ul class='fileul'>
+    <li class='clave'>Cod_Prod
+    <li>Nombre
+    <li>Stock
+    <li>Precio
+</ul>
+
+<p><strong>TICKET</strong> indexado por Nro_Ticket
+<ul class='fileul'>
+    <li class='clave'>Nro_Ticket
+    <li>Fecha
+    <li>Cliente
+</ul></p>
+
+<p><strong>DETALLE_TICKET</strong> indexado por Nro_Ticket
+<ul class='fileul'>
+    <li class='clave'>Nro_Ticket
+    <li>Nro_Linea
+    <li>Cod_Prod
+    <li>Cantidad
+</ul></p>
+
+<p>Comprobante:</p>
+
+<table>
+  <tr>
+    <td>Empresa:</td>
+    <td>......................................</td>
+    <td>CUIT:</td>
+    <td>.... - ............ - ...</td>
+    <td>Fecha:</td>
+    <td>... / ... / ...</td>
+  </tr>
+  <tr>
+    <td>Cliente</td>
+    <td colspan="5">.................................................................................................................................</td>
+  </tr>
+  <tr>
+    <td colspan="2">Producto</td>
+    <td colspan="2">Cantidad</td>
+    <td colspan="2">Subtotal</td>
+  </tr>
+  <tr>
+    <td colspan="2">..............................</td>
+    <td colspan="2">..............................</td>
+    <td colspan="2">..............................</td>
+  </tr>
+  <tr>
+    <td colspan="2">..............................</td>
+    <td colspan="2">..............................</td>
+    <td colspan="2">..............................</td>
+  </tr>
+  <tr>
+    <td colspan="2">..............................</td>
+    <td colspan="2">..............................</td>
+    <td colspan="2">..............................</td>
+  </tr>
+  <tr>
+    <td colspan="3"></td>
+    <td>Total</td>
+    <td colspan="2">..............................</td>
+  </tr>
+</table>
+  
+	    </div>
+	</div>
+</div>
+
+	</main>
+	<script src="http://aed.wfrre3.local/js/jquery-3.3.1.min.js"></script>
+	<script src="http://aed.wfrre3.local/js/main.js"></script>
+	<script src="http://aed.wfrre3.local/js/materialize.js"></script>
+	<footer class="page-footer blue">
+		<div class="footer-copyright">
+	    	<div class="container">
+	        	Universidad Tecnologíca Nacional - Facultad Regional Resistencia	            
+	        </div>
+	    </div>
+	</footer>
+
+</body>
+
+</html>
