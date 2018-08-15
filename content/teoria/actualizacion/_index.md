@@ -141,3 +141,165 @@ Fin Subaccion
 
 
 ```
+
+
+## Actualizacion Secuencial Por lotes
+
+##### Consideraciones:
+
+ * Utilizamos un ciclo **incluyente**.
+ * Los tipos de movimientos son:
+   * Alta: Siempre el primer registro va a ser del tipo alta, y luego modificaciones.
+   * Modificacion: pueden existir varias modificaciones a un maestro.
+   * Baja: son bajas logicas. Solo el ultimo movimiento puede ser una baja logica.
+   * No existen altas o bajas entre las modificaciones.
+
+##### Ambiente:
+
+El ambiente esta formado por 2 archivos con la siguiente estructura:
+
+
+```
+
+Formato_Clave = Registro
+  clave1: ...
+  clave2: ...
+  ...
+  claven: ...
+fin registro
+
+formato_Maestro = Registro
+  clave: formato_clave
+  campo1: ...
+  campo2: ...
+  ...
+  campon: ...
+  Marca_baja: ...
+fin registro
+
+formato_Movimiento = Registro
+  clave: formato_clave
+  campo1: ...
+  campo2: ...
+  ...
+  campon: ...
+  cod_mov: ("A", "M", "B")
+fin registro
+
+mae, mae_sal: archivo de formato_Maestro ordenado por clave
+reg_sal, reg_mae, aux: formato_Maestro
+
+mov: archivo de formato_movimiento ordenado por clave
+reg_mov: formato_movimiento
+
+```
+
+##### Algoritmo Principal:
+
+
+```
+Abrir_Archivos
+Leer_Maestro
+Leer_Movimiento
+MIENTRAS (reg_mov.clave <> High_Value) o (reg_mae.clave <> High_Value) HACER
+  SI Creg_mae.clave < Creg_mov.clave ENTONCES 
+    //Maestro sin Movimiento
+    Reg_sal : = Reg_mae
+    ESCRIBIR(mae_sal, Reg_sal)
+    Leer_Maestro
+  SINO 
+    SI Creg_mae.clave = Creg_mov.clave Movimiento
+      aux : = reg_mae
+      MIENTRAS (Creg_mae.clave = Creg_mov.clave) HACER
+        Proceso_Movim
+        Leer_Movimiento
+      Fin Mientras
+      reg_sal : = Aux
+      ESCRIBIR(mae_sal, reg_sal)
+      Leer_Maestro
+    SINO 
+      // Movimiento sin Maestro ~ 1 Alta y 0-1 Modific. y/o Bajas 
+      // Asigna campo por campo, porque Aux y Reg_mov tienen distinto formato 
+      Aux.clave  := Reg_mov.clave
+      Aux.campo1 := Reg_mov.campo3
+      Aux.campo2 := Reg_mov.campo4
+      ........
+      Aux.campon := Reg_mov.campon
+      Aux.Marca_baja := ""
+      Leer_Movimiento
+      MIENTRAS (Clave_Aux = Clave_Mov) HACER
+        Proceso_Movim
+        Leer_Movimiento
+      FMientras
+      reg_sal : = aux
+      ESCRIBIR(mae_sal, reg_sal)
+    FIN SI
+  FIN SI
+FIN MIENTRAS
+
+CERRAR(mae)
+CERRAR(mae_sal)
+CERRAR(mov)
+```
+
+##### Subacciones
+
+```
+
+Subacción Leer_Movimiento es
+  LEER(mov, Reg_mov)
+  SI FDA(mov) ENTONCES 
+    reg_mov.clave := High_value
+  FSI;
+FAcción
+
+Subacción Leer_Maestro es
+  LEER(mae, reg_mae)
+  SI FDA(mae) ENTONCES 
+    reg_mae.clave : = High_value
+  FSI;
+FAcción
+
+Subacción Proceso_Movim es
+  //Comparar la información del Registro de Movimientos y, de acuerdo a los valores que
+  //tengan, y alterar los contenidos del Registro Auxiliar (Aux). 
+  SI reg_mov.Cod_Mov = "M" ENTONCES 
+    //Modificación 
+    Proceso_modif_maestro
+  SINO 
+    SI reg_mov.Cod_Mov = "B" ENTONCES 
+      //eliminación lógica 
+      Marcar_registro
+    Fsi
+  Fsi
+FAcción
+
+Subacción Proceso_modif_maestro es
+  Si Reg_Mov.campo1 <> "" entonces 
+    // No se actualizan los campos claves.
+    Aux.campo1 := Reg_mov.campo1
+  fsi;
+  Si Reg_Mov.campo2 <> "" entonces 
+    Aux.campo2 := Reg_mov.campo2
+  fsi;
+  ..............................
+  //... y así sucesivamente para todos los campos del registro...
+  ..............................
+  Si Reg_Mov.campon <> "" entonces 
+    Aux.campon := Reg_mov.campon
+  fsi;
+FAcción.
+
+Subacción Marcar_registro es
+  //en vez de asterisco, se puede asignar la fecha del día,
+  //o cualquier otro dato, según el problema 
+  Aux.Marca_baja:= "*"
+FAcción.
+
+```
+
+##### Modificar:
+
+- Que pasa si se pide que se tengan en cuenta los siguientes errores:
+  - Las altas no siempre estan al principio.
+  - Las bajas no siempre estan al final.
