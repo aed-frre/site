@@ -1,7 +1,7 @@
 ---
 
-Title: "TP 3"
-PageTitle: "Trabajo Práctico N° 3"
+Title: "TP 3.1"
+PageTitle: "Trabajo Práctico N° 3.1"
 Description: "En esta unidad se unidad se tratarán arreglos"
 menu:
   main:

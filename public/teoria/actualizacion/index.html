@@ -64,6 +64,8 @@
                                   <li><a href="/teoria/mezcla/">Mezcla</a></li>
                                                               
                                   <li><a href="/teoria/actualizacion/">Actualización</a></li>
+                                                              
+                                  <li><a href="/teoria/arreglos/">Arreglos</a></li>
                             
                           </ul>
                         </div>
@@ -83,9 +85,9 @@
                                                               
                                   <li><a href="/tps/tp2.3/">TP 2.3</a></li>
                                                               
-                                  <li><a href="/tps/tp3.1/">TP 3</a></li>
+                                  <li><a href="/tps/tp3.1/">TP 3.1</a></li>
                                                               
-                                  <li><a href="/tps/repaso/">Repaso</a></li>
+                                  <li><a href="/tps/tp4.1/">TP 4.1</a></li>
                             
                           </ul>
                         </div>
@@ -245,6 +247,275 @@ Subaccion Marcar_Registro es
                                    o cualquier otro dato, según el problema //
 Fin Subaccion
 
+
+</code></pre>
+
+<h2 id="actualizacion-secuencial-por-lotes">Actualizacion Secuencial Por lotes</h2>
+
+<h5 id="consideraciones">Consideraciones:</h5>
+
+<ul>
+<li>Utilizamos un ciclo <strong>incluyente</strong>.</li>
+<li>Los tipos de movimientos son:
+
+<ul>
+<li>Alta: Siempre el primer registro va a ser del tipo alta, y luego modificaciones.</li>
+<li>Modificacion: pueden existir varias modificaciones a un maestro.</li>
+<li>Baja: son bajas logicas. Solo el ultimo movimiento puede ser una baja logica.</li>
+<li>No existen altas o bajas entre las modificaciones.</li>
+</ul></li>
+</ul>
+
+<h5 id="ambiente">Ambiente:</h5>
+
+<p>El ambiente esta formado por 2 archivos con la siguiente estructura:</p>
+
+<pre><code>
+Formato_Clave = Registro
+  clave1: ...
+  clave2: ...
+  ...
+  claven: ...
+fin registro
+
+formato_Maestro = Registro
+  clave: formato_clave
+  campo1: ...
+  campo2: ...
+  ...
+  campon: ...
+  Marca_baja: ...
+fin registro
+
+formato_Movimiento = Registro
+  clave: formato_clave
+  campo1: ...
+  campo2: ...
+  ...
+  campon: ...
+  cod_mov: (&quot;A&quot;, &quot;M&quot;, &quot;B&quot;)
+fin registro
+
+mae, mae_sal: archivo de formato_Maestro ordenado por clave
+reg_sal, reg_mae, aux: formato_Maestro
+
+mov: archivo de formato_movimiento ordenado por clave
+reg_mov: formato_movimiento
+
+</code></pre>
+
+<h5 id="algoritmo-principal">Algoritmo Principal:</h5>
+
+<pre><code>Abrir_Archivos
+Leer_Maestro
+Leer_Movimiento
+MIENTRAS (reg_mov.clave &lt;&gt; High_Value) o (reg_mae.clave &lt;&gt; High_Value) HACER
+  SI Creg_mae.clave &lt; Creg_mov.clave ENTONCES 
+    //Maestro sin Movimiento
+    Reg_sal : = Reg_mae
+    ESCRIBIR(mae_sal, Reg_sal)
+    Leer_Maestro
+  SINO 
+    SI Creg_mae.clave = Creg_mov.clave Movimiento
+      aux : = reg_mae
+      MIENTRAS (Creg_mae.clave = Creg_mov.clave) HACER
+        Proceso_Movim
+        Leer_Movimiento
+      Fin Mientras
+      reg_sal : = Aux
+      ESCRIBIR(mae_sal, reg_sal)
+      Leer_Maestro
+    SINO 
+      // Movimiento sin Maestro ~ 1 Alta y 0-1 Modific. y/o Bajas 
+      // Asigna campo por campo, porque Aux y Reg_mov tienen distinto formato 
+      Aux.clave  := Reg_mov.clave
+      Aux.campo1 := Reg_mov.campo3
+      Aux.campo2 := Reg_mov.campo4
+      ........
+      Aux.campon := Reg_mov.campon
+      Aux.Marca_baja := &quot;&quot;
+      Leer_Movimiento
+      MIENTRAS (Clave_Aux = Clave_Mov) HACER
+        Proceso_Movim
+        Leer_Movimiento
+      FMientras
+      reg_sal : = aux
+      ESCRIBIR(mae_sal, reg_sal)
+    FIN SI
+  FIN SI
+FIN MIENTRAS
+
+CERRAR(mae)
+CERRAR(mae_sal)
+CERRAR(mov)
+</code></pre>
+
+<h5 id="subacciones">Subacciones</h5>
+
+<pre><code>
+Subacción Leer_Movimiento es
+  LEER(mov, Reg_mov)
+  SI FDA(mov) ENTONCES 
+    reg_mov.clave := High_value
+  FSI;
+FAcción
+
+Subacción Leer_Maestro es
+  LEER(mae, reg_mae)
+  SI FDA(mae) ENTONCES 
+    reg_mae.clave : = High_value
+  FSI;
+FAcción
+
+Subacción Proceso_Movim es
+  //Comparar la información del Registro de Movimientos y, de acuerdo a los valores que
+  //tengan, y alterar los contenidos del Registro Auxiliar (Aux). 
+  SI reg_mov.Cod_Mov = &quot;M&quot; ENTONCES 
+    //Modificación 
+    Proceso_modif_maestro
+  SINO 
+    SI reg_mov.Cod_Mov = &quot;B&quot; ENTONCES 
+      //eliminación lógica 
+      Marcar_registro
+    Fsi
+  Fsi
+FAcción
+
+Subacción Proceso_modif_maestro es
+  Si Reg_Mov.campo1 &lt;&gt; &quot;&quot; entonces 
+    // No se actualizan los campos claves.
+    Aux.campo1 := Reg_mov.campo1
+  fsi;
+  Si Reg_Mov.campo2 &lt;&gt; &quot;&quot; entonces 
+    Aux.campo2 := Reg_mov.campo2
+  fsi;
+  ..............................
+  //... y así sucesivamente para todos los campos del registro...
+  ..............................
+  Si Reg_Mov.campon &lt;&gt; &quot;&quot; entonces 
+    Aux.campon := Reg_mov.campon
+  fsi;
+FAcción.
+
+Subacción Marcar_registro es
+  //en vez de asterisco, se puede asignar la fecha del día,
+  //o cualquier otro dato, según el problema 
+  Aux.Marca_baja:= &quot;*&quot;
+FAcción.
+
+</code></pre>
+
+<h5 id="modificar">Modificar:</h5>
+
+<ul>
+<li>Que pasa si se pide que se tengan en cuenta los siguientes errores:
+
+<ul>
+<li>Las altas no siempre estan al principio.</li>
+<li>Las bajas no siempre estan al final.</li>
+</ul></li>
+</ul>
+
+<h2 id="actualizacion-indexada">Actualizacion Indexada</h2>
+
+<h5 id="consideraciones-1">Consideraciones:</h5>
+
+<ul>
+<li>Archivo maestro indexado por clave</li>
+<li>Se ingresan movimientos por terminal
+<br /></li>
+</ul>
+
+<h5 id="ambiente-1">Ambiente</h5>
+
+<p>El ambiente esta formado por 1 solo archivos con la siguiente estructura:</p>
+
+<pre><code>
+formato_mae = Registro
+  clave: formato_clave
+  campo1: ...
+  campo2: ...
+  ...
+  campon: ...
+  Marca_baja: ...
+fin registro
+
+arch_mae: Archivo de formato_mae indexado por clave.
+reg_mae: formato
+
+cod_mov: AN(1)
+
+valido = ('A', 'B', 'C')
+
+clave: formato_clave
+
+</code></pre>
+
+<h5 id="algoritmo">Algoritmo</h5>
+
+<pre><code>Abrir E/S (arch)
+
+Escribir (‘Por favor ingrese la clave a procesar y el código de movimiento (A: incorporaciones, B: bajas, M: modificaciones) Para finalizar ingrese cualquier otra letra.’) 
+
+Leer(clave, cod_mov)
+
+MIENTRAS (cod_mov en valido) HACER
+  reg_mae.clave := clave
+  LEER (arch_mae, reg_mae)
+
+  SI no existe ENTONCES 
+    SI cod_mov = 'B' ENTONCES 
+      ESCRIBIR(‘Error baja no existe’)
+    SINO 
+      SI cod_mov = 'M' ENTONCES
+        ESCRIBIR(‘Error modificación no existe’)
+      SINO  
+        // Ingresar por teclado los datos correspondientes a la nueva clave 
+        LEER(reg_mae.campo1)
+        LEER(reg_mae.campo2)
+        ...
+        LEER(reg_mae.campon)
+        ESCRIBIR(arch_mae, reg_mae)
+      FSI
+    FSI 
+  SINO 
+    SI cod_mov = 'A' ENTONCES
+      ESCRIBIR(‘Error clave existe, alta no es posible’)
+    SINO 
+      SI cod_mov = 'M' ENTONCES 
+        // Ingresar por teclado los datos que se desean modificar 
+        LEER(campo1)
+        SI campo1 &lt;&gt; '' ENTONCES 
+          reg_mae.campo1 := campo1
+        FSI
+        LEER(campo2)
+        SI campo2 &lt;&gt; '' ENTONCES 
+          reg_mae.campo2 := campo2
+        FSI
+        ...
+        LEER(campon)
+        SI campon &lt;&gt; '' ENTONCES 
+          reg_mae.campon := campon
+        FSI
+        RE-ESCRIBIR(arch_mae, reg_mae)
+      SINO   
+      // Baja lógica 
+        reg_mae.Marca_baja := &quot;*&quot;
+        RE-ESCRIBIR(arch_mae, Reg_mae)
+      // Baja Física
+        BORRAR(arch_mae, reg_mae)
+      FSI
+    FSI
+  FSI
+
+
+  ESCRIBIR (‘Por favor ingrese la clave a procesar y el código de movimiento (A: incorporaciones, B: bajas, M: odificaciones) Para finalizar ingrese cualquier otra letra.’) 
+
+  LEER(clave, cod_mov)
+
+FIN MIENTRAS
+
+CERRAR(arch_mae)
 
 </code></pre>
 

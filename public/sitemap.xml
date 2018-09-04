@@ -235,7 +235,11 @@
   </url>
   
   <url>
-    <loc>http://aed.wfrre3.local/tps/tp2.3/ej3-01/</loc>
+    <loc>http://aed.wfrre3.local/tps/tp2.3/ej3-01a/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp2.3/ej3-01b/</loc>
   </url>
   
   <url>
@@ -391,6 +395,46 @@
   </url>
   
   <url>
+    <loc>http://aed.wfrre3.local/tps/tp4.1/ej1-01/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp4.1/ej1-02/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp4.1/ej1-03/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp4.1/ej1-04/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp4.1/ej1-05/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp4.1/ej1-06/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp4.1/ej1-07/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp4.1/ej1-08/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp4.1/ej1-09/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp4.1/ej1-10/</loc>
+  </url>
+  
+  <url>
     <loc>http://aed.wfrre3.local/acerca/</loc>
   </url>
   
@@ -400,6 +444,10 @@
   
   <url>
     <loc>http://aed.wfrre3.local/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/teoria/arreglos/</loc>
   </url>
   
   <url>
@@ -441,6 +489,10 @@
   
   <url>
     <loc>http://aed.wfrre3.local/tps/tp3.1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://aed.wfrre3.local/tps/tp4.1/</loc>
   </url>
   
   <url>

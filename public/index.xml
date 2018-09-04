@@ -585,10 +585,23 @@ B (cuando el promedio de lectura es menor a 40K)</description>
     
     <item>
       <title></title>
-      <link>http://aed.wfrre3.local/tps/tp2.3/ej3-01/</link>
+      <link>http://aed.wfrre3.local/tps/tp2.3/ej3-01a/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://aed.wfrre3.local/tps/tp2.3/ej3-01/</guid>
+      <guid>http://aed.wfrre3.local/tps/tp2.3/ej3-01a/</guid>
+      <description>Dado un fichero secuencial de Facturas, ordenado por Nro. de Cliente y Nro. de Factura, con la siguiente estructura:
+FACTURAS Nro_Cliente Nro_Factura Fecha Importe 
+Se desea un listado con el siguiente detalle:
+   Nro. Cliente Nombre Cliente Nro_Factura      Los datos del cliente se encuentran en un fichero indexado por Nro. de Cliente, que tiene la siguiente estructura:
+CLIENTES Nro_Cliente Nombre DNI CUIT Domicilio</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp2.3/ej3-01b/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp2.3/ej3-01b/</guid>
       <description>Dado un fichero secuencial de Facturas, ordenado por Nro. de Cliente y Nro. de Factura, con la siguiente estructura:
 FACTURAS Nro_Cliente Nro_Factura Fecha Importe 
 Se desea un listado con el siguiente detalle:
@@ -617,7 +630,7 @@ Cod_Curso Nombre Fecha Cant_Horas  Emitir un listado informando:
       <guid>http://aed.wfrre3.local/tps/tp2.3/ej3-03/</guid>
       <description>Los automovilistas pasan por el peaje del Puente Gral. Belgrano y deben pagar según su categoría, pero además, si ya han pasado previamente dentro del día tienen pase libre.
 Teniendo en cuenta el archivo siguiente, construya el algoritmo que realice lo que corresponda: genere el comprobante, indicando el importe a pagar o emita un mensaje indicando que ya pasó anteriormente. Además indique cuales deberían ser los datos de entrada.
-PEAJE Indexado por Patente, Fecha, Hora Patente XXX-NNN Fecha N(8) Hora N(4) Costo XXX,XX</description>
+PEAJE Indexado por Patente, Fecha Patente XXX-NNN Fecha N(8) Ult_Hora N(4) Costo XXX,XX</description>
     </item>
     
     <item>
@@ -985,6 +998,98 @@ En el texto vienen los siguientes datos: nombre de la mascota, encerrado ente as
       <guid>http://aed.wfrre3.local/tps/tp3.1/ej1-30/</guid>
       <description>Teniendo en cuenta el ejercicio 1.20 del TP2:
 Se posee 2 secuencias (S1 y S2) con las cuales se desea generar una nueva secuencia (SAL) donde se intercalen las palabras de las secuencias de entrada, de la siguiente manera: copiar de S1 aquellas palabras que empiezan y terminan con la misma letra y de S2 aquellas palabras que posean al menos un digito numérico y además estén en posición par.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.1/ej1-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.1/ej1-01/</guid>
+      <description>Realice una función que dado un número devuelva su cuadrado.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.1/ej1-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.1/ej1-02/</guid>
+      <description>Diseñe una función que devuelva la suma de los dígitos del número natural suministrado como parámetro.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.1/ej1-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.1/ej1-03/</guid>
+      <description>Diseñe una función que permita ingresar 3 números y devuelva el mínimo valor. El programa principal debe permitir que este proceso se repita la cantidad de veces que el usuario desee.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.1/ej1-04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.1/ej1-04/</guid>
+      <description>Elaborar una función que reciba un número entero y retorne -1 si el número es negativo. Si el número es positivo debe devolver una clave calculada de la siguiente manera: Se suma cada dígito que compone el número y a esa suma se le calcula el modulo 7.
+Por ejemplo: para la cifra 513, la clave será 5+1+3 =9; 9 mod 7 = 2.
+Utilice la función para diseñar un algoritmo que permita leer varios valores y determine, para cada uno, si el número leído fue negativo o, si fue positivo, que clave le corresponde.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.1/ej1-05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.1/ej1-05/</guid>
+      <description>Escribir una función que verifique si un caracter introducido es un dígito o no.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.1/ej1-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.1/ej1-06/</guid>
+      <description>Escribir una función que lea desde el teclado las unidades y el precio de un producto que se quiere comprar, y en función de las unidades introducidas calcule un descuento o no, según corresponda: cuando las unidades excedan media docena se aplicará 4% y el 10% cuando excedan la docena. La función debe devolver como resultado el valor del descuento o cero, en caso de que no corresponda.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.1/ej1-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.1/ej1-07/</guid>
+      <description>Repita el ejercicio del punto 5 pero utilice procedimiento en lugar de función.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.1/ej1-08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.1/ej1-08/</guid>
+      <description>Crear un procedimiento que intercambie los valores de dos variables numéricas.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.1/ej1-09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.1/ej1-09/</guid>
+      <description>Desarrollar los procedimientos mostrar_0, mostrar_1, mostrar_9 que visualicen por pantalla, respectivamente, los números 0,1,&amp;hellip;,9 en tamaño grande, tal y como se muestra a continuación:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.1/ej1-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.1/ej1-10/</guid>
+      <description>Escribir un único procedimiento mostrar_nro que reciba como parámetro un dígito y lo muestre por pantalla de la misma forma que se indica en el ejercicio 9.</description>
     </item>
     
   </channel>

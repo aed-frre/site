@@ -303,3 +303,108 @@ FAcción.
 - Que pasa si se pide que se tengan en cuenta los siguientes errores:
   - Las altas no siempre estan al principio.
   - Las bajas no siempre estan al final.
+
+
+
+## Actualizacion Indexada
+
+##### Consideraciones:
+
+ * Archivo maestro indexado por clave
+ * Se ingresan movimientos por terminal
+  
+
+##### Ambiente
+
+El ambiente esta formado por 1 solo archivos con la siguiente estructura:
+
+```
+
+formato_mae = Registro
+  clave: formato_clave
+  campo1: ...
+  campo2: ...
+  ...
+  campon: ...
+  Marca_baja: ...
+fin registro
+
+arch_mae: Archivo de formato_mae indexado por clave.
+reg_mae: formato
+
+cod_mov: AN(1)
+
+valido = ('A', 'B', 'C')
+
+clave: formato_clave
+
+```
+         
+
+##### Algoritmo
+```
+Abrir E/S (arch)
+
+Escribir (‘Por favor ingrese la clave a procesar y el código de movimiento (A: incorporaciones, B: bajas, M: modificaciones) Para finalizar ingrese cualquier otra letra.’) 
+
+Leer(clave, cod_mov)
+
+MIENTRAS (cod_mov en valido) HACER
+  reg_mae.clave := clave
+  LEER (arch_mae, reg_mae)
+
+  SI no existe ENTONCES 
+    SI cod_mov = 'B' ENTONCES 
+      ESCRIBIR(‘Error baja no existe’)
+    SINO 
+      SI cod_mov = 'M' ENTONCES
+        ESCRIBIR(‘Error modificación no existe’)
+      SINO  
+        // Ingresar por teclado los datos correspondientes a la nueva clave 
+        LEER(reg_mae.campo1)
+        LEER(reg_mae.campo2)
+        ...
+        LEER(reg_mae.campon)
+        ESCRIBIR(arch_mae, reg_mae)
+      FSI
+    FSI 
+  SINO 
+    SI cod_mov = 'A' ENTONCES
+      ESCRIBIR(‘Error clave existe, alta no es posible’)
+    SINO 
+      SI cod_mov = 'M' ENTONCES 
+        // Ingresar por teclado los datos que se desean modificar 
+        LEER(campo1)
+        SI campo1 <> '' ENTONCES 
+          reg_mae.campo1 := campo1
+        FSI
+        LEER(campo2)
+        SI campo2 <> '' ENTONCES 
+          reg_mae.campo2 := campo2
+        FSI
+        ...
+        LEER(campon)
+        SI campon <> '' ENTONCES 
+          reg_mae.campon := campon
+        FSI
+        RE-ESCRIBIR(arch_mae, reg_mae)
+      SINO   
+      // Baja lógica 
+        reg_mae.Marca_baja := "*"
+        RE-ESCRIBIR(arch_mae, Reg_mae)
+      // Baja Física
+        BORRAR(arch_mae, reg_mae)
+      FSI
+    FSI
+  FSI
+
+
+  ESCRIBIR (‘Por favor ingrese la clave a procesar y el código de movimiento (A: incorporaciones, B: bajas, M: odificaciones) Para finalizar ingrese cualquier otra letra.’) 
+
+  LEER(clave, cod_mov)
+
+FIN MIENTRAS
+
+CERRAR(arch_mae)
+
+```
