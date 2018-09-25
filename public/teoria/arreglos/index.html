@@ -174,6 +174,76 @@ FIN SI
 
 </code></pre>
 
+<h5 id="ordenamiento"><strong>Ordenamiento</strong></h5>
+
+<h6 id="inserción-directa"><strong>Inserción directa</strong></h6>
+
+<pre><code>
+// Ordena de menor a mayor
+
+CARGAR_ARREGLO
+
+PARA i:= 2 a n HACER
+    x:=a[i]
+    j:=i-1
+    MIENTRAS (j &gt; 0) y (x &lt; a[j]) HACER
+        a[j+1]:=a[j]
+        j:=j-1
+    FIN MIENTRAS
+    a[j+1]:=x
+FIN PARA
+
+
+</code></pre>
+
+<h6 id="seleccion-directa"><strong>Seleccion directa</strong></h6>
+
+<pre><code>
+// Ordena de mayor a menor
+
+CARGAR_ARREGLO
+
+PARA i:= 1 a n-1 HACER
+    x:=a[i]
+    max:=i
+    PARA j:= i+1 a n HACER
+        SI (x &lt; a[j]) ENTONCES
+            max:=j
+            x:=a[j]
+        FIN SI
+    FIN PARA
+    a[max]:=a[i]
+    a[i]:=x
+FIN PARA
+
+
+</code></pre>
+
+<h6 id="intercambio-directo-burbuja"><strong>Intercambio directo / Burbuja</strong></h6>
+
+<p>Intercambio directo - burbuja     ** Ordena de mayor a menor **</p>
+
+<pre><code>
+// Ordena de mayor a menor
+
+CARGAR_ARREGLO
+
+Bandera:= Falso
+
+MIENTRAS No Bandera HACER
+    Bandera:= Verdadero
+    PARA j:=1 a n-1 HACER
+        SI (a[j] &lt; a[j+1]) ENTONCES
+            x:=a[j]
+            a[j]:=a[j+1]
+            a[j+1]:=x
+            Bandera:= Falso
+        FIN SI
+    FIN PARA
+FIN MIENTRAS
+
+</code></pre>
+
 	    </div>
 	</div>
 </div>
