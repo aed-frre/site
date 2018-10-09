@@ -16,7 +16,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://aed.wfrre3.local/tps/repaso/ej1-1/</guid>
-      <description>La AFA desea automatizar algunos de sus procesos de toma de decisiones en la división D de la Argentina, para ello dispone de la información de los 20 equipos de la misma, la cual se encuentra almacenada en una secuencia de caracteres. La secuencia de los 20 equipos tiene la siguiente estructura: se inicia con el nombre del equipo (una sola vez por cada equipo), seguido de un “-“,luego se encuentran los datos de los jugadores: su número de camiseta (2 caracteres), el nombre y apellido, una“/”,y el código de 3 caracteres de su puesto (POR, DEF, VOL y DEL), cantidad de tarjetas amarillas (1 carácter), terminando con un “+”.</description>
+      <description>La empresa NETFLIXARG cuenta con un archivo PUNTAJE, donde se almacena la recomendación promedio de determinada película. El registro de PUNTAJE tiene el siguiente formato:
+PUNTAJE indexado por CodPel CodPel N(6) Nombre AN(60) Genero N(2) CantVistas N(5) Puntaje 1..5 
+El campo CantVistas almacena la cantidad de usuarios que la vieron.
+El campo Puntaje indica la recomendación donde 1-NO SE RECOMIENDA y 5-MUY RECOMENDADA.
+Además se cuenta con un archivo VISTAS, donde se registra el puntaje que determinado usuario hizo sobre una película durante el mes de Noviembre, con el siguiente formato de registro:</description>
     </item>
     
     <item>
@@ -25,11 +29,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://aed.wfrre3.local/tps/repaso/ej1-2/</guid>
-      <description>La empresa de lavado de autos Cochelimpio SA posee la información de las operaciones realizadas en sus sucursales en un archivo con el siguiente formato:
-LAVADOS (ordenado por COD_CIUDAD, COD_SUCURSAL, COD_VEHÍCULO y Patente) COD_CIUDAD N(2) COD_SUCURSAL N(2) COD_VEHÍCULO 1..4 Patente AN(10) Cant. de lavados N(3) Importe Unitario N(4,2) 
-COD_VEHÍCULO: 1-Sedán, 2-Camioneta, 3-Pickup, 4-Camión
-Desarrollar un algoritmo que cumpla con los siguientes puntos:
-a) Generar un archivo de salida con el siguiente formato:</description>
+      <description>Se debe tomar decisiones respecto al lanzamiento de nuevas películas en alguno de los 3 géneros analizados en el punto anterior, teniendo en cuenta la cantidad de películas vistas desde Enero/17 a Noviembre/17. Para ello se cuenta con un archivo cuyo registro es:
+INFORME Fecha Fecha Genero N(2) CantVistas N(6) 
+Se pide:
+- ¿Cuál es el Género con mayor cantidad de películas vistas desde Enero/17 a Noviembre/17?
+- En qué mes y para qué género se registró la menor cantidad de películas vistas.</description>
     </item>
     
   </channel>
