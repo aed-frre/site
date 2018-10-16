@@ -111,7 +111,7 @@ SI (a = nil) ENTONCES
 	Prim:= p
 SINO
 	*p.prox:= q
-	*q.prox:= p
+	*a.prox:= p
 FIN SI
 
 ```
@@ -133,7 +133,11 @@ FIN MIENTRAS
 SI (q = nil) ENTONCES
 	Escribir ('Error, el valor no existe')
 SINO
-	*a.prox:= *q.prox
+	SI (a = nil) ENTONCES
+		Prim = *q.prox
+	SINO
+		*a.prox:= *q.prox
+	FIN SI
 	DISPONER(q)
 FIN SI
 

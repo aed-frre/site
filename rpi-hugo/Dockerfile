@@ -9,4 +9,6 @@ RUN tar xzf /usr/local/hugo/${HUGO_BINARY}.tar.gz -C /usr/local/hugo/ \
 	&& ln -s /usr/local/hugo/hugo /usr/local/bin/hugo \
 	&& rm /usr/local/hugo/${HUGO_BINARY}.tar.gz
 
-ENTRYPOINT ["hugo"]
+VOLUME /site
+
+ENTRYPOINT hugo
