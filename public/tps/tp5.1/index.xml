@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TP 5.1 on Guia de Trabajos Practicos</title>
+    <link>http://aed.wfrre3.local/tps/tp5.1/</link>
+    <description>Recent content in TP 5.1 on Guia de Trabajos Practicos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://aed.wfrre3.local/tps/tp5.1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp5.1/ej1-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp5.1/ej1-01/</guid>
+      <description>Calcular el factorial de un número positivo n. Tener en cuenta la definición matemática de n!:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp5.1/ej1-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp5.1/ej1-02/</guid>
+      <description>Dado un número n como parámetro de entrada, calcular el n-esimo número de la serie de Fibonacci. Tener en cuenta la siguiente definición:</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp5.1/ej1-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp5.1/ej1-03/</guid>
+      <description>1.03. Dados dos números: a y b. Calcule la potencia ab, usando sólo multiplicaciones sucesivas.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp5.1/ej1-04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp5.1/ej1-04/</guid>
+      <description>Construir un algoritmo recursivo que permita determinar si los dígitos de un número n dado son todos pares.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp5.1/ej1-05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp5.1/ej1-05/</guid>
+      <description>Dados dos números enteros, divídalos (división entera) y muestre el resultado, usando sólo la operación resta.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp5.1/ej1-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp5.1/ej1-06/</guid>
+      <description>Determine recursivamente si un número dado es par o impar, usando sólo la operación resta.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp5.1/ej1-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp5.1/ej1-07/</guid>
+      <description>El algoritmo de Euclides para encontrar el MCD (máximo común divisor) de dos números enteros positivos (m y n) se puede definir recursivamente. Algoritmo de Euclides: el MCD de dos enteros es el entero mayor que divide a ambos.
+   Dividendo Divisor Cociente Resto     m n q1 r1   n r1 q2 r2   r1 r2 q3 r3    Cuando el último resto es cero (por ej.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp5.1/ej1-08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp5.1/ej1-08/</guid>
+      <description>Dado un vector de 10 números enteros, calcular la suma de sus elementos</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title></title>
+  
+    
+
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/materialize.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/main.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/icons/material-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  
+  
+    <link rel="shortcut icon" href="http://aed.wfrre3.local/img/favicon.ico" type="image/x-icon" />
+  
+  </head>
+
+
+  <body>
+    <main>
+
+        
+ <ul id="slide-out" class="sidenav sidenav-fixed collapsible">
+      <li class="logo">
+        <a id="logo-container" href="/" class="brand-logo">
+          <object id="front-page-logo" type="image/svg+xml" data="http://aed.wfrre3.local/img/mobile.svg">Your browser does not support SVG</object>
+        </a>
+        <h5>aed.io</h5>
+      </li>      
+      <li class="no-padding">
+         <ul class="collapsible collapsible-accordion">
+             
+             
+                                  
+                     <li>
+                         <a href="/">Inicio</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/plan/">Planificación</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/cron/">Cronograma</a>
+                     </li>
+                 
+             
+                 
+                     </li>
+                     <li class="">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Teoría</a>
+                        <div class="collapsible-body">
+                          <ul>
+                                                                
+                                  <li><a href="/teoria/cortedecontrol/">Corte de Control</a></li>
+                                                              
+                                  <li><a href="/teoria/mezcla/">Mezcla</a></li>
+                                                              
+                                  <li><a href="/teoria/actualizacion/">Actualización</a></li>
+                                                              
+                                  <li><a href="/teoria/arreglos/">Arreglos</a></li>
+                                                              
+                                  <li><a href="/teoria/listas/">Listas</a></li>
+                            
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                 
+                     </li>
+                     <li class="">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Trabajos Prácticos</a>
+                        <div class="collapsible-body">
+                          <ul>
+                                                                
+                                  <li><a href="/tps/tp2.1/">TP 2.1</a></li>
+                                                              
+                                  <li><a href="/tps/tp2.2/">TP 2.2</a></li>
+                                                              
+                                  <li><a href="/tps/tp2.3/">TP 2.3</a></li>
+                                                              
+                                  <li><a href="/tps/tp3.1/">TP 3.1</a></li>
+                                                              
+                                  <li><a href="/tps/tp4.1/">TP 4.1</a></li>
+                                                              
+                                  <li><a href="/tps/tp4.2/">TP 4.2</a></li>
+                                                              
+                                  <li><a href="/tps/tp5.1/">TP 5.1</a></li>
+                                                              
+                                  <li><a href="/tps/tp5.2/">TP 5.2</a></li>
+                            
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/acerca/">Acerca de</a>
+                     </li>
+                 
+                          
+         </ul>
+        </li>
+    </ul>
+
+<div class="fixed-action-btn">
+<a href="#" data-target="slide-out" class="top-nav sidenav-trigger full hide-on-large-only btn-floating pulse"><i class="material-icons">menu</i></a></div>
+
+<div class="container">
+	<div class="header">
+	  <h1></h1>	  
+	</div>
+	<div class="section">
+		<div class="row">
+			<p>El algoritmo de Euclides para encontrar el MCD (máximo común divisor) de dos números enteros positivos (m y n) se puede definir recursivamente.
+Algoritmo de Euclides: el MCD de dos enteros es el entero mayor que divide a ambos.</p>
+
+<table>
+<thead>
+<tr>
+<th>Dividendo</th>
+<th>Divisor</th>
+<th>Cociente</th>
+<th>Resto</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>m</td>
+<td>n</td>
+<td>q1</td>
+<td>r1</td>
+</tr>
+
+<tr>
+<td>n</td>
+<td>r1</td>
+<td>q2</td>
+<td>r2</td>
+</tr>
+
+<tr>
+<td>r1</td>
+<td>r2</td>
+<td>q3</td>
+<td>r3</td>
+</tr>
+</tbody>
+</table>
+
+<p>Cuando el último resto es cero (por ej. r3 = 0), el MCD es el último divisor (en ese caso, r2).
+El algoritmo recursivo se puede definir con los siguientes pasos:<br />
+    - MCD (m,n) = n, si n&lt;= m y n divide a m<br />
+    - MCD (m,n) = MCD (n,m) si m &lt; n<br />
+    - MCD (m,n)  es MCD (n, resto de m dividido por n)<br />
+Para simplificar el algoritmo considerar que siempre m&gt; n</p>
+  
+	    </div>
+	</div>
+</div>
+
+	</main>
+	<script src="http://aed.wfrre3.local/js/jquery-3.3.1.min.js"></script>
+	<script src="http://aed.wfrre3.local/js/main.js"></script>
+	<script src="http://aed.wfrre3.local/js/materialize.js"></script>
+	<footer class="page-footer blue">
+		<div class="footer-copyright">
+	    	<div class="container">
+	        	Universidad Tecnologíca Nacional - Facultad Regional Resistencia	            
+	        </div>
+	    </div>
+	</footer>
+
+</body>
+
+</html>

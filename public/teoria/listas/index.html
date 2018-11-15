@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Listas</title>
+  
+    
+
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/materialize.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/css/main.css">
+    <link rel="stylesheet" href="http://aed.wfrre3.local/icons/material-icons.css">
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
+  
+  
+    <link rel="shortcut icon" href="http://aed.wfrre3.local/img/favicon.ico" type="image/x-icon" />
+  
+  </head>
+
+
+  <body>
+    <main>
+
+        
+ <ul id="slide-out" class="sidenav sidenav-fixed collapsible">
+      <li class="logo">
+        <a id="logo-container" href="/" class="brand-logo">
+          <object id="front-page-logo" type="image/svg+xml" data="http://aed.wfrre3.local/img/mobile.svg">Your browser does not support SVG</object>
+        </a>
+        <h5>aed.io</h5>
+      </li>      
+      <li class="no-padding">
+         <ul class="collapsible collapsible-accordion">
+             
+             
+                                  
+                     <li>
+                         <a href="/">Inicio</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/plan/">Planificación</a>
+                     </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/cron/">Cronograma</a>
+                     </li>
+                 
+             
+                 
+                     </li>
+                     <li class="active">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Teoría</a>
+                        <div class="collapsible-body">
+                          <ul>
+                                                                
+                                  <li><a href="/teoria/cortedecontrol/">Corte de Control</a></li>
+                                                              
+                                  <li><a href="/teoria/mezcla/">Mezcla</a></li>
+                                                              
+                                  <li><a href="/teoria/actualizacion/">Actualización</a></li>
+                                                              
+                                  <li><a href="/teoria/arreglos/">Arreglos</a></li>
+                                                              
+                                  <li><a href="/teoria/listas/">Listas</a></li>
+                            
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                 
+                     </li>
+                     <li class="">
+                         <a class="collapsible-header waves-effect waves-teal" href="#">Trabajos Prácticos</a>
+                        <div class="collapsible-body">
+                          <ul>
+                                                                
+                                  <li><a href="/tps/tp2.1/">TP 2.1</a></li>
+                                                              
+                                  <li><a href="/tps/tp2.2/">TP 2.2</a></li>
+                                                              
+                                  <li><a href="/tps/tp2.3/">TP 2.3</a></li>
+                                                              
+                                  <li><a href="/tps/tp3.1/">TP 3.1</a></li>
+                                                              
+                                  <li><a href="/tps/tp4.1/">TP 4.1</a></li>
+                                                              
+                                  <li><a href="/tps/tp4.2/">TP 4.2</a></li>
+                                                              
+                                  <li><a href="/tps/tp5.1/">TP 5.1</a></li>
+                                                              
+                                  <li><a href="/tps/tp5.2/">TP 5.2</a></li>
+                            
+                          </ul>
+                        </div>
+                    </li>
+                 
+             
+                                  
+                     <li>
+                         <a href="/acerca/">Acerca de</a>
+                     </li>
+                 
+                          
+         </ul>
+        </li>
+    </ul>
+
+<div class="fixed-action-btn">
+<a href="#" data-target="slide-out" class="top-nav sidenav-trigger full hide-on-large-only btn-floating pulse"><i class="material-icons">menu</i></a></div>
+
+<div class="container">
+	<div class="header">
+	  <h1 class="title">Listas</h1>
+	  <p class="light">Vamos a ver un poco de teoria sobre listas</p>
+	</div>
+	<div class="section">
+		<div class="row">
+			
+
+<h5 id="listas-simplemente-enlazadas"><strong>Listas Simplemente enlazadas</strong></h5>
+
+<p>Definicion de un nodo</p>
+
+<pre><code>
+Nodo = Registro
+    Dato: &lt;tipo&gt;
+    Prox: Puntero a Nodo
+Fin Registro
+
+Prim, p, a, q: puntero a Nodo;
+
+valor: &lt;tipo&gt;
+
+</code></pre>
+
+<h6 id="búsqueda"><strong>Búsqueda</strong></h6>
+
+<pre><code>
+LEER (valor)
+
+p:= Prim
+MIENTRAS (p &lt;&gt; nil) y (*p.dato &lt;&gt; valor) HACER
+    p = *p.prox
+FIN MIENTRAS
+
+SI (p &lt;&gt; nil) ENTONCES
+    Escribir ('Se encontro el elemento')
+SINO
+    Escribir ('No se encontro el elemento')
+FIN SI
+
+
+</code></pre>
+
+<h6 id="carga-apilada"><strong>Carga Apilada</strong></h6>
+
+<pre><code>
+LEER (valor)
+
+Prim:= nil
+MIENTRAS (valor &lt;&gt; '*') HACER
+    NUEVO (p)
+    *p.Dato:= valor
+    *p.Prox:= Prim
+    Prim:= p
+    LEER(valor)
+FIN MIENTRAS
+
+</code></pre>
+
+<h6 id="carga-encolada"><strong>Carga Encolada</strong></h6>
+
+<pre><code>
+LEER (valor)
+
+Prim:= nil
+MIENTRAS (valor &lt;&gt; '*') HACER
+    NUEVO (p)
+    *p.Dato:= valor
+    *p.Prox:= nil
+
+    SI Prim = nil ENTONCES
+        Prim = p
+    SINO
+        *a.Prox:= p
+    FIN SI
+    a:=p
+    LEER(valor)
+FIN MIENTRAS
+
+</code></pre>
+
+<h6 id="carga-ordenada"><strong>Carga Ordenada</strong></h6>
+
+<pre><code>Prim:= nil
+A:= nil;
+
+LEER (valor) 
+NUEVO (p) 
+*p.dato:= valor 
+q:= Prim 
+
+MIENTRAS (q &lt;&gt; nil) y (*q.dato &lt; valor) HACER
+    a:= q
+    q:= *q.prox
+FIN MIENTRAS
+
+SI (a = nil) ENTONCES
+    *p.prox:= Prim
+    Prim:= p
+SINO
+    *p.prox:= q
+    *a.prox:= p
+FIN SI
+
+</code></pre>
+
+<h6 id="eliminacion"><strong>Eliminacion</strong></h6>
+
+<pre><code>
+LEER (valor) 
+
+q:= Prim
+
+MIENTRAS (q &lt;&gt; nil) y (*q.dato &lt;&gt; valor) HACER
+    a:= q
+    q:= *q.prox
+FIN MIENTRAS
+
+SI (q = nil) ENTONCES
+    Escribir ('Error, el valor no existe')
+SINO
+    SI (a = nil) ENTONCES
+        Prim = *q.prox
+    SINO
+        *a.prox:= *q.prox
+    FIN SI
+    DISPONER(q)
+FIN SI
+
+</code></pre>
+
+	    </div>
+	</div>
+</div>
+
+	</main>
+	<script src="http://aed.wfrre3.local/js/jquery-3.3.1.min.js"></script>
+	<script src="http://aed.wfrre3.local/js/main.js"></script>
+	<script src="http://aed.wfrre3.local/js/materialize.js"></script>
+	<footer class="page-footer blue">
+		<div class="footer-copyright">
+	    	<div class="container">
+	        	Universidad Tecnologíca Nacional - Facultad Regional Resistencia	            
+	        </div>
+	    </div>
+	</footer>
+
+</body>
+
+</html>
+
+

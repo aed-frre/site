@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TP 4.2 on Guia de Trabajos Practicos</title>
+    <link>http://aed.wfrre3.local/tps/tp4.2/</link>
+    <description>Recent content in TP 4.2 on Guia de Trabajos Practicos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://aed.wfrre3.local/tps/tp4.2/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej1-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej1-01/</guid>
+      <description>Diseñar un algoritmo para acceder, eliminar o insertar el k-ésimo elemento de una lista (siendo k una posición dada). Si la lista está vacía o si el valor de k esta fuera del rango del índice de la lista, invocar al procedimiento de ERROR. En cualquier otro caso, efectuar el procedimiento solicitado.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej1-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej1-02/</guid>
+      <description>Se dispone de una lista simplemente encadenada de números enteros, diseñar un algoritmo que a partir de ella genere otra lista conteniendo los nodos cuyos datos terminan en cero; dichos elementos, deberán ser eliminados de la lista original. Se asume que la lista está cargada, y que el algoritmo recibe como parámetro de entrada la dirección del primer elemento.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-01/</guid>
+      <description>Diseñar un algoritmo para acceder, eliminar o insertar el k-ésimo elemento de una lista (siendo k una posición dada). Si la lista está vacía o si el valor de k esta fuera del rango del índice de la lista, invocar al procedimiento de ERROR. En cualquier otro caso, efectuar el procedimiento solicitado.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-02/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-02/</guid>
+      <description>Se dispone de una lista simplemente encadenada de números enteros, diseñar un algoritmo que a partir de ella genere otra lista conteniendo los nodos cuyos datos terminan en cero; dichos elementos, deberán ser eliminados de la lista original. Se asume que la lista está cargada, y que el algoritmo recibe como parámetro de entrada la dirección del primer elemento.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-03/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-03/</guid>
+      <description>Dada una lista simplemente encadenada de números diseñar un algoritmo que calcule en forma independiente: La suma de los números impares, y la suma de los números pares.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-04/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-04/</guid>
+      <description>Se dispone de una lista simplemente encadenada cuyos registros están ordenados en forma ascendente por una clave de tipo entero; diseñar un algoritmo que invierta el orden de la lista.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-05/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-05/</guid>
+      <description>Dada una lista simplemente encadenada que contiene datos de todas las provincias de la República Argentina: nombre, capital, cantidad total de habitantes y cantidad de analfabetos, y está ordenada en forma decreciente por número de habitantes analfabetos, generar otras tres listas que contengan el nombre, la capital y el porcentaje de analfabetos de las Provincias que respondan a las siguientes restricciones.
+- L1: &amp;lt;= 10 % analfabetos
+- L2: 16 a 25 % analfabetos</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-06/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-06/</guid>
+      <description>En el restaurante ÑOQUIS se está pensando en una solución informática para el soporte de datos del nuevo sistema de atención a clientes. Se han decidido por LISTAS por su dinamismo en cuanto a la cantidad de elementos. Diseñe un algoritmo que realice las siguientes funciones:
+ Añadir cliente al ser atendido (lista simple ordenada por Nombre del Cliente).
+ Registrar su consumo (Acumular el Total Consumido en valores de montos).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-07/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-07/</guid>
+      <description>Genere un algoritmo que recorra una secuencia texto y genere una lista simplemente encadenada con la frecuencia de utilización de cada letra. La lista debe mantenerse ordenada alfabéticamente y al final informar cual fue la frecuencia de cada letra y cuáles fueron la de mayor y menor frecuencia.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-08/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-08/</guid>
+      <description>Escribir un algoritmo que permita buscar, insertar o borrar un elemento identificado con una clave determinada en una lista circular simplemente encadenada.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-09/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-09/</guid>
+      <description>Dada una lista circular de 8 elementos que contienen, cada uno, un valor numérico entero para encriptación, encriptar un texto ingresado por teclado (arreglo de caracteres de 255 elementos como máximo). El texto encriptado debe almacenarse en una lista de salida simplemente encadenada y, por último mostrar por pantalla.
+ENCRIPTAR Multiplicador N(5) Prox Puntero 
+La encriptación se realiza según las siguientes pautas:
+ Dada la posición del carácter dentro del texto, buscar en la lista circular de encriptación el multiplicador correspondiente, de acuerdo a su posición lógica en la lista.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-10/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-10/</guid>
+      <description>Se dispone de una lista circular con un conjunto de números naturales. Este conjunto está dividido en 6 grupos. En cada grupo el primer elemento indica la cantidad de números subsiguientes a él que integran dicho grupo. Se desea generar una nueva lista doblemente encadenada en la cual cada nodo contendrá el promedio de cada grupo. Dicha lista debe quedar ordenada en forma ascendente y, al final se debe informar cuál fue el máximo y el mínimo promedio de todo el conjunto de números.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-11/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-11/</guid>
+      <description>En una empresa de servicios motorizados que NO posee una cantidad fija de integrantes, pero siempre es mayor que 1 (uno). Los datos de las personas está almacenados en un archivo (DNI, Nombre, antigüedad) ordenado por DNI. Realizar un algoritmo que permita generar una lista de asignación (usando una estructura de lista doblemente encadenada), ordenada al principio por antigüedad, y un proceso que realice dicha asignación, en cada solicitud, por turno según orden en la lista.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-12/</guid>
+      <description>En el nuevo DELIVERY VAMOS-RAPIDO se está diseñando una solución informática para la atención de clientes. Se ha pensado en una LISTA por su dinamismo en cuanto a la cantidad de elementos. Diseñe un algoritmo que realice las siguientes funciones:
+ Registrar su pedido en una lista Doble (se agrega en Estado P (Pendiente), y se mantiene ordenado por Nombre del Cliente). Realizar el envío (cambia estado del pedido de P (pendiente) a E (Enviado)).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-13/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-13/</guid>
+      <description>Dada una lista doblemente encadenada de enteros, ordenada en forma creciente, escriba un algoritmo que elimine las entradas repetidas. El algoritmo debe verificar al inicio que la lista que se pasa como argumento está ordenada; en caso afirmativo realizar la depuración y emitir un mensaje de “ÉXITO”; en caso contrario, emitir un mensaje de “ERROR”.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-14/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-14/</guid>
+      <description>Se desea ingresar una serie de números, e imprimirlos en el orden contrario al de ingreso. Diseñar un algoritmo que satisfaga tal requerimiento, utilizando la estructura de datos más apropiada.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-15/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-15/</guid>
+      <description>Supóngase que, utilizando una lista encadenada, se implementa una cola Q (estructura &amp;ldquo;FIFO&amp;rdquo;, es decir, &amp;ldquo;primero en entrar, primero en salir&amp;rdquo;). Diseñar un algoritmo que permita insertar o extraer un elemento, comprobando siempre si la cola está vacía o no.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-16/</guid>
+      <description>Supóngase que, utilizando una lista encadenada, se implementa una pila P (estructura &amp;ldquo;LIFO&amp;rdquo;, es decir, &amp;ldquo;último en entrar, primero en salir&amp;rdquo;). Diseñar un algoritmo que permita insertar o extraer un elemento, comprobando siempre si la pila está vacía o no.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://aed.wfrre3.local/tps/tp4.2/ej2-17/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://aed.wfrre3.local/tps/tp4.2/ej2-17/</guid>
+      <description>Teniendo en cuenta el ejercicio 1.20 del TP2:
+Se posee 2 secuencias (S1 y S2) con las cuales se desea generar una nueva secuencia (SAL) donde se intercalen las palabras de las secuencias de entrada, de la siguiente manera: copiar de S1 aquellas palabras que empiezan y terminan con la misma letra y de S2 aquellas palabras que posean al menos un digito numérico y además estén en posición par.</description>
+    </item>
+    
+  </channel>
+</rss>
