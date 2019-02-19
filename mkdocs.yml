@@ -1,0 +1,4 @@
+site_name: aed.io
+theme:
+  name: 'material'
+  language: 'es'
