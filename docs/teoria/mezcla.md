@@ -1,16 +1,3 @@
----
-
-Title: "Mezcla"
-PageTitle: "Mezcla"
-Description: "Vamos a ver un poco de teoria sobre mezcla"
-menu:
-  main:
-    parent: teoria
-    weight: 530
-
-    
----
-
 
 ##### Procesos Múltiples con Ficheros Secuenciales
 
@@ -92,10 +79,10 @@ Fin Mientras
 
 Si hay más de 2 ficheros se necesitarán más ciclos, además del ciclo principal. Por ej: para 3 ficheros se necesitarán 7 ciclos:  
 
-1 - Condición: NFDA (Arch_1) y NFDA (Arch_2) y NFDA (Arch_3) - Ciclo principal que procesa registros comunes.  
-2 - Condición: NFDA (Arch_1) y NFDA (Arch_2)  
-3 - Condición: NFDA (Arch_1) y NFDA (Arch_3)  
-4 - Condición: NFDA (Arch_2) y NFDA (Arch_3)  
-5 - Condición: NFDA (Arch_1)  
-6 - Condición: NFDA (Arch_2)  
-7 - Condición: NFDA (Arch_3)  
+1. Condición: NFDA (Arch_1) y NFDA (Arch_2) y NFDA (Arch_3) - Ciclo principal que procesa registros comunes.  
+2. Condición: NFDA (Arch_1) y NFDA (Arch_2)  
+3. Condición: NFDA (Arch_1) y NFDA (Arch_3)  
+4. Condición: NFDA (Arch_2) y NFDA (Arch_3)  
+5. Condición: NFDA (Arch_1)  
+6. Condición: NFDA (Arch_2)  
+7. Condición: NFDA (Arch_3)  

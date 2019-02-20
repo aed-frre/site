@@ -1,15 +1,5 @@
----
+# Corte de Control
 
-Title: "Corte de Control"
-PageTitle: "Corte de Control"
-Description: "Vamos a ver un poco de teoria sobre los cortes de control"
-menu:
-  main:
-    parent: teoria
-    weight: 520
-
-    
----
 #### Estructura del Corte de Control
 
 Primero vamos a ver la estructura generica del algoritmo (o el esqueleto):

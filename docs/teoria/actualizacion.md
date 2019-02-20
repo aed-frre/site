@@ -1,15 +1,4 @@
----
-
-Title: "Actualización"
-PageTitle: "Actualización"
-Description: "Vamos a ver un poco de teoria sobre los actualización"
-menu:
-  main:
-    parent: teoria
-    weight: 540
-
-    
----
+# Actualizacion
 
 
 ##### __Tipos de Actualización__

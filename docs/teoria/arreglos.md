@@ -1,16 +1,4 @@
----
-
-Title: "Arreglos"
-PageTitle: "Arreglos"
-Description: "Vamos a ver un poco de teoria sobre arreglos"
-menu:
-  main:
-    parent: teoria
-    weight: 550
-
-    
----
-
+# Arreglos
 
 ##### __Búsqueda__
 
@@ -144,4 +132,4 @@ MIENTRAS No Bandera HACER
 	FIN PARA
 FIN MIENTRAS
 
- ```
+```
