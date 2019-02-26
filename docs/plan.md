@@ -645,7 +645,7 @@ La planta docentes de la materia con respecto a la ordenanza 604 ampliada, solo 
 4. Actividades extra-académicas que aportan al crecimiento profesional de los docente,s relacionadas con la asignatura.
 
 	Los profesores adjuntos, como los JTP y Auxiliar de 1era desarrollan tareas en el ámbito profesional relacionadas con el diseño y la programación.
-	La profesora titular integra dos proyectos de investigación recien aprobados y tiene a su cargo el área de Tecnologìa Educativa de la Direcciòn de Planeamiento..
+	La profesora titular integra dos proyectos de investigación recien aprobados y tiene a su cargo el área de Tecnologìa Educativa de la Direcciòn de Planeamiento.
 	El Ing Bolatti, la Ing Pinto y el Ing Tortosa (JTP) forman parte del CInApTIC con proyectos de investigación dentro del mismo y además el ing Bolatti coordina el area de Redes y Telecomunicaciones del mismo y la Ing Pinto el area de Capacitaciòn y Formación. El Ing Tortosa además forma parte del equipo docente del proyecto 111MIL, y del INFORMATORIO.
 
 5. Actividades de formación interna de los miembros de la cátedra
