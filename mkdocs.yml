@@ -3,6 +3,9 @@ theme:
   name: 'material'
   language: 'es'
   custom_dir: custom/
+markdown_extensions:
+- toc:
+    permalink: true
 extra_css:
   - 'extra/css/extra.css'
 extra_javascript:

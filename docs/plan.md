@@ -390,7 +390,7 @@ Los alumnos desarrollan la actividad en forma grupal comunicándose en forma ora
 
 *Evaluación*
 
-Cada trabajo es observado, corregido y evaluado por los docentes El mismo se desarrolla en forma grupal (no más de 3 alumnos por grupo) o individual(caso excepcional).
+Cada trabajo es observado, corregido y evaluado por los docentes. El mismo se desarrolla en forma grupal (no más de 3 alumnos por grupo) o individual (caso excepcional).
 
 Tendrá varias etapas: 
 
@@ -435,7 +435,7 @@ Se determinan 4 instancias de evaluación constituidas por:
 - Se posee una guía de trabajos prácticos que el alumno debe desarrollar en las clases de práctica.
 - Se desarrollan contenidos de apoyo en el aula virtual, con la exigencia de contestar cuestionarios de corrección automática (lecciones de avance individual, trabajos en el lenguaje, etc)
 - Se ha generado una guía de ejemplo-tipo de programas en el lenguaje PASCAL, que se explicitará durante los laboratorios del lenguaje.
-- Se utilizará el lenguaje C a partir del segundo cuatrimestre, para lo cual tambièn existe un apunte sobre dicho lenguaje.
+- Se utilizará el lenguaje C a partir del segundo cuatrimestre, para lo cual también existe un apunte sobre dicho lenguaje.
 - Trabajo práctico integrador Robot básico con instancia evaluativa del diseño del prototipo y otra instancia del trabajo terminado. 
 
 
@@ -475,7 +475,7 @@ El alumno deberá aprender en esta asignatura, las técnicas apropiadas a las di
 En el segundo cuatrimestre del 2016 se realizó una reunión de responsables de AED entre todas las regionales de UTN que dictan ISI. En dicha reunión se determinaron contenidos prioritarios y se determinó sobre la profundidad a alcanzar en cada tema, así como que lenguajes utilizar como soporte de la práctica. Como consecuencia de esos acuerdos, es la elecciòn de los lenguajes PASCAL y  C.  
 Durante el ciclo 2016 se ha determinado que Arquitectura de Computadoras (ADC) sea cursada en el segundo año, si bien no podemos coordinar el desarrollo de contenidos, hemos previsto que en la càtedra de ADC tomen la plaqueta Arduino que utilizamos en AED y la estudien desde el punto de vista de su arquitectura.
 Con las materias siguientes del área de programación, ya se ha articulado desde el inicio de  la implementación del plan 2008.
-Además , dado que en el TPI deben dibujar el robot a presentar, se ha coordinado con la cátedra de Sistemas de Representación (SDR) de segundo año, para que durante el dictado de la misma, los alumnos realicen la representación gráfica formal en detalle del robot elaborado para AED.
+Además, dado que en el TPI deben dibujar el robot a presentar, se ha coordinado con la cátedra de Sistemas de Representación (SDR) de segundo año, para que durante el dictado de la misma, los alumnos realicen la representación gráfica formal en detalle del robot elaborado para AED.
 
 
 ## Bibliografía
