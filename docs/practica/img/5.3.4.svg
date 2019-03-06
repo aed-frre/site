@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Generado por Microsoft Visio, SVG Export 5.3.4.svg 5.3.4 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="7.64231in" height="3.86729in"
+		viewBox="0 0 550.246 278.445" xml:space="preserve" color-interpolation-filters="sRGB" class="st4">
+	<v:documentProperties v:langID="1033" v:metric="true" v:viewMarkup="false">
+		<v:userDefs>
+			<v:ud v:nameU="msvNoAutoConnect" v:val="VT0(0):26"/>
+		</v:userDefs>
+	</v:documentProperties>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st2 {fill:#000000;font-family:Arial;font-size:3em;font-weight:bold}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="5" v:index="2" v:groupContext="foregroundPage">
+		<title>5.3.4</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<v:layer v:name="Conector" v:index="0"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(245.522,-188.829)">
+			<title>Hoja.1</title>
+			<desc>40</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="243.012" width="70.87" height="70.8661"/>
+			<ellipse cx="35.4331" cy="243.012" rx="35.4331" ry="35.4331" class="st1"/>
+			<text x="15.41" y="253.81" class="st2" v:langID="11274"><v:paragraph v:horizAlign="1"/><v:tabList/>40</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(89.6161,-103.789)">
+			<title>Hoja.2</title>
+			<desc>28</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="243.012" width="70.87" height="70.8661"/>
+			<ellipse cx="35.4331" cy="243.012" rx="35.4331" ry="35.4331" class="st1"/>
+			<text x="15.41" y="253.81" class="st2" v:langID="11274"><v:paragraph v:horizAlign="1"/><v:tabList/>28</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(387.254,-103.789)">
+			<title>Hoja.3</title>
+			<desc>70</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="243.012" width="70.87" height="70.8661"/>
+			<ellipse cx="35.4331" cy="243.012" rx="35.4331" ry="35.4331" class="st1"/>
+			<text x="15.41" y="253.81" class="st2" v:langID="11274"><v:paragraph v:horizAlign="1"/><v:tabList/>70</text>		</g>
+		<g id="shape4-10" v:mID="4" v:groupContext="shape" transform="translate(18.75,-18.75)">
+			<title>Hoja.4</title>
+			<desc>9</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="243.012" width="70.87" height="70.8661"/>
+			<ellipse cx="35.4331" cy="243.012" rx="35.4331" ry="35.4331" class="st1"/>
+			<text x="25.42" y="253.81" class="st2" v:langID="11274"><v:paragraph v:horizAlign="1"/><v:tabList/>9</text>		</g>
+		<g id="shape8-13" v:mID="8" v:groupContext="shape" transform="translate(160.482,-18.75)">
+			<title>Hoja.8</title>
+			<desc>32</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="243.012" width="70.87" height="70.8661"/>
+			<ellipse cx="35.4331" cy="243.012" rx="35.4331" ry="35.4331" class="st1"/>
+			<text x="15.41" y="253.81" class="st2" v:langID="11274"><v:paragraph v:horizAlign="1"/><v:tabList/>32</text>		</g>
+		<g id="shape11-16" v:mID="11" v:groupContext="shape" transform="translate(460.63,-18.75)">
+			<title>Hoja.11</title>
+			<desc>10</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="243.012" width="70.87" height="70.8661"/>
+			<ellipse cx="35.4331" cy="243.012" rx="35.4331" ry="35.4331" class="st1"/>
+			<text x="15.41" y="253.81" class="st2" v:langID="11274"><v:paragraph v:horizAlign="1"/><v:tabList/>10</text>		</g>
+		<g id="shape12-19" v:mID="12" v:groupContext="shape" transform="translate(311.811,-18.75)">
+			<title>Hoja.12</title>
+			<desc>52</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="35.4331" cy="243.012" width="70.87" height="70.8661"/>
+			<ellipse cx="35.4331" cy="243.012" rx="35.4331" ry="35.4331" class="st1"/>
+			<text x="15.41" y="253.81" class="st2" v:langID="11274"><v:paragraph v:horizAlign="1"/><v:tabList/>52</text>		</g>
+		<g id="shape15-22" v:mID="15" v:groupContext="shape" v:layerMember="0" transform="translate(249.848,-207.295)">
+			<title>Conector dinámico</title>
+			<path d="M0 278.44 L-93.69 329.55" class="st3"/>
+		</g>
+		<g id="shape16-25" v:mID="16" v:groupContext="shape" v:layerMember="0" transform="translate(311.338,-206.032)">
+			<title>Conector dinámico.16</title>
+			<path d="M0 278.44 L80.97 327.02" class="st3"/>
+		</g>
+		<g id="shape17-28" v:mID="17" v:groupContext="shape" v:layerMember="0" transform="translate(102.366,-112.002)">
+			<title>Conector dinámico.17</title>
+			<path d="M0 278.44 L-25.5 309.04" class="st3"/>
+		</g>
+		<g id="shape18-31" v:mID="18" v:groupContext="shape" v:layerMember="0" transform="translate(147.733,-112.002)">
+			<title>Conector dinámico.18</title>
+			<path d="M0 278.44 L25.5 309.04" class="st3"/>
+		</g>
+		<g id="shape19-34" v:mID="19" v:groupContext="shape" v:layerMember="0" transform="translate(399.172,-112.717)">
+			<title>Conector dinámico.19</title>
+			<path d="M0 278.44 L-28.41 310.47" class="st3"/>
+		</g>
+		<g id="shape20-37" v:mID="20" v:groupContext="shape" v:layerMember="0" transform="translate(445.835,-112.395)">
+			<title>Conector dinámico.20</title>
+			<path d="M0 278.44 L27.08 309.83" class="st3"/>
+		</g>
+	</g>
+</svg>

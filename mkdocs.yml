@@ -1,0 +1,13 @@
+site_name: aed.io
+theme:
+  name: 'material'
+  language: 'es'
+  custom_dir: custom/
+markdown_extensions:
+- toc:
+    permalink: true
+extra_css:
+  - 'extra/css/extra.css'
+extra_javascript:
+  - 'extra/js/extra.js'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
