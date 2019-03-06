@@ -1,6 +1,6 @@
 # Listas
 
-##### __Listas Simplemente enlazadas__
+## __Listas Simplemente enlazadas__
 
 Definicion de un nodo
 
@@ -17,7 +17,7 @@ valor: <tipo>
 
 ```
 
-###### __Búsqueda__
+### __Búsqueda__
 
 ```
 
@@ -37,7 +37,7 @@ FIN SI
 
 ```
 
-###### __Carga Apilada__
+### __Carga Apilada__
 
 ```
 
@@ -54,7 +54,7 @@ FIN MIENTRAS
 
 ```
 
-###### __Carga Encolada__
+### __Carga Encolada__
 
 ```
 
@@ -77,7 +77,7 @@ FIN MIENTRAS
 
 ```
 
-###### __Carga Ordenada__
+### __Carga Ordenada__
 
 ```
 Prim:= nil
@@ -104,7 +104,7 @@ FIN SI
 ```
 
 
-###### __Eliminacion__
+### __Eliminacion__
 
 ```
 

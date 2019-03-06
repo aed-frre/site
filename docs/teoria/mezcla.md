@@ -1,33 +1,15 @@
+# Mezcla
 
-##### Procesos Múltiples con Ficheros Secuenciales
-
-###### __1. Mezcla__
-
-__Ficheros de entrada:__ por lo menos dos.  
-__Ficheros de salida:__ uno (resultado de la combinación de los dos de entrada).
-
-###### __2. Actualización Secuencial Por Lotes__
-
-Cero o más registros del fichero movimiento por cada registro del maestro
-
-###### __3. Actualización Secuencial Unitaria__
-
-Cero o un (como máximo) registro del fichero movimiento por cada registro del maestro.
-
-###### __Características__
+## __Características__
 
 - Se aplica la “técnica de apareo”  
 - Las estructuras de los ficheros deben tener un elemento común: la “clave de apareo” o “campo clave”  
 - Los ficheros deben estar ordenados por el “campo clave”  
 
+__Ficheros de entrada:__ por lo menos dos.  
+__Ficheros de salida:__ uno (resultado de la combinación de los dos de entrada).
 
-##### Mezcla
-
-![](/img/mezcla.PNG)
-
-
-###### Tipos de Mezcla
-</br>
+### Tipos de Mezcla
 
 Caracteristicas 		| Directa		| Indirecta	|
 ------------------------|---------------|---------------|
@@ -35,14 +17,9 @@ Formato de los registros</br>de los Ficheros de entrada	| Igual									| Distin
 Formato de los registros</br>del Fichero de Salida		| Igual al de los</br>Ficheros de Entrada	| Igual a Alguno</br>de los ficheros de entrada o </br> una combinacion de estos
 Cantidad de registros</br>del Fichero de Salida		| Es igual a la sumatoria</br>de las cantidades</br>de los registros de los</br>ficheros de entrada	| No es posible predecir			|
 
+### Ciclos de Apareo
 
-</br>
-</br>
-
-###### Ciclos de Apareo:
-
-
-__Incluyente__
+#### __Incluyente__
 ```
 
 Mientras (Clave1 <> HV) o (Clave2 <> HV) o .... (ClaveN <> HV) hacer  
@@ -53,7 +30,7 @@ Fin Mientras
 
 ```
 
-__Excluyente__
+#### __Excluyente__
 
 ```
 

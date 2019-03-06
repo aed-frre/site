@@ -1,6 +1,6 @@
 # Corte de Control
 
-#### Estructura del Corte de Control
+## Estructura del Corte de Control
 
 Primero vamos a ver la estructura generica del algoritmo (o el esqueleto):
 
@@ -29,11 +29,9 @@ r: reg
 ```
 
 Las variables que se van a ocupar son:
- - Resguardo de clave (Reg1, Reg2, Reg3)
- - Contadores y Acumuladores
 
-
-<br/>
+- Resguardo de clave (Reg1, Reg2, Reg3)
+- Contadores y Acumuladores
 
 La subaccion corte_n va a tener las siguientes acciones:
 
@@ -48,8 +46,6 @@ fin subaccion
 ```
 
 *Nota: la primera accion no se va a realizar si estamos en el corte de menor peso.*
-
-<br/>
 
 Esqueleto del algoritmo:
 
@@ -93,9 +89,7 @@ fin subaccion
 
 *Nota: las subacciones: Inicializar, tratar_registro y Emitir_totales, no se escribieron dado a que dependen del enunciado.*
 
-
-
-#### Un ejemplo
+## Un ejemplo
 
 Ahora un ejemplo con el mismo archivo, con el siguiente enunciado:
 
@@ -192,9 +186,8 @@ Accion ejemplo es
 fin accion
 ```
 
-<br/>
 
-##### Otro ejercicios
+## Otro ejercicios
 
 Manteniendo el mismo archivo pero cambiando un poco el enunciado:
 

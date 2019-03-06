@@ -1,7 +1,6 @@
 # Actualizacion
 
-
-##### __Tipos de Actualización__
+## __Tipos de Actualización__
 
 __POR LOTES__   
 Varios registros de movimiento para un registro maestro.  
@@ -9,30 +8,30 @@ Varios registros de movimiento para un registro maestro.
 __UNITARIA__  
 Un registro movimiento para un registro maestro.  
 
-##### __Ficheros__
+## __Ficheros__
 
 __Ficheros de entrada:__ por lo menos dos: MAESTRO Y MOVIMIENTOS.  
 __Ficheros de salida:__ como mínimo uno.
 
 
-###### __Tipos de Ficheros Maestros__
+### __Tipos de Ficheros Maestros__
 
 - Histórico
 - Común o Normal
 
-###### __Tipos de Ficheros de Movimientos__
+### __Tipos de Ficheros de Movimientos__
 
 - Actualización General o Combinado
 - Actualización Parcial o Individual
 
-###### __Tipos de Movimientos__
+### __Tipos de Movimientos__
 
 - Alta
 - Baja
 - Modificación
 
 
-##### __Algoritmo Actualización Unitaria__
+## __Algoritmo Actualización Unitaria__
 
 Utilizando ciclo incluyente
 ```
@@ -128,25 +127,24 @@ Subaccion Marcar_Registro es
                                    o cualquier otro dato, según el problema //
 Fin Subaccion
 
-
 ```
 
 
 ## Actualizacion Secuencial Por lotes
 
-##### Consideraciones:
+### Consideraciones
 
- * Utilizamos un ciclo **incluyente**.
- * Los tipos de movimientos son:
-   * Alta: Siempre el primer registro va a ser del tipo alta, y luego modificaciones.
-   * Modificacion: pueden existir varias modificaciones a un maestro.
-   * Baja: son bajas logicas. Solo el ultimo movimiento puede ser una baja logica.
-   * No existen altas o bajas entre las modificaciones.
+* Utilizamos un ciclo **incluyente**.
+* Los tipos de movimientos son:
+    * **Alta:** Siempre el primer registro va a ser del tipo alta, y luego modificaciones.
+    * **Modificación:** pueden existir varias modificaciones a un maestro.  
+    * **Baja:** son bajas logicas. Solo el ultimo movimiento puede ser una baja logica.
 
-##### Ambiente:
+* No existen altas o bajas entre las modificaciones.
+
+### Ambiente
 
 El ambiente esta formado por 2 archivos con la siguiente estructura:
-
 
 ```
 
@@ -183,8 +181,7 @@ reg_mov: formato_movimiento
 
 ```
 
-##### Algoritmo Principal:
-
+### Algoritmo
 
 ```
 Abrir_Archivos
@@ -231,7 +228,7 @@ CERRAR(mae_sal)
 CERRAR(mov)
 ```
 
-##### Subacciones
+### Subacciones
 
 ```
 
@@ -287,23 +284,21 @@ FAcción.
 
 ```
 
-##### Modificar:
+### Modificar
 
 - Que pasa si se pide que se tengan en cuenta los siguientes errores:
   - Las altas no siempre estan al principio.
   - Las bajas no siempre estan al final.
 
-
-
 ## Actualizacion Indexada
 
-##### Consideraciones:
+### Consideraciones
 
  * Archivo maestro indexado por clave
  * Se ingresan movimientos por terminal
   
 
-##### Ambiente
+### Ambiente
 
 El ambiente esta formado por 1 solo archivos con la siguiente estructura:
 
@@ -330,7 +325,7 @@ clave: formato_clave
 ```
          
 
-##### Algoritmo
+### Algoritmo
 ```
 Abrir E/S (arch)
 

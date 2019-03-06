@@ -1,8 +1,8 @@
 # Arreglos
 
-##### __Búsqueda__
+## __Búsqueda__
 
-###### __Búsqueda lineal__
+### __Búsqueda lineal__
 
 ```
 
@@ -15,7 +15,7 @@ FIN PARA
 
 ```
 
-###### __Búsqueda lineal con centinela__
+### __Búsqueda lineal con centinela__
 
 ```
 
@@ -34,7 +34,7 @@ FIN SI
 
 ```
 
-###### __Búsqueda binaria o dicotómica__
+### __Búsqueda binaria o dicotómica__
 
 ```
 
@@ -62,9 +62,9 @@ FIN SI
 ```
 
 
-##### __Ordenamiento__
+## __Ordenamiento__
 
-###### __Inserción directa__
+### __Inserción directa__
 
 ```
 
@@ -85,7 +85,7 @@ FIN PARA
 
 ```
 
-###### __Seleccion directa__
+### __Seleccion directa__
 
 ```
 
@@ -109,8 +109,7 @@ FIN PARA
 
 ```
 
-###### __Intercambio directo / Burbuja__
-Intercambio directo - burbuja     ** Ordena de mayor a menor **
+### __Intercambio directo / Burbuja__
 
 ```
 
