@@ -1,4 +1,4 @@
-site_name: aed.io
+site_name: aed-frre
 theme:
   name: 'material'
   language: 'es'
@@ -11,3 +11,7 @@ extra_css:
 extra_javascript:
   - 'extra/js/extra.js'
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/aed-frre'
