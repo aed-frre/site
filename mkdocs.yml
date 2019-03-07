@@ -3,6 +3,9 @@ theme:
   name: 'material'
   language: 'es'
   custom_dir: custom/
+  palette:
+    primary: 'indigo'
+    accent: 'indigo'
 markdown_extensions:
 - toc:
     permalink: true
@@ -15,3 +18,4 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/aed-frre'
+
