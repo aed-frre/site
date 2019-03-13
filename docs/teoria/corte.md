@@ -30,7 +30,7 @@ r: reg
 
 Las variables que se van a ocupar son:
 
-- Resguardo de clave (Reg1, Reg2, Reg3)
+- Resguardo de clave (Resg1, Resg2, Resg3)
 - Contadores y Acumuladores
 
 La subaccion corte_n va a tener las siguientes acciones:
@@ -73,13 +73,13 @@ Ahora la subaccion Tratar_corte:
 
 ```
 Subaccion Tratar_Corte es
-  Si r.clave3 <> Reg3 entonces
+  Si r.clave3 <> Resg3 entonces
     Corte_3
   sino
-    Si r.clave2 <> Reg2 entonces
+    Si r.clave2 <> Resg2 entonces
        Corte_2
     sino
-       Si r.clave1 <> Reg1 entonces
+       Si r.clave1 <> Resg1 entonces
          Corte_1
        fin si
     fin si
@@ -109,9 +109,9 @@ Accion ejemplo es
     fin Registro
     Arch : archivo de reg ordenado por clave3, clave2, clave1 y clave0
     r : reg
-    Reg3: N(8)
-    Reg2: N(4)
-    Reg1: N(2)
+    Resg3: N(8)
+    Resg2: N(4)
+    Resg1: N(2)
     contt, cont3, cont2, cont1: entero
 
   subaccion inicializar es
@@ -121,42 +121,42 @@ Accion ejemplo es
     cont3 := 0
     cont2 := 0
     cont1 := 0
-    Reg3 := r.clave3
-    Reg2 := r.clave2
-    Reg1 := r.clave1
+    Resg3 := r.clave3
+    Resg2 := r.clave2
+    Resg1 := r.clave1
   Fin subaccion
 
   subaccion corte_1 es
-    Esc("Para el ", Reg1, " existen: ", cont1)
+    Esc("Para el ", Resg1, " existen: ", cont1)
     cont2 := cont2 + cont1
     cont1 := 0
-    Reg1 := r.clave1
+    Resg1 := r.clave1
   fin subaccion
 
   subaccion corte_2 es
     corte_1
-    Esc("Para el ", Reg2, " existen: ", cont2)
+    Esc("Para el ", Resg2, " existen: ", cont2)
     cont3 := cont3 + cont2
     cont2 := 0
-    Reg2 := r.clave2
+    Resg2 := r.clave2
   fin subaccion
 
   subaccion corte_3 es
     corte_2
-    Esc("Para el ", Reg3, " existen: ", cont3)
+    Esc("Para el ", Resg3, " existen: ", cont3)
     contt := contt + cont3
     cont3 := 0
-    Reg3 := r.clave3
+    Resg3 := r.clave3
   fin subaccion
 
   Subaccion tratar_corte es
-    Si r.clave3 <> Reg3 entonces
+    Si r.clave3 <> Resg3 entonces
       corte_3
     sino
-      si r.clave2 <> Reg2 entonces
+      si r.clave2 <> Resg2 entonces
         corte_2
       sino
-        si r.clave1 <> Reg1 entonces
+        si r.clave1 <> Resg1 entonces
           corte_1
         fin si
       fin si

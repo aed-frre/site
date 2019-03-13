@@ -1,0 +1,1420 @@
+
+
+
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar al portapapeles">
+      
+        <meta name="lang:clipboard.copied" content="Copiado al portapapeles">
+      
+        <meta name="lang:search.language" content="es">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No se encontraron documentos">
+      
+        <meta name="lang:search.result.one" content="1 documento encontrado">
+      
+        <meta name="lang:search.result.other" content="# documentos encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.0.1">
+    
+    
+      
+        <title>2.2. Archivos Secuenciales - aed-frre</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.982221ab.css">
+      
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.1f0bcf2b.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../../extra/css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#22-archivos-secuenciales" tabindex="1" class="md-skip">
+        Saltar a contenido
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="aed-frre" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              aed-frre
+            </span>
+            <span class="md-header-nav__topic">
+              2.2. Archivos Secuenciales
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Teclee para comenzar búsqueda
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="aed-frre" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    aed-frre
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Bienvenido!" class="md-nav__link">
+      Bienvenido!
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../cron/" title="Cronograma" class="md-nav__link">
+      Cronograma
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../plan/" title="Planificación" class="md-nav__link">
+      Planificación
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Practica
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Practica
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../1/" title="1. Datos y Estructuras Elementales" class="md-nav__link">
+      1. Datos y Estructuras Elementales
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../2.1/" title="2.1. Secuencias" class="md-nav__link">
+      2.1. Secuencias
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        2.2. Archivos Secuenciales
+      </label>
+    
+    <a href="./" title="2.2. Archivos Secuenciales" class="md-nav__link md-nav__link--active">
+      2.2. Archivos Secuenciales
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Tabla de contenidos</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-221" title="Ejercicio 2.2.1" class="md-nav__link">
+    Ejercicio 2.2.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-222" title="Ejercicio 2.2.2" class="md-nav__link">
+    Ejercicio 2.2.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-223" title="Ejercicio 2.2.3" class="md-nav__link">
+    Ejercicio 2.2.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-224" title="Ejercicio 2.2.4" class="md-nav__link">
+    Ejercicio 2.2.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-225" title="Ejercicio 2.2.5" class="md-nav__link">
+    Ejercicio 2.2.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-226" title="Ejercicio 2.2.6" class="md-nav__link">
+    Ejercicio 2.2.6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-227" title="Ejercicio 2.2.7" class="md-nav__link">
+    Ejercicio 2.2.7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-228" title="Ejercicio 2.2.8" class="md-nav__link">
+    Ejercicio 2.2.8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-229" title="Ejercicio 2.2.9" class="md-nav__link">
+    Ejercicio 2.2.9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-de-control" title="Control de Control" class="md-nav__link">
+    Control de Control
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2210" title="Ejercicio 2.2.10" class="md-nav__link">
+    Ejercicio 2.2.10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2211" title="Ejercicio 2.2.11" class="md-nav__link">
+    Ejercicio 2.2.11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2212" title="Ejercicio 2.2.12" class="md-nav__link">
+    Ejercicio 2.2.12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2213" title="Ejercicio 2.2.13" class="md-nav__link">
+    Ejercicio 2.2.13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2214" title="Ejercicio 2.2.14" class="md-nav__link">
+    Ejercicio 2.2.14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2215" title="Ejercicio 2.2.15" class="md-nav__link">
+    Ejercicio 2.2.15
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mezcla" title="Mezcla" class="md-nav__link">
+    Mezcla
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2216" title="Ejercicio 2.2.16" class="md-nav__link">
+    Ejercicio 2.2.16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2217" title="Ejercicio 2.2.17" class="md-nav__link">
+    Ejercicio 2.2.17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2218" title="Ejercicio 2.2.18" class="md-nav__link">
+    Ejercicio 2.2.18
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actualizacion" title="Actualizacion" class="md-nav__link">
+    Actualizacion
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2219" title="Ejercicio 2.2.19" class="md-nav__link">
+    Ejercicio 2.2.19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2220" title="Ejercicio 2.2.20" class="md-nav__link">
+    Ejercicio 2.2.20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2221" title="Ejercicio 2.2.21" class="md-nav__link">
+    Ejercicio 2.2.21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2222" title="Ejercicio 2.2.22" class="md-nav__link">
+    Ejercicio 2.2.22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2223" title="Ejercicio 2.2.23" class="md-nav__link">
+    Ejercicio 2.2.23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2224" title="Ejercicio 2.2.24" class="md-nav__link">
+    Ejercicio 2.2.24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2225" title="Ejercicio 2.2.25" class="md-nav__link">
+    Ejercicio 2.2.25
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../2.3/" title="2.3. Archivos Indexados" class="md-nav__link">
+      2.3. Archivos Indexados
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../3.1/" title="3.1. Arreglos" class="md-nav__link">
+      3.1. Arreglos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../4.1/" title="4.1. Subacciones" class="md-nav__link">
+      4.1. Subacciones
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../4.2/" title="4.2. Listas" class="md-nav__link">
+      4.2. Listas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../5/" title="5. Recursividad" class="md-nav__link">
+      5. Recursividad
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Teoria
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Teoria
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teoria/actualizacion/" title="Actualizacion" class="md-nav__link">
+      Actualizacion
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teoria/arreglos/" title="Arreglos" class="md-nav__link">
+      Arreglos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teoria/corte/" title="Corte de Control" class="md-nav__link">
+      Corte de Control
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teoria/listas/" title="Listas" class="md-nav__link">
+      Listas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../teoria/mezcla/" title="Mezcla" class="md-nav__link">
+      Mezcla
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Tabla de contenidos</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-221" title="Ejercicio 2.2.1" class="md-nav__link">
+    Ejercicio 2.2.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-222" title="Ejercicio 2.2.2" class="md-nav__link">
+    Ejercicio 2.2.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-223" title="Ejercicio 2.2.3" class="md-nav__link">
+    Ejercicio 2.2.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-224" title="Ejercicio 2.2.4" class="md-nav__link">
+    Ejercicio 2.2.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-225" title="Ejercicio 2.2.5" class="md-nav__link">
+    Ejercicio 2.2.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-226" title="Ejercicio 2.2.6" class="md-nav__link">
+    Ejercicio 2.2.6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-227" title="Ejercicio 2.2.7" class="md-nav__link">
+    Ejercicio 2.2.7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-228" title="Ejercicio 2.2.8" class="md-nav__link">
+    Ejercicio 2.2.8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ejercicio-229" title="Ejercicio 2.2.9" class="md-nav__link">
+    Ejercicio 2.2.9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#control-de-control" title="Control de Control" class="md-nav__link">
+    Control de Control
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2210" title="Ejercicio 2.2.10" class="md-nav__link">
+    Ejercicio 2.2.10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2211" title="Ejercicio 2.2.11" class="md-nav__link">
+    Ejercicio 2.2.11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2212" title="Ejercicio 2.2.12" class="md-nav__link">
+    Ejercicio 2.2.12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2213" title="Ejercicio 2.2.13" class="md-nav__link">
+    Ejercicio 2.2.13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2214" title="Ejercicio 2.2.14" class="md-nav__link">
+    Ejercicio 2.2.14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2215" title="Ejercicio 2.2.15" class="md-nav__link">
+    Ejercicio 2.2.15
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mezcla" title="Mezcla" class="md-nav__link">
+    Mezcla
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2216" title="Ejercicio 2.2.16" class="md-nav__link">
+    Ejercicio 2.2.16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2217" title="Ejercicio 2.2.17" class="md-nav__link">
+    Ejercicio 2.2.17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2218" title="Ejercicio 2.2.18" class="md-nav__link">
+    Ejercicio 2.2.18
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#actualizacion" title="Actualizacion" class="md-nav__link">
+    Actualizacion
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2219" title="Ejercicio 2.2.19" class="md-nav__link">
+    Ejercicio 2.2.19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2220" title="Ejercicio 2.2.20" class="md-nav__link">
+    Ejercicio 2.2.20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2221" title="Ejercicio 2.2.21" class="md-nav__link">
+    Ejercicio 2.2.21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2222" title="Ejercicio 2.2.22" class="md-nav__link">
+    Ejercicio 2.2.22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2223" title="Ejercicio 2.2.23" class="md-nav__link">
+    Ejercicio 2.2.23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2224" title="Ejercicio 2.2.24" class="md-nav__link">
+    Ejercicio 2.2.24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ejercicio-2225" title="Ejercicio 2.2.25" class="md-nav__link">
+    Ejercicio 2.2.25
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="22-archivos-secuenciales">2.2. Archivos Secuenciales<a class="headerlink" href="#22-archivos-secuenciales" title="Permanent link">&para;</a></h1>
+<h3 id="ejercicio-221">Ejercicio 2.2.1<a class="headerlink" href="#ejercicio-221" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Se dispone de una secuencia con los datos de los alumnos de la facultad:  </p>
+<ul>
+<li>Apellido y Nombre</li>
+<li>Carrera (ISI - IEM - IQ)</li>
+<li>Nº de Legajo </li>
+<li>Fecha de Nacimiento</li>
+<li>Fecha de Ingreso</li>
+<li>D.N.I.</li>
+<li>Sexo (M o F)</li>
+<li>Fecha de último examen aprobado </li>
+<li>Nota</li>
+</ul>
+<p>Se desea un listado de los mismos, con el siguiente formato:</p>
+<ul class='fileul'>
+    <li class='clave'>Nro_Legajo
+    <li>Apellido_Nombre
+    <li>Documento
+    <li>Carrera
+</ul>
+
+<h3 id="ejercicio-222">Ejercicio 2.2.2<a class="headerlink" href="#ejercicio-222" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Se dispone de una secuencia de facturas con los siguientes datos:  </p>
+<ul>
+<li>Nº de Factura</li>
+<li>Fecha</li>
+<li>Total</li>
+</ul>
+<p>Se desea un listado de las facturas cuyas fechas sean posteriores a una fecha dada, y cuyos importes totales no alcancen los $1000, con el siguiente formato:</p>
+<ul class='fileul'>
+    <li class='clave'>NroLegajo
+    <li>Fecha
+    <li>Importe_Total
+</ul>
+
+<h3 id="ejercicio-223">Ejercicio 2.2.3<a class="headerlink" href="#ejercicio-223" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Dada la siguiente secuencia de datos con el siguiente formato:</p>
+<ul>
+<li>Nº de socio</li>
+<li>Nº de teléfono</li>
+<li>Apellido y Nombre</li>
+<li>Carrera (ISI - IEM - IQ - LAR)</li>
+<li>Domicilio</li>
+<li>Cantidad de unidades prestadas</li>
+</ul>
+<p>Correspondiente a los alumnos socios de la Biblioteca, generar la secuencia de los alumnos de “ISI” que tengan prestadas más de 4 unidades bibliográficas.</p>
+<h3 id="ejercicio-224">Ejercicio 2.2.4<a class="headerlink" href="#ejercicio-224" title="Permanent link">&para;</a></h3>
+<hr />
+<p>A partir de la secuencia del ejercicio 2.01 se desea generar otra  secuencia con los alumnos de una carrera dada que aprobaron alguna materia este año, con nota mayor a 7 (siete).</p>
+<h3 id="ejercicio-225">Ejercicio 2.2.5<a class="headerlink" href="#ejercicio-225" title="Permanent link">&para;</a></h3>
+<hr />
+<p>A partir de la secuencia del ejercicio 2.01 se desea generar un listado con los alumnos que aprobaron la última materia rendida con nota superior a 7, e ingresaron el año pasado, con el siguiente formato:</p>
+<ul class='fileul'>
+    <li class='clave'>Nro_Legajo
+    <li>Apellido_Nombre
+    <li>Carrera
+</ul>
+
+<h3 id="ejercicio-226">Ejercicio 2.2.6<a class="headerlink" href="#ejercicio-226" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Se cuenta con una secuencia que contiene el Apellido y Nombre  y Promedio General de los Graduados de una Facultad,  y se solicita generar un listado con diversas  recomendaciones para cubrir vacantes en una importante Empresa. Las mencionadas recomendaciones serán establecidas del siguiente modo: si el promedio es menor que 7, la recomendación será  negativa ("NO"); por el contrario, si el promedio es menor que 8, la recomendación será  positiva ("SI"); de lo contrario, si el promedio es menor que 9, la recomendación será  favorable ("F");  por último, si el promedio supera los 9 puntos, la recomendación será  muy favorable("MF").
+El listado deber  respetar el siguiente formato:</p>
+<ul class='fileul'>
+    <li>Apellido_Nombre
+    <li>Promedio
+    <li>Recomendación
+</ul>
+
+<p>Además, se solicita la impresión del total de graduados que recibieron cada una de las recomendaciones, y el promedio global de los mismos.</p>
+<h3 id="ejercicio-227">Ejercicio 2.2.7<a class="headerlink" href="#ejercicio-227" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Se dispone de un archivo con los datos de un padrón electoral con la siguiente información:</p>
+<ul>
+<li>Nombre y apellido</li>
+<li>Clase</li>
+<li>DNI</li>
+<li>Dirección</li>
+<li>Nº de Mesa</li>
+<li>Observaciones</li>
+<li>Nº de Circuito</li>
+<li>Partido (0= independiente, 1=‘A’, 2=‘B’, 3=‘C’) </li>
+</ul>
+<p>Generar:<br />
+a) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las personas afiliadas al partido “C”.<br />
+b) Una secuencia de salida con nombre y apellido, DNI, y dirección de todas las personas no  afiliadas a ningún partido y de clase posterior a 1940.</p>
+<h3 id="ejercicio-228">Ejercicio 2.2.8<a class="headerlink" href="#ejercicio-228" title="Permanent link">&para;</a></h3>
+<hr />
+<p>De los datos del siguiente ejercicio:</p>
+<p><strong>COMPRAS</strong> Ordenado por Nro_Cliente
+<ul class='fileul'>
+    <li class='clave'>Nro_Cliente
+    <li>Fecha_Ultima_Compra
+    <li>Monto
+</ul></p>
+<p><strong>CLIENTES</strong> Ordenado por Nro_Cliente
+<ul class='fileul'>
+    <li class='clave'>Nro_Cliente
+    <li>Apellido_Nombre
+    <li>Domicilio
+    <li>Teléfono
+    <li>DNI 
+</ul></p>
+<p>Ambos archivos están ordenados por Nro. de Cliente en forma ascendente.
+Listar los nombres fecha y monto de última compra, de todos aquellos clientes cuya última compra sea posterior a una fecha dada y el monto supere un monto dado.</p>
+<h3 id="ejercicio-229">Ejercicio 2.2.9<a class="headerlink" href="#ejercicio-229" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Una casa deportiva dispone de un archivo de productos, ordenado por código de producto, que  contiene los siguientes datos:</p>
+<p><strong>PRODUCTOS</strong> Ordenado por Cod_Producto
+<ul class='fileul'>
+    <li class='clave'>Cod_Producto
+    <li>Tipo <a>(1,2,3)</a>
+    <li>Marca
+    <li>Modelo
+    <li>Descripción
+    <li>Cantidad_Existente
+    <li>Precio_Unitario
+</ul></p>
+<p>Se ha registrado en el mercado un aumento de precios, el cual no es uniforme para todos los artículos, sino que varía según el tipo de los mismos de la siguiente manera: tipo 1- Calzados: 10%, tipo 2 – Indumentaria: 25%, tipo 3 - Accesorios (pelotas, raquetas, etc.): 50%. Por este motivo el gerente de la empresa solicitó al Departamento de Informática que modifique los precios de acuerdo a los porcentajes antes mencionados.<br />
+Generar un nuevo fichero de productos para cumplir con la solicitud del gerente.<br />
+Al terminar el proceso informar cantidad total de artículos de cada tipo hay y total general. </p>
+<h2 id="control-de-control">Control de Control<a class="headerlink" href="#control-de-control" title="Permanent link">&para;</a></h2>
+<h3 id="ejercicio-2210">Ejercicio 2.2.10<a class="headerlink" href="#ejercicio-2210" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Del archivo general de alumnos de la U.T.N. - Facultad Regional Resistencia, ordenado por carrera, se desea emitir la cantidad de alumnos correspondientes a cada carrera y el total general.</p>
+<h3 id="ejercicio-2211">Ejercicio 2.2.11<a class="headerlink" href="#ejercicio-2211" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Se dispone de un archivo con datos de los alumnos de la U.T.N. con la siguiente información para cada alumno:</p>
+<p><strong>PRODUCTOS</strong> Ordenado por Sexo, Carrera, Nro_Legajo
+<ul class='fileul'>
+    <li class='clave'>Sexo
+    <li class='clave'>Carrera
+    <li class='clave'>Nro_Legajo
+    <li>Fecha_Ingreso
+    <li>Total_Materias_Aprobadas
+</ul></p>
+<p>Se desea un listado con el siguiente detalle por sexo, carrera y total general  </p>
+<ol>
+<li>
+<p>Total de alumnos que ingresaron en el año 2009 con más de 20 materias aprobadas.</p>
+</li>
+<li>
+<p>Total de alumnos que ingresaron en el año 2009 con menos de 20 materias aprobadas</p>
+</li>
+</ol>
+<h3 id="ejercicio-2212">Ejercicio 2.2.12<a class="headerlink" href="#ejercicio-2212" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Dada una secuencia con información de población de un PAIS:</p>
+<p><strong>POBLACION</strong> Ordenado por Provincia, Departamento, Ciudad, Barrio, ID_Casa
+<ul class='fileul'>
+    <li class='clave'>Provincia
+    <li class='clave'>Departamento
+    <li class='clave'>Ciudad
+    <li class='clave'>Barrio
+    <li class='clave'>ID_Casa
+    <li>Cantidad_Habitantes
+</ul></p>
+<p>Generar una secuencia con información de los departamentos de esa provincia, cuyo registro tenga el siguiente formato:</p>
+<p><strong>POBLACION_SALIDA</strong>
+<ul class='fileul'>
+    <li>Provincia
+    <li>Departamento
+    <li>Cantidad_Habitantes
+</ul></p>
+<h3 id="ejercicio-2213">Ejercicio 2.2.13<a class="headerlink" href="#ejercicio-2213" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Un Casino de la región ha notado un incremento en los costos de las reparaciones de  tragamonedas en sus sucursales. Por ello solicitó un informe con la cantidad de reparaciones y sus costos, discriminados según tragamonedas, modelo, marca, sucursal y total general.</p>
+<p>Se dispone de un archivo REPARACIONES, con el siguiente formato. Cada registro representa la reparación de un tragamonedas, tener en cuenta que puede existir más de una reparación por tragamonedas.</p>
+<p><strong>REPARACIONES</strong> Ordenado por Cod_Sucursal, Marca, Modelo, Cod_Tragamonedas
+<ul class='fileul'>
+    <li class='clave'>Cod_Sucursal
+    <li class='clave'>Marca
+    <li class='clave'>Modelo
+    <li class='clave'>Cod_Tragamonedas
+    <li>Fecha_Reparacion
+    <li>Costo_Reparacion
+</ul></p>
+<p>Realice el algoritmo para emitir el informe con los totales solicitados</p>
+<h3 id="ejercicio-2214">Ejercicio 2.2.14<a class="headerlink" href="#ejercicio-2214" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Dados el siguiente fichero con datos de un censo de la ciudad de Resistencia:</p>
+<p><strong>CENSO</strong> Ordenado por Radio, Manzana, Nro_Vivienda
+<ul class='fileul'>
+    <li class='clave'>Radio
+    <li class='clave'>Manzana
+    <li class='clave'>Nro_Vivienda
+    <li>Condicion_Vivienda
+    <li>Cantidad_Habitantes
+</ul></p>
+<p>Condición puede ser : Muy Buena, Buena o Mala.
+Obtener los siguientes totales de personas que habitan en viviendas cuya condición es muy buena: total en la ciudad y totales por Radio y Manzana).</p>
+<h3 id="ejercicio-2215">Ejercicio 2.2.15<a class="headerlink" href="#ejercicio-2215" title="Permanent link">&para;</a></h3>
+<hr />
+<p>El organismo del cual dependen las escuelas de un distrito lleva un archivo con los registros para todos los alumnos de nivel secundario de ese distrito:</p>
+<p><strong>ALUMNOS</strong> Ordenado por Escuela, Año, División
+<ul class='fileul'>
+    <li class='clave'>Escuela
+    <li class='clave'>Año
+    <li class='clave'>División
+    <li>Nombre
+    <li>Cant_Inasistencias
+</ul></p>
+<p>Se introduce como dato el número de distrito y la cantidad de días de clase dictados en el año.
+El archivo está ordenado por número de escuela, año y división. 
+Los alumnos que superan el 20% de las inasistencias están en situación de LIBRES, de lo contrario son REGULARES.</p>
+<p>Se desea conocer:<br />
+<strong>Para cada división:</strong><br />
+- Cantidad de alumnos<br />
+<strong>Para cada año:</strong><br />
+- Cantidad total de alumnos libres<br />
+- Cantidad de alumnos regulares<br />
+- Cantidad total de alumnos<br />
+<strong>Todas las escuelas:</strong><br />
+- Cantidad total de alumnos<br />
+- Porcentaje de alumnos libres.
+- Promedio de inasistencias por alumnos.  </p>
+<h2 id="mezcla">Mezcla<a class="headerlink" href="#mezcla" title="Permanent link">&para;</a></h2>
+<h3 id="ejercicio-2216">Ejercicio 2.2.16<a class="headerlink" href="#ejercicio-2216" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Construir un algoritmo que a partir de un fichero de películas nuevas conteniendo:</p>
+<p><strong>PELICULAS_NUEVAS</strong> Ordenado por Nro_Pelicula
+<ul class='fileul'>
+    <li class='clave'>Nro_Pelicula
+    <li>Titulo
+    <li>Genero
+    <li>Cant_Copias
+    <li>Fecha_Estreno
+</ul></p>
+<p>y otro fichero de peliculas existentes, ambos ordenados por película,</p>
+<p><strong>PELICULAS</strong> Ordenado por Nro_Pelicula
+<ul class='fileul'>
+    <li class='clave'>Nro_Pelicula
+    <li>Titulo
+    <li>Genero
+    <li>Cant_Copias
+    <li>Fecha_Estreno
+</ul></p>
+<p>Genere un único archivo (con el mismo formato de los ficheros de entrada) que contenga todas las peliculas. Considerar que hay un solo registro por película y no se repiten entre ficheros.</p>
+<h3 id="ejercicio-2217">Ejercicio 2.2.17<a class="headerlink" href="#ejercicio-2217" title="Permanent link">&para;</a></h3>
+<hr />
+<p>La Secretaria Academica de la Facultad lanza un proyecto para incentivar a aquellos alumnos que realizaron el Cursillo de Ingreso a la Universidad y no lograron aprobarlo en los turnos de Agosto y Febrero, de manera de brindarles apoyo Academico con el fin de que, en el Cursillo del año siguiente puedan aprobar los examenes necesarios e ingresar a la Universidad.</p>
+<p>Para esto, dicha Secretaria­necesita crear un archivo donde se encuentren todos los aspirantes que realizaron el Cursillo de Ingreso en ambos turnos, y no lograron aprobarlo.</p>
+<p>Los datos correspondientes a cada uno de los turnos del Cursillo dictado están almacenados en dos archivos (uno para cada turno), los cuales presentan el siguiente formato:</p>
+<p><strong>ASPIRANTES</strong> Ordenado por DNI
+<ul class='fileul'>
+    <li class='clave'>DNI
+    <li>ApeyNom
+    <li>Carrera
+    <li>F_Nac
+    <li>Email
+    <li>ColegioSec
+    <li>FechaInscripcion
+    <li>Aprobado (Si/No)
+</ul></p>
+<p>UD debe realizar un algoritmo que permita mezclar los archivos Aspirantes (de Agosto y Febrero) y generar un archivo SEGUIMIENTO con el siguiente formato:</p>
+<p><strong>SEGUIMIENTO</strong> Ordenado por DNI
+<ul class='fileul'>
+    <li class='clave'>DNI
+    <li>ApeyNom
+    <li>Email
+    <li>ColegioSec
+</ul></p>
+<h3 id="ejercicio-2218">Ejercicio 2.2.18<a class="headerlink" href="#ejercicio-2218" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Un supermercado desea conocer la totalidad de unidades existentes de cada artículo a fin de hacer un control de stock y decidir si se deben comprar nuevas unidades o redistribuir la mercadería existente.</p>
+<p>El supermercado posee dos sucursales, cada una de las cuales envió su información en un fichero con el siguiente formato:</p>
+<p><strong>ARTICULOS</strong>
+<ul class='fileul'>
+    <li>Cod_Prod
+    <li>Tipo
+    <li>Marca
+    <li>Descripción
+    <li>Cant_Unidades
+</ul></p>
+<p>Escribir un algortimo que permita obtener un único fichero de salida, con el mismo formato, que contenga la información solicitada y además, emita un listado con los siguientes datos:</p>
+<table>
+<thead>
+<tr>
+<th>Cod_Prod</th>
+<th>Tipo</th>
+<th>Marca</th>
+<th>Descripción</th>
+<th>Cant_Suc_1</th>
+<th>Cant_Suc_2</th>
+<th>Total_Unidades</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="actualizacion">Actualizacion<a class="headerlink" href="#actualizacion" title="Permanent link">&para;</a></h2>
+<h3 id="ejercicio-2219">Ejercicio 2.2.19<a class="headerlink" href="#ejercicio-2219" title="Permanent link">&para;</a></h3>
+<hr />
+<p>En una Empresa Farmacéutica se posee un archivo <strong>MAE_REMEDIOS</strong> (ordenado por Clave: Farmacia + Medicamento), el que se actualiza semanalmente, a traves de la información que se encuentra cargada en un archivo de <strong>MOVIMIENTOS</strong> (ordenado por Clavem: Farmacia + Medicamento, y Cod_Mov), de la siguiente forma:</p>
+<ul>
+<li>
+<p>Si Clave (<strong>MAE_REMEDIOS</strong>) es menor que Clavem (<strong>MOVIMIENTOS</strong>), simplemente se transfieren los datos del Maestro a la salida y se graban.  </p>
+</li>
+<li>
+<p>Si Clave (<strong>MAE_REMEDIOS</strong>) es igual a Clavem (<strong>MOVIMIENTOS</strong>) y el Codmov es 1, se considera error y se lista un mensaje indicando el tipo de error; pero si el Codmov es 2, entonces  es un remedio que deja de fabricarse y se transfiere el registro al archivo de Remedios vencidos (<strong>REM_VENC</strong>) ; pero si el Cod_Mov es 3, se modifica la cantidad actual con la cantidad recibida.  </p>
+</li>
+<li>
+<p>Si Clave (<strong>MAE_REMEDIOS</strong>) es mayor que Clavem (<strong>MOVIMIENTOS</strong>) y el Codmov es 1, se incorpora el remedio a nuestro Vademecum, considerando que la cantidad recibida configura la cantidad actual y la Fecha_Vencimiento es 30 días posterior a la fecha actual; pero si el Codmov es 2 o 3 se considera error y se deben producir los correspondientes mensajes de error.</p>
+</li>
+</ul>
+<p><strong>MAE_REMEDIOS</strong> Ordenado por Farmacia y Medicamento
+<ul class='fileul'>
+    <li class='clave'>Farmacia
+    <li class='clave'>Medicamento
+    <li>Cant_Actual
+    <li>Fecha_Vencimiento
+</ul></p>
+<p><strong>MOVIMIENTOS</strong> Ordenado por Farmacia, Medicamento y Cod_Mov
+<ul class='fileul'>
+    <li class='clave'>Farmacia
+    <li class='clave'>Medicamento
+    <li class='clave'>Cod_Mov
+    <li>Cant_Recibida
+</ul></p>
+<p><strong>REM_VENC</strong> Ordenado por Medicamento
+<ul class='fileul'>
+    <li class='clave'>Medicamento
+    <li>Cant_Vencida
+</ul></p>
+<h3 id="ejercicio-2220">Ejercicio 2.2.20<a class="headerlink" href="#ejercicio-2220" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Se desea generar una secuencia, a partir de la secuencia del problema 2.01, donde se actualice la fecha de aprobación del último exámen, para ello se cuenta con información del último turno de exámen, según el siguiente detalle:  </p>
+<p><strong>EXAMENES</strong> Ordenado por Nro_Legajo
+<ul class='fileul'>
+    <li class='clave'>Nro_Legajo
+    <li>Carrera
+    <li>Cod_Materia
+    <li>Fecha_Examen
+    <li>Nota
+</ul></p>
+<p>Se debe considerar que no necesariamente todos los alumnos se presentan en cada turno de exámen, y que un alumno puede presentarse a rendir más de una materia en un mismo turno. Supónganse ambas secuencias ordenadas por Número de Legajo.</p>
+<h3 id="ejercicio-2221">Ejercicio 2.2.21<a class="headerlink" href="#ejercicio-2221" title="Permanent link">&para;</a></h3>
+<hr />
+<p>En un práctico para la Facultad un grupo de alumnos debe implementar una Red Social llamada UTNBook. Para lo cual debe utilizar los siguientes archivos: </p>
+<p><strong>AMIGOS</strong> Ordenado por Cod_Usuario y Cod_Amigo
+<ul class='fileul'>
+    <li class='clave'>Cod_Usuario
+    <li class='clave'>Cod_Amigo
+    <li>Fecha_Amistad
+    <li>Mensaje_Muro
+</ul></p>
+<p>Cada registro indica la fecha desde que los usuarios son amigos y el último mensaje que un amigo ha escrito en el muro del usuario. </p>
+<p><strong>NOTIFICACIONES</strong> Ordenado por Cod_Usuario y Cod_Amigo
+<ul class='fileul'>
+    <li class='clave'>Cod_Usuario
+    <li class='clave'>Cod_Amigo
+    <li class='clave'>Cod_Movimiento
+    <li>Fecha_Amistad
+    <li>Mensaje_Muro
+</ul></p>
+<p>Periódicamente se debe actualizar el archivo Amigos, con el fin de que refleje las amistades que posee cada usuario. En el archivo notificaciones pueden existir tres tipos de acciones: la solicitud de una amistad (Cod_mov = 'A'); la eliminación de una amistad (Cod_mov = 'B'); o la información de un mensaje que un amigo ha escrito en el muro del usuario (Cod_mov = 'M'). Considerar que la eliminación de una amistad implica la baja física de un registro y que hay un solo registro de Notificaciones por cada registro de Amigo.</p>
+<h3 id="ejercicio-2222">Ejercicio 2.2.22<a class="headerlink" href="#ejercicio-2222" title="Permanent link">&para;</a></h3>
+<hr />
+<p>IDEM ejercicio 2.21 pero agregando al enunciado: “Al finalizar el proceso se desea conocer: el usuario que posee más amigos.”</p>
+<h3 id="ejercicio-2223">Ejercicio 2.2.23<a class="headerlink" href="#ejercicio-2223" title="Permanent link">&para;</a></h3>
+<hr />
+<p>IDEM ejercicio 2.21 pero agregando al enunciado: “Al finalizar el proceso se desea conocer: el usuario que posee más amigos.”</p>
+<h3 id="ejercicio-2224">Ejercicio 2.2.24<a class="headerlink" href="#ejercicio-2224" title="Permanent link">&para;</a></h3>
+<hr />
+<p>Una obra social lleva el control de los costos que le insume cada afiliado. Considerando como costos, los pagos que la misma debe realizar (en conceptos de honorarios, pagos a farmacias, etc) por los distintos servicios que el afiliado utiliza.
+Para esto la empresa cuenta con un archivo <strong>COSTOS_POR_AFILIADO</strong>, en el cual se registran la cantidad de atenciones y/o servicios que solicita el empleado y el costo total (en pesos) que la empresa debe pagar por estos.
+Este archivo está conformado por registros con el siguiente formato, y está ordenado Cod_Afiliado</p>
+<p><strong>COSTOS_POR_AFILIADO</strong> Ordenado por Cod_Afiliado
+<ul class='fileul'>
+    <li class='clave'>Cod_Afiliado
+    <li>Fecha_Alta
+    <li>Fecha_Baja
+    <li>Cant_Servicios
+    <li>Costo
+</ul></p>
+<p>Cada viernes en la organización, se lleva a cabo un proceso de actualización del archivo <strong>COSTOS_POR_AFILIADO</strong>. Para poder realizarlo se cuenta con un archivo <strong>SERVICIOS_SEMANALES</strong>, ordenado por cod_afiliado y fecha_at, en el cual se registran los servicios que solicitaron los afiliados durante cada semana. Cada registro de este archivo presenta el siguiente formato,</p>
+<p><strong>SERVICIOS_SEMANALES</strong> Ordenado por Cod_Afiliado
+<ul class='fileul'>
+    <li class='clave'>Cod_Afiliado
+    <li>Fecha_At
+    <li>Cod_Servicio
+    <li>Costo
+</ul></p>
+<p>En el archivo <strong>SERVICIOS_SEMANALES</strong> puede existir más de un registro por cada afiliado.</p>
+<p>Para realizar el proceso de actualización se deben tener en cuenta las siguientes consideraciones.</p>
+<ul>
+<li>
+<p>Si algún Cod_Afiliado de serviciosSemanales, no se encuentra en ningún registro del archivo COSTOS_POR_AFILIADO, y el primer Cod_Servicio asociado al mismo es igual a 001 entonces  se trata de un nuevo afiliado que fue dado de alta.  </p>
+</li>
+<li>
+<p>Si Cod_Afiliado de serviciosSemanales es igual al de COSTOS_POR_AFILIADO y el Cod_Servicio es igual a 000 se trata de un afiliado que fue dado de baja y se considera como fecha de baja el valor que reside en Fecha_At. Si en cambio, el  Cod_Servicio tiene algún otro valor este representa un servicio o atención que solicitó el afiliado; por lo tanto deben contabilizarse la cantidad de servicios que solicitó; como así también los costos que estos insumen.  </p>
+</li>
+<li>
+<p>Si algún Cod_Afiliado de COSTOS_POR_AFILIADO no se encuentra en el archivo SERVICIOS_SEMANALES, se trata de un afiliado que no utilizó los servicios en la semana que se realiza la actualización.  </p>
+</li>
+<li>
+<p>Cualquier otro caso distinto a los considerados anteriormente se toma como un error, y deben ser informados por pantalla; indicando claramente el motivo del error.</p>
+</li>
+</ul>
+<h3 id="ejercicio-2225">Ejercicio 2.2.25<a class="headerlink" href="#ejercicio-2225" title="Permanent link">&para;</a></h3>
+<hr />
+<p>IDEM 2.21 pero suponiendo que hay mas de un registro de notificaciones por cada registro de amigos.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../2.1/" title="2.1. Secuencias" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                2.1. Secuencias
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../2.3/" title="2.3. Archivos Indexados" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Siguiente
+                </span>
+                2.3. Archivos Indexados
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+
+        Algoritmos y Estructura de Datos - 
+        
+        <a href="http://www.frre.utn.edu.ar">UTN FRRe</a>
+
+      </div>
+      
+  <div class="md-footer-social">
+    <link rel="stylesheet" href="../../assets/fonts/font-awesome.css">
+    
+      <a href="https://github.com/aed-frre" class="md-footer-social__link fa fa-github"></a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.b806dc00.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.es.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+        <script src="../../extra/js/extra.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+      
+    
+  </body>
+</html>
