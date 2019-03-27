@@ -1,4 +1,26 @@
-site_name: aed-frre
+site_name: Guía de Trabajos Prácticos
+nav:
+  - Inicio: 
+        - Bienvenidos!: bienvenidos.md
+        - Numeración: numeracion.md
+  - Práctica: 
+        - 0. Algortimos: practica/0.md
+        - 1. Datos y Estructuras Elementales: practica/1.md
+        - 2. Tratamiento de Secuencias:
+            - 2.1. Secuencias de caracteres: practica/2.1.md
+            - 2.2. Archivos Secuenciales: practica/2.2.md
+            - 2.3. Archivos Indexados: practica/2.3.md
+        - 3. Arreglos: practica/3.md
+        - 4. Funciones y Listas: 
+            - 4.1. Funciones y Procedimientos: practica/4.1.md
+            - 4.2. Listas: practica/4.2.md
+        - 5. Recursividad: practica/5.md
+  - Complementos Teóricos:
+    - Mezcla: teoria/mezcla.md
+    - Corte de Control: teoria/corte.md
+    - Actualización: teoria/actualizacion.md
+    - Arreglos: teoria/arreglos.md
+    - Listas: teoria/listas.md
 theme:
   name: 'material'
   language: 'es'
@@ -6,6 +28,8 @@ theme:
   palette:
     primary: 'indigo'
     accent: 'indigo'
+  feature:
+    tabs: true
 markdown_extensions:
 - toc:
     permalink: true
