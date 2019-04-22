@@ -10,6 +10,3 @@ Una lista de todos los ejercicios practicos y complementarios que vamos a utiliz
 
 Un complemento teórico a los temas de teoría para que no te pierdas
 
-## **+++**
-
-Estamos dispuestos a mejorar, así que si pensas en algo que podamos agregar, avisanos!
