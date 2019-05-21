@@ -18,4 +18,6 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/aed-frre'
-
+google_analytics: 
+  - 'UA-140521258-1
+  - 'auto'
