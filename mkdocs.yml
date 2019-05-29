@@ -1,8 +1,6 @@
 site_name: Guía de Trabajos Prácticos
 nav:
-#  - Inicio: 
   - index.md
- #   - Numeración: numeracion.md
   - Práctica: 
     - 0. Algortimos: practica/0.md
     - 1. Datos y Estructuras Elementales: practica/1.md
@@ -42,4 +40,6 @@ extra:
   social:
     - type: 'github'
       link: 'https://github.com/aed-frre/site'
-
+google_analytics: 
+  - 'UA-140521258-1'
+  - 'auto'
