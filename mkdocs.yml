@@ -24,7 +24,7 @@ theme:
   language: 'es'
   custom_dir: custom/
   palette:
-    primary: 'indigo'
+    primary: 'blue grey'
     accent: 'indigo'
   feature:
     tabs: true
