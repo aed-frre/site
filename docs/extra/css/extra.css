@@ -7,11 +7,11 @@
 
 .fileul a {
     font-size: 10px;
-    color: white !important;
+    color:  #212121 !important;
 }
 
 .fileul .clave {
-    background-color: grey;
+    background-color: rgb(112,112,112);
     font-weight: bold;
     color: white;
 }
