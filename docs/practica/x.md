@@ -46,3 +46,37 @@ Rapido Toto requiere un algoritmo que cumpla con las siguientes consignas:
 1. Genere una nueva secuencia con los orígenes y destinos (sin separación) de todos los pasajes de los meses de Enero y Febrero.
 2. Informe la cantidad de pasajeros que arriban desde una localidad solicitada por el usuario.
 3. Informe el porcentaje de pasajes que se vendieron con descuento a estudiantes.
+
+
+## Corte
+
+
+### 3.
+---
+
+El Banco NEA S.A. debe gestionar la información referida a las transacciones realizadas durante el año 2015. Para ello cuenta con un archivo donde almacena los siguientes datos:
+
+
+**TRANSACCIONES** Ordenado por Mes, Cod_Tran, Cliente
+<ul class='fileul'>
+	<li class='clave'>Mes <a>N(2)</a>
+	<li class='clave'>Cod_Tran <a>D | E | T </a>
+	<li class='clave'>Cliente <a>N(13)</a>
+	<li>Moneda <a>\$ | U\$S | Euro </a>
+	<li>Monto <a>N(10,2)</a>
+</ul>
+
+> D - Deposito, E - Extraccion, T - Transferencia
+
+Realice un algoritmo en pseudocódigo que permita:
+
+1. El gerente solicita que se informe los montos totales que se realizaron por mes y por transacción. Además informar un total general. De al informe el formato que considere apropiado.
+2. Gerar un archivo de salida con los totales depositados por Cliente durante el primer tirmestre del año:
+
+
+**DEPOS** Ordenado por Mes, Cliente
+<ul class='fileul'>
+	<li class='clave'>Mes <a>N(2)</a>
+	<li class='clave'>Cliente <a>N(13)</a>
+	<li>Monto <a>N(10,2)</a>
+</ul>
