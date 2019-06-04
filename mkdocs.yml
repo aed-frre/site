@@ -1,8 +1,6 @@
 site_name: Guía de Trabajos Prácticos
 nav:
-  - Inicio: 
-    - Bienvenidos!: bienvenidos.md
-    - Numeración: numeracion.md
+  - index.md
   - Práctica: 
     - 0. Algortimos: practica/0.md
     - 1. Datos y Estructuras Elementales: practica/1.md
@@ -26,7 +24,7 @@ theme:
   language: 'es'
   custom_dir: custom/
   palette:
-    primary: 'indigo'
+    primary: 'blue grey'
     accent: 'indigo'
   feature:
     tabs: true
@@ -41,5 +39,7 @@ extra_javascript:
 extra:
   social:
     - type: 'github'
-      link: 'https://github.com/aed-frre'
-
+      link: 'https://github.com/aed-frre/site'
+google_analytics: 
+  - 'UA-140521258-1'
+  - 'auto'

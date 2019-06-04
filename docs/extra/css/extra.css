@@ -7,7 +7,7 @@
 
 .fileul a {
     font-size: 10px;
-    color: inherit;
+    color: black !important;
 }
 
 .fileul .clave {
