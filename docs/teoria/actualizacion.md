@@ -318,7 +318,7 @@ reg_mae: formato
 
 cod_mov: AN(1)
 
-valido = ('A', 'B', 'C')
+valido = ('A', 'B', 'M')
 
 clave: formato_clave
 
