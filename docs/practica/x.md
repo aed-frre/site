@@ -1,82 +1,67 @@
-# Repaso para el Parcial
+# Repaso para el 3er Parcial
 
-
-## Secuencias
-
-
-### 1. 
----
-La galería de pintura y arte nacional, PINTA DE ARGENTINA, almacena información sobre los artistas y sus obras de arte en secuencias de caracteres. Durante todo el año, las obras de arte son expuestas en eventos de subasta y exposición, en los cuales se comercializan al público en general.  
-A fin de año la Comisión Directiva de la Galería solicita que, a partir de toda esa información, se generen algunos informes.
-Se debe tener en cuenta lo siguiente:  
-
-* En la secuencia ARTISTAS, se almacena el nombre de cada artista, lugar de nacimiento, edad, estilo de arte ('R' – Renacentista, 'M' – Arte Moderno, 'B' – Barroco, 'S' – Surrealismo) y cantidad de obras por artista. 
-* Los datos de cada artista están separados entre si por el símbolo '+' y finalizan con el símbolo '?'.
-* En la secuencia OBRAS, se almacena el nombre de la obra,  el año en que fue hecha, su precio, precedido siempre del signo '$' (solo 3 digitos) y su estado ('V' – Vendido, 'R' – Reservado, 'U' – Obra Única).
-* Todos los datos de las obras están separados por el símbolo ',' y finalizan con el símbolo '/'.
-* El creador de cada obra se determina de acuerdo al dato 'cantidad de obras' de la secuencia ARTISTAS, por ej.: el autor RENE BARTOL tiene 2 obras, por lo cual las primeras 2 obras de la secuencia OBRAS le pertenecen, las siguientes 6, pertenecen a JUAN B JUSTO, etc.  
-
-A continuación un ejemplo de ambas secuencias:
-
-**SECUENCIA ARTISTAS**  
-`RENE BARTOL+ROSARIO+34+M+2?JUAN B JUSTO+NEUQUEN+61+R+5?……..`
-
-**SECUENCIAS OBRAS**  
-`SOL Y PARANA,1997,$913,V/GRITO DE ESPERANZA,2003,$235,R/PENAS,1997,$781,V/……… `
-
-A partir de lo expuesto anteriormente, se pide:  
-
-1. Generar una secuencia de salida con información de los artistas Renacentistas. La secuencia debe contener el nombre del artista, su estilo de arte, seguido de sus obras (nombre y año de creación). Los datos correspondientes al mismo artista deben separarse entre sí con el signo '+' y finalizar con el signo '?'.  
-2. Al final del proceso informar:  
-	1. la mayor cantidad de obras vendidas por un artista.  
-	2. el porcentaje de obras de artistas "renacentistas" sobre el total de obras.
-
-### 2.
+### Ejercicio 1
 ---
 
-Rapido Toto es una empresa de transporte de pasajeros que ofrece sus servicios desde y hacia cerca de 100 localidades, a lo largo de todo el país. La misma cuenta con una secuencia de caracteres donde se encuentran grabados todos los pasajes vendidos durante el año 2016.
+Una empresa de remises posee una lista circular para realizar la asignación de los distintos turnos a los remiseros, la misma posee los siguientes datos.
 
-La secuencia tiene la siguiente estructura: al principio la fecha del pasaje (ddmmaaaa) seguido de un caracter que indica si el pasajero usó descuento de estudiante ('S') o no ('N'); a continuación sigue el apellido y nombre del pasajero. Separado por un guión ("-") se encuentran las localidades de origen y de destino representadas por dos caracteres cada una ("0103" representa un pasaje que va de 01-Buenos Aires a 03-Rosario, por ejemplo). Se usa el caracter “/” para separar un pasaje del siguiente.
-
-Ejemplo: 
-`01012016SJuan Pablo-2356/02012016NPablo Lopez-1001/*`
-
-Rapido Toto requiere un algoritmo que cumpla con las siguientes consignas:
-
-1. Genere una nueva secuencia con los orígenes y destinos (sin separación) de todos los pasajes de los meses de Enero y Febrero.
-2. Informe la cantidad de pasajeros que arriban desde una localidad solicitada por el usuario.
-3. Informe el porcentaje de pasajes que se vendieron con descuento a estudiantes.
-
-
-## Corte
-
-
-### 3.
----
-
-El Banco NEA S.A. debe gestionar la información referida a las transacciones realizadas durante el año 2015. Para ello cuenta con un archivo donde almacena los siguientes datos:
-
-
-**TRANSACCIONES** Ordenado por Mes, Cod_Tran, Cliente
 <ul class='fileul'>
-	<li class='clave'>Mes <a>N(2)</a>
-	<li class='clave'>Cod_Tran <a>D | E | T </a>
-	<li class='clave'>Cliente <a>N(13)</a>
-	<li>Moneda <a>\$ | U\$S | Euro </a>
-	<li>Monto <a>N(10,2)</a>
+	<li>ID_remis <a>AN(8)</a>
+	<li>Cuadras_Recorridas <a>N(8) </a>
+	<li>Recaudado <a>N(8,2)</a>
+	<li>Libre <a>S | N </a>
 </ul>
 
-> D - Deposito, E - Extraccion, T - Transferencia
 
-Realice un algoritmo en pseudocódigo que permita:
+> Los campos Cuadras Recorridas y Recaudado al inicio se encuentran en 0, y los valores del campo libre en “S”.
 
-1. El gerente solicita que se informe los montos totales que se realizaron por mes y por transacción. Además informar un total general. De al informe el formato que considere apropiado.
-2. Gerar un archivo de salida con los totales depositados por Cliente durante el primer tirmestre del año:
+Se pide realizar un algoritmo interactivo que implemente las tres funcionalidades:
+1. Cada vez que llama un cliente solicitando un remis, se le asigna el remis correspondiente a su turno de la lista circular, se muestra por pantalla el id del remis y se actualiza el campo del registro (Libre=”N”). Si el remis del turno correspondiente no está libre, entonces se toma el próximo de la lista. 
+2. Cuando un remis llega a su destino, informa a la central el código de remis y cuantas cuadras recorrió, de esta forma el sistema calcular el total del viaje multiplicando la cantidad de cuadras por un factor (Si es menor a 20 cuadras es 5, si es hasta 40 cuadras es 4 y si es mayor a 40 el factor es 3), se disponibiliza al remis (libre=”S”), muestra por pantalla el costo del viaje y graba en una lista simplemente enlazada el viaje realizado (con los siguientes datos: Id Remis, cantidad de cuadras y costo del viaje)
+3. Al finalizar el dia imprimir por pantalla el id remis, viajes realizados, Cuadras recorridas y Recaudación de cada uno, y además los totales de: viajes en el dia, cuadras recorridas y total de la recaudación. (considerar que siempre se llama al fin del día cuando todos los remises están libres).
 
 
-**DEPOS** Ordenado por Mes, Cliente
+### Ejercicio 2
+---
+
+1. Realizar un algoritmo recursivo que verifique que todos los dígitos de un número n sean impares, en caso afirmativo debe devolver un valor  verdadero, contrario falso (ejemplo: 57191 => verdadero, 33415 => falso).
+2. Nombre las partes de un algoritmo recursivo?  Marque en el algoritmo del punto a).
+
+### Ejercicio 3
+---
+
+Una empresa que se dedica a la venta de colchones posee el siguiente archivo secuencial con información de todas las ventas del último mes (cada entrada del archivo significa una venta), el mismo no se encuentra ordenado por ningún campo:
+
 <ul class='fileul'>
-	<li class='clave'>Mes <a>N(2)</a>
-	<li class='clave'>Cliente <a>N(13)</a>
-	<li>Monto <a>N(10,2)</a>
+	<li>ID <a>N(8)</a>
+	<li>Tipo <a>N(8) </a>
+	<li>Ganancia <a>N(18,2)</a>
+	<li>Dimension X <a>N(3) </a>
+	<li>Dimension Y <a>N(3) </a>
 </ul>
+
+El dato "tipo" no tiene un rango definido, ya que es un número asociado a los datos del proveedor, los cuales están almacenados en una lista simplemente encadenada ordenada por el campo tipo, con los siguientes datos:
+
+
+<ul class='fileul'>
+	<li>Tipo <a>N(8) </a>
+	<li>Fabricante <a>AN(40)</a>
+	<li>Modelo <a>AN(40) </a>
+	<li>Comision <a>N(2) </a>
+</ul>
+
+La comisión es el porcentaje con el cual se queda la fabrica por el producto vendido.
+
+Se pide:
+
+1. Generar una lista simplemente encadenada que posea por lo menos los siguientes datos: Tipo, Fabricante, modelo y cantidad vendida en el último mes.
+2. Realizar un top 5 con el fabricante que más cantidad vendió en el último mes.
+3. Informar el total recaudado por la empresa (por cada venta se debe calcular: ganancia * ( 100 - comision )/100 ))
+
+
+### Ejercicio 4
+---
+
+Escribir un algoritmo que dada una lista y un entero, reemplace aquéllos que son mayores que el entero de la lista por una sucesión de elementos menores o iguales que dicho entero manteniendo la suma total constante.
+
+Por ejemplo si tenemos un elemento de la lista que es 10 y el entero es 3, debemos dividir el elemento en “3, 3, 3, 1”. Un ejemplo del algoritmo: si L = {2,5,2,6,4,1,9,6,3,2} y el entero es 4, la lista de salida debe quedar L = {2,4,1,2,4,2,4,1,4,4,1,4,2,3,2}.
