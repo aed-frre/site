@@ -16,6 +16,7 @@ Una empresa de remises posee una lista circular para realizar la asignación de 
 > Los campos Cuadras Recorridas y Recaudado al inicio se encuentran en 0, y los valores del campo libre en “S”.
 
 Se pide realizar un algoritmo interactivo que implemente las tres funcionalidades:
+
 1. Cada vez que llama un cliente solicitando un remis, se le asigna el remis correspondiente a su turno de la lista circular, se muestra por pantalla el id del remis y se actualiza el campo del registro (Libre=”N”). Si el remis del turno correspondiente no está libre, entonces se toma el próximo de la lista. 
 2. Cuando un remis llega a su destino, informa a la central el código de remis y cuantas cuadras recorrió, de esta forma el sistema calcular el total del viaje multiplicando la cantidad de cuadras por un factor (Si es menor a 20 cuadras es 5, si es hasta 40 cuadras es 4 y si es mayor a 40 el factor es 3), se disponibiliza al remis (libre=”S”), muestra por pantalla el costo del viaje y graba en una lista simplemente enlazada el viaje realizado (con los siguientes datos: Id Remis, cantidad de cuadras y costo del viaje)
 3. Al finalizar el dia imprimir por pantalla el id remis, viajes realizados, Cuadras recorridas y Recaudación de cada uno, y además los totales de: viajes en el dia, cuadras recorridas y total de la recaudación. (considerar que siempre se llama al fin del día cuando todos los remises están libres).
