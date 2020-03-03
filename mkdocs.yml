@@ -20,6 +20,12 @@ nav:
     - Actualización: teoria/actualizacion.md
     - Arreglos: teoria/arreglos.md
     - Listas: teoria/listas.md
+  - Complementarios:
+    - 1. Datos y Estructuras Elementales: complementarios/1.md
+    - 2. Tratamiento de Secuencias:
+      - 2.1. Secuencias de caracteres: complementarios/2.1.md
+      - 2.2. Archivos Secuenciales: complementarios/2.2.md
+      - 2.3. Archivos Indexados: complementarios/2.3.md
 theme:
   name: 'material'
   language: 'es'
