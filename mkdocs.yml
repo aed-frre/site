@@ -26,6 +26,7 @@ nav:
       - 2.1. Secuencias de caracteres: complementarios/2.1.md
       - 2.2. Archivos Secuenciales: complementarios/2.2.md
     - 3. Tratamiento de Arreglos: complementarios/3.md
+    - 4. Tratamiento de Listas: complementarios/4.md
 theme:
   name: 'material'
   language: 'es'
