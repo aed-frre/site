@@ -3,17 +3,16 @@ nav:
   - index.md
   - Práctica: 
     - 0. Algortimos: practica/0.md
-    - 1. Datos y Estructuras Elementales: practica/1.md
-    - 2. Tratamiento de Secuencias:
+    - 1. Elementales: 
+      - 1.1. Datos y Estructuras: practica/1.1.md
+      - 1.2. Subacciones: practica/1.2.md
+    - 2. Secuencias:
       - 2.1. Secuencias de caracteres: practica/2.1.md
       - 2.2. Archivos Secuenciales: practica/2.2.md
       - 2.3. Archivos Indexados: practica/2.3.md
     - 3. Arreglos: practica/3.md
-    - 4. Funciones y Listas: 
-      - 4.1. Funciones y Procedimientos: practica/4.1.md
-      - 4.2. Listas: practica/4.2.md
+    - 4. Listas: practica/4.md
     - 5. Recursividad: practica/5.md
-    - Repaso para el parcial: practica/x.md
   - Complementos Teóricos:
     - Mezcla: teoria/mezcla.md
     - Corte de Control: teoria/corte.md
