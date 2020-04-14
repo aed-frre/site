@@ -33,8 +33,9 @@ theme:
   palette:
     primary: 'blue grey'
     accent: 'indigo'
-  feature:
-    tabs: true
+  features:
+    - tabs
+    - instant
 markdown_extensions:
 - toc:
     permalink: true
@@ -45,7 +46,7 @@ extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 extra:
   social:
-    - type: 'github'
+    - icon: fontawesome/brands/github-alt
       link: 'https://github.com/aed-frre/site'
 google_analytics: 
   - 'UA-140521258-1'
