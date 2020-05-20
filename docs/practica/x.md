@@ -123,7 +123,7 @@ Los datos se almacenan en registros con el siguiente formato:
 	<li class='clave'>COD_HOSP <a>AN(4)</a>
 	<li class='clave'>FCH_ANALISIS <a>Fecha</a>
 	<li>VERIFICADOS <a>N(3)</a>
-	<li>Fecha SOSPECHADOS <a>N(3)</a>
+	<li>SOSPECHADOS <a>N(3)</a>
 </ul>
 
 Elaborar un algoritmo que permita:
