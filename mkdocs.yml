@@ -6,7 +6,7 @@ nav:
     - 1. Elementales: 
       - 1.1. Datos y Estructuras: practica/1.1.md
       - 1.2. Subacciones: practica/1.2.md
-    - 2. Secuencias:
+    - 2. Secuencias y Archivos Indexados:
       - 2.1. Secuencias de datos elementales: practica/2.1.md
       - 2.2. Archivos Secuenciales: practica/2.2.md
       - 2.3. Archivos Indexados: practica/2.3.md
