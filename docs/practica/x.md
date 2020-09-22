@@ -8,7 +8,8 @@ Valor del Terreno = Superficie terreno (en M<sup>2</sup>) * valor del M<sup>2</s
 Para ello cuenta con la siguiente información: 
 
 1. Un archivo maestro de los terrenos con los siguientes datos:
-
+	
+	**MAESTRO** Ordenado por Nro_Terreno
 	<ul class='fileul'>
 		<li>Nro_Terreno
 		<li>Zona
@@ -23,7 +24,7 @@ Para ello cuenta con la siguiente información:
 2. Un arreglo V que contiene los valores del M<sup>2</sup> por zona.
 3. Un archivo de movimientos
 
-
+	**MOVIMIENTO** Ordenado por Nro_Terreno
 	<ul class='fileul'>
 		<li>Nro_Terreno
 		<li>Zona
