@@ -1,6 +1,6 @@
 language: python
 install:
-- pip install mkdocs mkdocs-material
+- pip install mkdocs==1.1 mkdocs-material==5.1.0
 script:
 - mkdocs build --verbose --clean --strict
 deploy:
