@@ -17,7 +17,7 @@ jobs:
           branch: dev
           files: site
           repository: https://github.com/aed-frre/aed-frre.github.io
-          token: ${{ secrets.MY_SECRET_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           force: true
           directory: .
       
