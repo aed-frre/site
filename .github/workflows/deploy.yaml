@@ -1,0 +1,23 @@
+name: Build and Deploy Page
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material==8.5.10
+      - run: mkdocs build --verbose --clean --strict
+      - uses: actions-x/commit@v6
+        with:
+          email: aed-frre@gmail.com
+          name: GitHub Actions Autocommitter
+          branch: dev
+          files: site
+          repository: https://github.com/aed-frre/aed-frre.github.io
+          token: ${{ secrets.MY_SECRET_TOKEN }}
+          force: true
+          directory: .
+      
