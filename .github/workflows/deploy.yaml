@@ -23,4 +23,13 @@ jobs:
       - name: Build Pages
         run: mkdocs build --verbose --clean --strict
         working-directory: source
-      - run: cp -rf source/site pages
+      - name: Copy page to destination repository
+        run: cp -rf source/site pages
+      - name: Push
+        working-directory: pages
+        run: |
+         git config --global user.name "GitHub Action Bot"
+         git config --global user.email "<>"
+         git add -a
+         git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+         git push
