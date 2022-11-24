@@ -24,12 +24,12 @@ jobs:
         run: mkdocs build --verbose --clean --strict
         working-directory: source
       - name: Copy page to destination repository
-        run: cp -rf source/site pages
+        run: cp -rf source/site/* pages
       - name: Push
         working-directory: pages
         run: |
          git config --global user.name "GitHub Action Bot"
          git config --global user.email "<>"
          git add --all
-         git commit -m "Test"
+         git commit -m "${{ github.sha }}"
          git push
