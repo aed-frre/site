@@ -11,7 +11,7 @@ jobs:
       - name: Checkout GitHub Pages repository
         uses: actions/checkout@v3
         with:
-          repository: https://github.com/aed-frre/aed-frre.github.io
+          repository: aed-frre/aed-frre.github.io
           path: pages
           token: ${{ secrets.TOKEN }}
       - name: Setup Python
