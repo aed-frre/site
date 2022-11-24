@@ -38,6 +38,7 @@ jobs:
       - name: Set Commit ENV
         run: echo "COMMIT_MESSAGE=$(tail -n 1 commits)" >> $GITHUB_ENV
         id: commit
+      - run: ls -laR
       - name: Push
         run: |
          git config --global user.name "GitHub Action Bot"
