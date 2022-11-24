@@ -31,13 +31,13 @@ nav:
 theme:
   name: 'material'
   language: 'es'
-  custom_dir: custom/
   palette:
     primary: 'blue grey'
     accent: 'indigo'
   features:
     - tabs
     - instant
+copyright: Algoritmos y Estructuras de Datos - UTN FRRe
 markdown_extensions:
 - toc:
     permalink: true
@@ -47,9 +47,9 @@ extra_javascript:
   - 'extra/js/extra.js'
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
 extra:
+  analytics:
+    provider: google
+    property: UA-140521258-1
   social:
     - icon: fontawesome/brands/github-alt
       link: 'https://github.com/aed-frre/site'
-google_analytics: 
-  - 'UA-140521258-1'
-  - 'auto'
