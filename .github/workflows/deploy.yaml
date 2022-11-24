@@ -30,6 +30,6 @@ jobs:
         run: |
          git config --global user.name "GitHub Action Bot"
          git config --global user.email "<>"
-         git add -a
+         git add --all
          git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
          git push
