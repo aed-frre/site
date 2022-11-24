@@ -22,6 +22,7 @@ jobs:
           name: site
           path: site/
   deploy:
+    needs: build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout GitHub Pages repository
