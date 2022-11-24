@@ -7,7 +7,7 @@ jobs:
       - name: Checkout source repository
         uses: actions/checkout@v3
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: 3.x
       - name: Install Dependencies
@@ -31,10 +31,12 @@ jobs:
           repository: aed-frre/aed-frre.github.io
           path: pages
           token: ${{ secrets.TOKEN }}
+      - run: ls -laR
       - name: Download Artifact
         uses: actions/download-artifact@v3
         with:
           name: site
+          path: .
       - name: Set Commit ENV
         run: echo "COMMIT_MESSAGE=$(tail -n 1 commits)" >> $GITHUB_ENV
         id: commit
