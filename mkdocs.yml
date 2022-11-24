@@ -31,13 +31,13 @@ nav:
 theme:
   name: 'material'
   language: 'es'
-  custom_dir: custom/
   palette:
     primary: 'blue grey'
     accent: 'indigo'
   features:
     - tabs
     - instant
+copyright: Algoritmos y Estructuras de Datos - UTN FRRe
 markdown_extensions:
 - toc:
     permalink: true
