@@ -4,20 +4,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - name: Checkout source repository
+        uses: actions/checkout@v3
+        with:
+          path: source 
+      - name: Checkout GitHub Pages repository
+        uses: actions/checkout@v3
+        with:
+          repository: https://github.com/aed-frre/aed-frre.github.io
+          path: pages
+          token: ${{ secrets.TOKEN }}
+      - name: Setup Python
+        uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material==8.5.10
-      - run: mkdocs build --verbose --clean --strict
-      - uses: actions-x/commit@v6
-        with:
-          email: aed-frre@gmail.com
-          name: GitHub Actions Autocommitter
-          branch: dev
-          files: site
-          repository: https://github.com/aed-frre/aed-frre.github.io
-          token: ${{ secrets.TOKEN }}
-          force: true
-          directory: .
-      
+      - name: Install Dependencies
+        run: pip install mkdocs-material==8.5.10
+      - name: Build Pages
+        run: mkdocs build --verbose --clean --strict
+        working-directory: source
+      - run: cp -rf source/site pages
