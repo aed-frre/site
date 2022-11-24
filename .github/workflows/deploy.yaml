@@ -31,5 +31,5 @@ jobs:
          git config --global user.name "GitHub Action Bot"
          git config --global user.email "<>"
          git add --all
-         git commit -m "${{ github.GITHUB_RUN_ID }}"
+         git commit -m "Test"
          git push
