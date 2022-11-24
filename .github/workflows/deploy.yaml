@@ -6,14 +6,6 @@ jobs:
     steps:
       - name: Checkout source repository
         uses: actions/checkout@v3
-        with:
-          path: source 
-      - name: Checkout GitHub Pages repository
-        uses: actions/checkout@v3
-        with:
-          repository: aed-frre/aed-frre.github.io
-          path: pages
-          token: ${{ secrets.TOKEN }}
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
@@ -22,14 +14,33 @@ jobs:
         run: pip install mkdocs-material==8.5.10
       - name: Build Pages
         run: mkdocs build --verbose --clean --strict
-        working-directory: source
-      - name: Copy page to destination repository
-        run: cp -rf source/site/* pages
+      - name: Save commit info
+        run: echo "${{ github.repository }}@${{ github.sha }}" >> site/commits
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: site
+          path: site/
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout GitHub Pages repository
+        uses: actions/checkout@v3
+        with:
+          repository: aed-frre/aed-frre.github.io
+          path: pages
+          token: ${{ secrets.TOKEN }}
+      - name: Download Artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: site
+      - name: Set Commit ENV
+        run: echo "COMMIT_MESSAGE=$(tail -n 1 commits)" >> $GITHUB_ENV
+        id: commit
       - name: Push
-        working-directory: pages
         run: |
          git config --global user.name "GitHub Action Bot"
          git config --global user.email "<>"
          git add --all
-         git commit -m "${{ github.sha }}"
+         git commit -m "${{ env.COMMIT_MESSAGE }}"
          git push
