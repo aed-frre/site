@@ -1,0 +1,2 @@
+# Running server
+# mkdocs serve
