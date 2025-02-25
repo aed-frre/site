@@ -1,4 +1,4 @@
-# Bienvenidos!
+# Bienvenidos a un nuevo ciclo lectivo!
 
 ![top](extra/img/top.svg)
 
