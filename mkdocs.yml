@@ -2,7 +2,7 @@ site_name: Guía de Trabajos Prácticos
 nav:
   - index.md
   - Práctica: 
-    - 0. Algortimos: practica/0.md
+    - 0. Algoritmos: practica/0.md
     - 1. Elementales: 
       - 1.1. Datos y Estructuras: practica/1.1.md
       - 1.2. Subacciones: practica/1.2.md
