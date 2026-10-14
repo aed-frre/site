@@ -25,7 +25,7 @@ LEER (valor)
 
 p:= Prim
 MIENTRAS (p <> nil) y (*p.dato <> valor) HACER
-	p = *p.prox
+	p := *p.prox
 FIN MIENTRAS
 
 SI (p <> nil) ENTONCES
@@ -43,7 +43,7 @@ FIN SI
 
 LEER (valor)
 
-Prim:= nil
+Prim := nil
 MIENTRAS (valor <> '*') HACER
 	NUEVO (p)
 	*p.Dato:= valor
@@ -67,9 +67,9 @@ MIENTRAS (valor <> '*') HACER
 	*p.Prox:= nil
 
 	SI Prim = nil ENTONCES
-		Prim = p
+		Prim := p
 	SINO
-		*a.Prox:= p
+		*a.Prox := p
 	FIN SI
 	a:=p
 	LEER(valor)
@@ -110,22 +110,22 @@ FIN SI
 
 LEER (valor) 
 
-q:= Prim
+p:= Prim
 
-MIENTRAS (q <> nil) y (*q.dato <> valor) HACER
-	a:= q
-	q:= *q.prox
+MIENTRAS (p <> nil) y (*p.dato <> valor) HACER
+	a:= p
+	p:= *p.prox
 FIN MIENTRAS
 
-SI (q = nil) ENTONCES
+SI (p = nil) ENTONCES
 	Escribir ('Error, el valor no existe')
 SINO
 	SI (a = nil) ENTONCES
-		Prim = *q.prox
+		Prim = *p.prox
 	SINO
-		*a.prox:= *q.prox
+		*a.prox:= *p.prox
 	FIN SI
-	DISPONER(q)
+	DISPONER(p)
 FIN SI
 
 ```
