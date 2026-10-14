@@ -121,7 +121,7 @@ SI (p = nil) ENTONCES
 	Escribir ('Error, el valor no existe')
 SINO
 	SI (a = nil) ENTONCES
-		Prim:= *p.prox
+		Prim := *p.prox
 	SINO
 		*a.prox:= *p.prox
 	FIN SI
